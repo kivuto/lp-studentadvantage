@@ -330,12 +330,53 @@ nav.subHeader {
       margin-left: 2.33333% !important; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. Challenges block
+      g. CHALLENGES BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-challenges h1, .content-challenges h2, .content-challenges h3, .content-challenges p {
   color: #FFF !important; }
 .content-challenges .orbit-container .orbit-timer {
   display: none; }
+
+.headline-cta .button {
+  background-color: #FFF !important;
+  webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 50%;
+  margin: 0 auto; }
+.headline-cta .button:hover {
+  background-color: #EBEBEB !important; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      g. EMAIL BLOCK
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-email-cta .button span {
+  color: #F37022; }
+.content-email-cta .button {
+  width: 50%; }
+.content-email-cta input {
+  background: #F37022;
+  border: 2px solid #FFF;
+  font-size: 15px;
+  color: #FFF;
+  outline: none;
+  -moz-box-shadow: 0 5px 0 0 #FFF;
+  -webkit-box-shadow: 0 5px 0 0 #FFF;
+  box-shadow: 0 5px 0 0 #FFF; }
+.content-email-cta input:focus {
+  background: #F37022;
+  border: 2px solid #FFF;
+  font-size: 15px;
+  color: #FFF; }
+.content-email-cta ::-webkit-input-placeholder {
+  color: #FFF; }
+.content-email-cta :-moz-placeholder {
+  color: #FFF; }
+.content-email-cta ::-moz-placeholder {
+  color: #FFF; }
+.content-email-cta :-ms-input-placeholder {
+  color: #FFF; }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~
       h. FOOTER

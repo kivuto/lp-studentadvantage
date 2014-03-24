@@ -1,6 +1,6 @@
 <!-- Header -->
  
-  <div class="row header">
+  <div class="row header hide-for-small">
       <div class="container">
           <div class="large-2 columns">
               <a href="http://www.onthehub.com" target="_blank" tabindex="1">
@@ -29,15 +29,15 @@
 
       <section class="top-bar-section">
           <!-- Left Nav Section -->
-            <ul class="left">
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Home</a></li>
+            <ul class="center">
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Intro</a></li>
               <li><a onclick="tib('.qualityCompanion', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Quality Companion');">Challenges</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Vesti</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Solution</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Resources</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Webcast</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Customers</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Pricing</a></li>
+              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Lets talk</a></li>
             </ul>
       </section>
     </div>  

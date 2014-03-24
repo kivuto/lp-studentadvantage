@@ -63,35 +63,28 @@
           ?>
 
 
-          <!-- INCLUDE rurturtyrtand  --> 
+          <!-- INCLUDE Second Band  --> 
          
           <?php  
-                include 'content-headline-circles.php';
+                include 'content-challenges.php';
           ?>
 
 
-          <!-- INCLUDE rurturtyrtand  --> 
+          <!-- INCLUDE Third Band  --> 
          
           <?php  
-                include 'content-headline-circles.php';
+                include 'content-solution.php';
           ?>
 
 
-          <!-- INCLUDE rurturtyrtand  --> 
+          <!-- INCLUDE Fourth Band  --> 
          
           <?php  
-                include 'content-headline-circles.php';
+                include 'content-resources.php';
           ?>
 
-
-          <!-- INCLUDE rurturtyrtand  --> 
          
-          <?php  
-                include 'content-headline-circles.php';
-          ?>
-         
-         
-          <!-- INCLUDE Second Band -->
+          <!-- INCLUDE Fifth Band -->
          
           <?php  
               
@@ -102,24 +95,18 @@
                   {
                     
                   } else {
-                     include 'secondBand.php';
+                     include 'content-pricing.php';
                   }
               }
               else {
-                  include 'secondBand.php';
+                  include 'content-pricing.php';
               }
           ?>
 
-          <!-- INCLUDE Third Band -->
+          <!-- INCLUDE Sixth Band  --> 
          
           <?php  
-                include 'content-img-left.php';
-          ?>
-
-          <!-- INCLUDE Fourth Band -->
-         
-          <?php  
-                include 'content-img-right.php';
+                include 'content-email-cta.php';
           ?>
 
           <!-- INCLUDE THE FOOTER AND SUBFOOTER -->

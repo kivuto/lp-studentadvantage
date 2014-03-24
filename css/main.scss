@@ -34,14 +34,19 @@
 
 
 $header_padding: 0px 120px;
+$sub-header-color: #FFF;
+
+
 $mainContent_padding: 45px 20px;
+
+
 $block1-color: #FFF;
-$block2-color: #EBEBEB;
-$block3-color: #FFF;
-$block4-color: #EBEBEB;
-$block5-color: #FFF;
-$block6-color: #EBEBEB;
-$block7-color: #fff;
+$block2-color: #F37022;
+$block3-color: #EBEBEB;
+$block4-color: #FFF;
+$block5-color: #9AD3B3;
+$block6-color: #F37022;
+$block7-color: #EBEBEB;
 
 // Mix in for transitions
 @mixin css-transition($attribute, $duration, $type) {
@@ -112,20 +117,13 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 	margin: 0 auto;
 }
 
-/* SETTING NAVIGATION MAX WIDTH */
-nav .container {
-	max-width: 1280px !important;
-	margin: 0 auto;
-}
-
-
-.mainContent:nth-of-type(1){ background-color: $block1-color; }
-.mainContent:nth-of-type(2){ background-color: $block2-color; }
-.mainContent:nth-of-type(3){ background-color: $block3-color; }
-.mainContent:nth-of-type(4){ background-color: $block4-color; }
-.mainContent:nth-of-type(5){ background-color: $block5-color; }
-.mainContent:nth-of-type(6){ background-color: $block6-color; }
-.mainContent:nth-of-type(7){ background-color: $block7-color; }
+.mainContent:nth-of-type(2){ background-color: $block1-color; }
+.mainContent:nth-of-type(3){ background-color: $block2-color; }
+.mainContent:nth-of-type(4){ background-color: $block3-color; }
+.mainContent:nth-of-type(5){ background-color: $block4-color; }
+.mainContent:nth-of-type(6){ background-color: $block5-color; }
+.mainContent:nth-of-type(7){ background-color: $block6-color; }
+.mainContent:nth-of-type(8){ background-color: $block7-color; }
 
 
 /* STICKY SUB HEADER STYLING */
@@ -160,8 +158,6 @@ nav .container {
 		font-size: 25px; 
 		font-weight: bold;
 	}
-	
-
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 	// DEFAULT STYLING IN MOBILE 
@@ -186,6 +182,23 @@ nav .container {
 			text-align: center;
 		}
 	}
+}
+
+.headline-circles-orbitslider {
+	.orbit-container { 
+		padding: 0px 25px 0px 5px !important; 
+		li p {
+			padding: 0px 25px;
+		}
+	}
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+		/* MOBILE */
+		@media only screen and (max-width: 40em){
+			.info { 
+				padding: 0px 8px; 
+				p { padding: 0px 7px; }
+			}
+		}
 }
 
 
@@ -232,30 +245,52 @@ nav .container {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       b. SUB-HEADER 
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+// CENTERING NAV
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}
+
+.inner-wrap,
+.subHeader {
+  transition: transform 500ms ease;
+}
+
+.move-right > .inner-wrap,
+.move-right > .subHeader {
+  transform: translate3d(250px, 0, 0);
+}
+
+
 nav.subHeader {
-	background-color: #545454 !important;
+	background-color: $sub-header-color !important;
 	a { font-size: 15px !important;}
+	box-shadow: 0px 1px 1px #888888;
 	// HOVER COLORS
 	.top-bar-section li:not(.has-form) a:not(.button) {
-		background: #545454;
+		background: $sub-header-color;
+		color: #000;
 	}
 	.top-bar-section li:not(.has-form) a:not(.button):hover {
-		background: #3A3A3A;
+		background: #F27120;
+		color: #FFF;
 	}
+
+
 
 	/* MEDIUM SCREENS */
 		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			padding: 0px 0px 0px 108px;
+			//padding: 0px 0px 0px 108px;
 		}
 
 	/* LARGE SCREENS */
 		@media only screen and (min-width: 64.063em) and (max-width: 90em) {
-			padding: 0px 0px 0px 108px;
+			//margin: 0 auto;
+			//width: 70%;
 		}	
 
 	/* EXTRA LARGE SCREENS */	
 		@media only screen and (min-width: 90.063em)  { 
-			padding: 0px 20px 0px 0px; 
+			//margin: 0 auto;
+			//width: 60%; 
 		}
 }
 
@@ -377,232 +412,13 @@ nav.subHeader {
 		}	
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~
-      d. LEARNING BLOCK
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.learning {
-	.imgList li {
-		padding: 0 0.625rem 0.25rem 0rem;
-	}
-	ul {
-		img {
-			float: left;
-			padding-right: 13px;
-		}
-		p {
-			padding-top: 20px;
-			font-size: 15px;
-			text-align: left;
-		}
-	}
-
-	// SPECIAL CASES FOR TEXT PADDING 
-	.graphs { padding-top: 31px; }
-
-	@media screen and (max-width: 999px){
-		display: none;
-	}	
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~
-      e. BLOCK WITH IMAGE LEFT OF INLINE CONTENT 
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.inline-content-imgleft {
-	.button {
-		background-color: #6EB43F;
-		align: baseline;
-		span { 
-			font-size: 18px; 
-			font-weight: bold; 
-		}
-	}
-	button:hover, button:focus, .button:hover, .button:focus {
-    	background-color: #5E9A36; 
-	}
-	h2 {
-		color: #6EB43F !important;
-	}
-	.small-4 {
-		width: 56.33333%;
-	}
-	span { font-size: 16px; }
-	.large-12 { padding-left: 0rem; }
-
-	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-		/* MOBILE */
-		@media only screen and (max-width: 40em){
-			// PADDING AND SIZING FIXES
-			.row.title { padding: 25px 0px 25px 15px; }
-			.small-3 { width: 25%; }
-			.ctaBtns { 
-				padding: 0px 10px; 
-				margin-right: 0rem;
-				.button { padding-right: 0rem;}
-			}
-			.small-4 {
-				padding-left: 25px !important;
-				width: 70.333%;
-			}
-			h1, h2 { 
-				text-align: left; 
-				line-height: 1.0;
-				span { font-size: 14px; }
-			}
-			h2 { font-size: 20px !important; }
-			.info { 
-				p { padding: 0px 7px; }
-			}
-		}
-
-		/* MEDIUM SCREENS  */
-		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			.row.title { padding: 25px 0px 25px 15px; }
-			.button span {
-				font-size: 18px;
-			}
-			.rent {
-				width: 48%;
-				padding: 0px;
-			}
-			.trial {
-				width: 48%;
-				padding: 0px;
-			}
-			.large-offset-1 { margin-left: 2.33333% !important; }
-		}
-
-		/* LARGE SCREENS AND UP*/
-		@media only screen and (min-width: 64.063em) {
-			// PADDING AND SIZING FIXES
-			.image { padding-right: 0px; }
-			.info { 
-				width: 55.333%; 
-				p { 
-					padding-top: 10px; 
-					width: 97%;
-				}
-			}
-			.large-12 p { padding-top: 0px !important; }
-
-			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
-			.large-offset-1 { margin-left: 2.33333% !important; }
-
-			.rent { width: 45%; }
-			.trial { width: 45%; }
-		}
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~
-      f. BLOCK WITH IMAGE RIGHT OF INLINE CONTENT 
-~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.inline-content-imgright {
-	.button {
-		background-color: #F4911E;
-		align: baseline;
-		span { 
-			font-size: 18px; 
-			font-weight: bold; 
-		}
-	}
-	button:hover, button:focus, .button:hover, .button:focus {
-    	background-color: #DA821B; 
-	}
-
-	h2 { color: #F4911E !important; }
-	span { font-size: 16px; }
-	.small-4 { width: 79.33333%; }
-	
-
-	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-		/* MOBILE */
-		@media only screen and (max-width: 40em){
-			h1, h2 { 
-				text-align: left; 
-				line-height: 1.0;
-				font-size: 23px;
-				span {
-					font-size: 14px;
-				}
-			}
-
-			// PADDING AND SIZING FIXES
-			.large-7 { width: 95%; }
-			.large-5 { width: 100%; }
-			.small-3 { width: 25%; }
-			.row.title { padding: 25px 0px 25px 15px; }
-			.ctaBtns { padding: 0px 10px; }
-			.button { padding-right: 0rem; }
-			.small-4 {
-				padding: 3% 0px 0px 6px !important;
-				width: 74.333%;
-			}
-			.info { 
-				p { padding: 0px 7px; }
-			}
-		}
-
-		/* MEDIUM SCREENS  */
-		@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-			.row.title { padding: 25px 0px 25px 15px; }
-			.button span { font-size: 17px; }
-			.large-offset-1 { margin-left: 2.33333% !important; }
-
-			.rent {
-				width: 48%;
-				padding: 0px;
-			}
-			.trial {
-				width: 48%;
-				padding: 0px;
-			}
-			
-		}
-
-		/* LARGE SCREENS AND UP*/
-		@media only screen and (min-width: 64.063em) {
-			// CHANGING THE SPACING BETWEEN THE TWO BUTTONS
-			.large-offset-1 { margin-left: 2.33333% !important; }
-			.rent {
-				width: 45%;
-				padding: 0px;
-			}
-			.trial {
-				width: 45%;
-				padding: 0px;
-			}
-			.info p {
-				padding-top: 10px; 
-				width: 97%;
-			}
-		}
-}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. ROW WITH HEADLINE AND CIRCLE BLOCKS
+      g. Challenges block
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.headline-circles-orbitslider {
-	.orbit-container { 
-		padding: 0px 25px 0px 5px !important; 
-		
-		li p {
-			padding: 0px 25px;
-		}
-	}
-
-
-	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-		/* MOBILE */
-		@media only screen and (max-width: 40em){
-			.info { 
-				padding: 0px 8px; 
-				p { padding: 0px 7px; }
-			}
-			
-		}
-
+.content-challenges {
+	h1, h2, h3, p { color: #FFF !important; }
+	.orbit-container .orbit-timer { display: none; }
 }
 
 

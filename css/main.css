@@ -253,9 +253,13 @@ nav.subHeader {
 .content-resources {
   background-image: url("../img/businessmen-desktop.jpg");
   background-repeat: none;
-  padding: 0px !important; }
+  padding: 0px !important;
+  /* EXTRA LARGE SCREENS */ }
   .content-resources h1, .content-resources h2, .content-resources p {
     color: #FFF !important; }
+  @media only screen and (min-width: 1200px) {
+    .content-resources {
+      background-image: url("../img/businessmen-xldesktop.jpg"); } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       g. CHALLENGES BLOCk

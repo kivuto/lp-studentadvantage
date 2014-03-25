@@ -312,6 +312,11 @@ nav.subHeader {
 	padding: 0px !important;
 	//background-size: 100% 100%;
 	h1, h2, p { color: #FFF !important; }
+
+	/* EXTRA LARGE SCREENS */	
+		@media only screen and (min-width: 1200px)  { 
+			background-image: url('../img/businessmen-xldesktop.jpg');
+		}
 }
 
 

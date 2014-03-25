@@ -95,7 +95,7 @@ $(document).ready(function(){
 			scrollAnalytics('Total', $(this).attr('data-block'), direction); // TOTAL VIEWS
 		}
 		// THIS IS A SPECIAL CASE TO TRACK THE MINITAB BLOCK, AS THE BOTTOM CANNOT HIT TOP OF VIEWPORT
-		if(direction === 'down' && $(this).attr('data-block') === 'Minitab 17') 
+		if(direction === 'down' && $(this).attr('data-block') === 'Lets talk') 
 		{
 			un = $(this).attr('data-block');
 			if(i[un] === 0){  scrollAnalytics('Unique', $(this).attr('data-block'), direction);  } // UNIQUE VIEWS
@@ -103,12 +103,11 @@ $(document).ready(function(){
 			
 			scrollAnalytics('Total', $(this).attr('data-block'), direction); // TOTAL VIEWS
 		}
-
 	})
-	///////// THIS IS A SPECIAL CASE TO TRACK THE QUALITY COMPANION BLOCK, AS THE TOP CANNOT HIT TOP OF VIEWPORT///////
+	///////// THIS IS A SPECIAL CASE TO TRACK THE FINAL BLOCK, AS THE TOP CANNOT HIT TOP OF VIEWPORT///////
 	.waypoint(function(direction) 
 	{
-		if(direction === 'down' && $(this).attr('data-block') === 'Quality Companion') 
+		if(direction === 'down' && $(this).attr('data-block') === 'Customers') 
 		{
 			un = $(this).attr('data-block');
 			if(i[un] === 0){ scrollAnalytics('Unique', $(this).attr('data-block'), direction); }  // UNIQUE VIEWS

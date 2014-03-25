@@ -1,11 +1,11 @@
 
-  <div class="row mainContent headline-circles-orbitslider" data-block="<?php echo $block2; ?>">
+  <div class="row mainContent content-solution headline-circles-orbitslider" data-block="<?php echo $block3; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">
                     <h1>We Have You Covered with ELMS for Student Advantage</h1>
                     <p>Using our proven Electronic License Management System (ELMS), we eliminate the barriers to launching Microsoft Student Advantage. We provide a simple set-up process, automated user and license management, reliable customer care and dedicated account support - saving you time and money.</p>
-                    <p>In less than a week, you will have a school-branded web store where your students can quickly download their Office 365 license. We are here to help.</p>
+                    <p>In less than a week, you will have a school-branded web store where your students can quickly download their Office 365 license. We are here to help.</p>
                     <h2>How to Get Started in Just 3 Simple Steps</h2>
               </div> 
           </div> 

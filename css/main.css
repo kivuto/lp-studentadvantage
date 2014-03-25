@@ -233,12 +233,16 @@ nav.subHeader {
   /* EXTRA LARGE SCREENS */ }
   nav.subHeader a {
     font-size: 15px !important; }
-  nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
+  nav.subHeader .top-bar-section li:not(.has-form) a:not(.button), nav.subHeader .top-bar-section li:not(.has-form) {
     background: white;
     color: #000; }
-  nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover {
+  nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover, nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) .active {
     background: #F27120;
     color: #FFF; }
+  nav.subHeader .top-bar-section li img {
+    padding-top: 3px; }
+  nav.subHeader .top-bar-section ul {
+    background: white; }
 
 .top-bar.expanded .title-area {
   background: #545454 !important; }
@@ -351,32 +355,37 @@ nav.subHeader {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       g. EMAIL BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-email-cta .button span {
-  color: #F37022; }
-.content-email-cta .button {
-  width: 50%; }
-.content-email-cta input {
-  background: #F37022;
-  border: 2px solid #FFF;
-  font-size: 15px;
-  color: #FFF;
-  outline: none;
-  -moz-box-shadow: 0 5px 0 0 #FFF;
-  -webkit-box-shadow: 0 5px 0 0 #FFF;
-  box-shadow: 0 5px 0 0 #FFF; }
-.content-email-cta input:focus {
-  background: #F37022;
-  border: 2px solid #FFF;
-  font-size: 15px;
-  color: #FFF; }
-.content-email-cta ::-webkit-input-placeholder {
-  color: #FFF; }
-.content-email-cta :-moz-placeholder {
-  color: #FFF; }
-.content-email-cta ::-moz-placeholder {
-  color: #FFF; }
-.content-email-cta :-ms-input-placeholder {
-  color: #FFF; }
+.content-email {
+  /* LARGE SCREENS AND UP*/ }
+  .content-email .button span {
+    color: #F37022; }
+  .content-email .button {
+    width: 50%; }
+  .content-email input {
+    background: #F37022;
+    border: 2px solid #FFF;
+    font-size: 15px;
+    color: #FFF;
+    outline: none;
+    -moz-box-shadow: 0 5px 0 0 #FFF;
+    -webkit-box-shadow: 0 5px 0 0 #FFF;
+    box-shadow: 0 5px 0 0 #FFF; }
+  .content-email input:focus {
+    background: #F37022;
+    border: 2px solid #FFF;
+    font-size: 15px;
+    color: #FFF; }
+  .content-email ::-webkit-input-placeholder {
+    color: #FFF; }
+  .content-email :-moz-placeholder {
+    color: #FFF; }
+  .content-email ::-moz-placeholder {
+    color: #FFF; }
+  .content-email :-ms-input-placeholder {
+    color: #FFF; }
+  @media only screen and (min-width: 64.063em) {
+    .content-email .button {
+      width: 50%; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~
       h. FOOTER

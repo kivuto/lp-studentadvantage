@@ -22,7 +22,6 @@
     <div class="container">
       <ul class="title-area">
           <li class="name">
-            <!-- Title goes here -->
           </li>
           <li class="toggle-topbar menu-icon"><a href="#"></a></li>
       </ul>
@@ -30,14 +29,14 @@
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul class="center">
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Intro</a></li>
-              <li><a onclick="tib('.qualityCompanion', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Quality Companion');">Challenges</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Solution</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Resources</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Webcast</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Customers</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Pricing</a></li>
-              <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');">Lets talk</a></li>
+              <li><img src="img/kvt-logo.png" alt="Kivuto Solutions"></li>
+              <li><a data-block="<?php echo $block1; ?>" onclick="tib('.content-introduction', '', '', '');">Intro</a></li>
+              <li><a data-block="<?php echo $block2; ?>" onclick="tib('.content-challenges', '', '', '');">Challenges</a></li>
+              <li><a data-block="<?php echo $block3; ?>" onclick="tib('.content-solution', '', '', '');">Solution</a></li>
+              <li><a data-block="<?php echo $block4; ?>" onclick="tib('.content-resources', '', '', '');">Resources</a></li>
+              <li><a data-block="<?php echo $block5; ?>" onclick="tib('.content-pricing', '', '', '');">Pricing</a></li>
+              <li><a data-block="<?php echo $block6; ?>" onclick="tib('.content-email', '', '', '');">Lets Talk</a></li>
+              <li><a data-block="<?php echo $block7; ?>" onclick="tib('.content-customers', '', '', '');">Customers</a></li>
             </ul>
       </section>
     </div>  
@@ -54,14 +53,13 @@
     <ul class="off-canvas-list">
       <li><label>Setup</label></li>
 
-        <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');" data-search="">Getting Started</a></li>
-        <li><a href="#" data-search="Styles">CSS <span class="label">Oops</span></a></li>
-        <li><a href="#" data-search="SCSS">Sass</a></li>
-        <li><a href="#" data-search="Rails,Gem">Applications</a></li>
-        <li><a href="#" data-search="">Javascript</a></li>
-        <li><a href="#" data-search="Global Styles,Global Mixins,Global Variables,Useful HTML Classes">Global Styles</a></li>
-        <li><a href="#" data-search="">Kitchen Sink</a></li>
-        <li><a href="#" data-search="Migration">Upgrading</a></li>
+        <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');" data-search="">Intro</a></li>
+        <li><a href="#" data-search="Styles">Challenges<span class="label">Oops</span></a></li>
+        <li><a href="#" data-search="SCSS">Solution</a></li>
+        <li><a href="#" data-search="Rails,Gem">Resources</a></li>
+        <li><a href="#" data-search="">Pricing</a></li>
+        <li><a href="#" data-search="Global Styles,Global Mixins,Global Variables,Useful HTML Classes">Lets Talk</a></li>
+        <li><a href="#" data-search=""></a></li>
 
     </ul>
   </aside>

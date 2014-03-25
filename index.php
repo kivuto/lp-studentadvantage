@@ -22,11 +22,13 @@
         
 
         /* BLOCK NAMES: NAME THEM WHAT WILL SHOW UP IN GOOGLE ANALYTICS */ 
-        $block1 = 'Academic Discounts';
-        $block2 = 'Learn with Minitab';
-        $block3 = 'Learn with Minitab';
-        $block4 = 'Minitab 17';
-        $block5 = 'Quality Companion';
+        $block1 = 'Introduction';
+        $block2 = 'Challenges';
+        $block3 = 'Solution';
+        $block4 = 'Resources';
+        $block5 = 'Pricing';
+        $block6 = 'Lets talk';
+        $block7 = 'Customers';
     ?>
 
   <!-- IE8 Styling fixes -->
@@ -59,7 +61,7 @@
           <!-- INCLUDE First Band  --> 
          
           <?php  
-                include 'content-simple-expand.php';
+                include 'content-introduction.php';
           ?>
 
 
@@ -107,6 +109,13 @@
          
           <?php  
                 include 'content-email-cta.php';
+          ?>
+
+
+          <!-- INCLUDE Sixth Band  --> 
+         
+          <?php  
+                include 'content-customers.php';
           ?>
 
           <!-- INCLUDE THE FOOTER AND SUBFOOTER -->

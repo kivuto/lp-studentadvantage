@@ -1,5 +1,5 @@
 
-  <div class="row mainContent content-email-cta headline-cta" data-block="<?php echo $block2; ?>">
+  <div class="row mainContent content-email headline-cta" data-block="<?php echo $block6; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
@@ -19,11 +19,9 @@
               </div> 
           </div>
           <div class="row center">
-              <a href="#" target="_blank" onclick="tob(this, '', '', ''); return false;">
-                  <div class="large-12 columns button center">
+                  <div class="large-12 columns text-center button">
                      <span>Submit</span>
                   </div>
-              </a>
           </div>
       </div>  
   </div>

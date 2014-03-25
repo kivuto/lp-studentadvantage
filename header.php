@@ -53,13 +53,13 @@
     <ul class="off-canvas-list">
       <li><label>Setup</label></li>
 
-        <li><a onclick="tib('.minitab17', 'Minitab LP v2', 'Minitab LP v2 - Onpage', 'Minitab LP v2 - Onpage - Menu1 - Minitab');" data-search="">Intro</a></li>
-        <li><a href="#" data-search="Styles">Challenges<span class="label">Oops</span></a></li>
-        <li><a href="#" data-search="SCSS">Solution</a></li>
-        <li><a href="#" data-search="Rails,Gem">Resources</a></li>
-        <li><a href="#" data-search="">Pricing</a></li>
-        <li><a href="#" data-search="Global Styles,Global Mixins,Global Variables,Useful HTML Classes">Lets Talk</a></li>
-        <li><a href="#" data-search=""></a></li>
+        <li><a onclick="tib('.content-introduction', '', '', '');" data-search="">Intro</a></li>
+        <li><a onclick="tib('.content-challenges', '', '', '');" data-search="Styles">Challenges</a></li>
+        <li><a onclick="tib('.content-solution', '', '', '');" data-search="SCSS">Solution</a></li>
+        <li><a onclick="tib('.content-resources', '', '', '');" data-search="Rails,Gem">Resources</a></li>
+        <li><a onclick="tib('.content-pricing', '', '', '');" data-search="">Pricing</a></li>
+        <li><a onclick="tib('.content-email', '', '', '');" data-search="Global Styles,Global Mixins,Global Variables,Useful HTML Classes">Lets Talk</a></li>
+        <li><a onclick="tib('.content-customers', '', '', '');" data-search=""></a></li>
 
     </ul>
   </aside>

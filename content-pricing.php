@@ -12,7 +12,7 @@
               </div> 
           </div>
           <div class="row">
-              <ul class="small-block-grid-2 medium-block-grid-1 large-block-grid-1 center">
+              <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
                       <a href="#" target="_blank" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab1 - Minitab Rent Button'); return false;">
                           <div class="button">

@@ -36,9 +36,7 @@
 $header_padding: 0px 120px;
 $sub-header-color: #FFF;
 
-
 $mainContent_padding: 45px 20px;
-
 
 $block1-color: #FFF;
 $block2-color: #F37022;
@@ -63,7 +61,7 @@ $block7-color: #EBEBEB;
 \*----------------------------------------------------------*/
 
 .row { max-width: none !important; }
-.row.mainContent .row { margin-left: 0 !important; }
+.row.mainContent .row { margin-left: 0 !important; margin-right: 0 !important}
 .no_padding{ padding: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS PADDING
 .no_margin{ margin: 0px !important; } // ATTACH THIS CLASS TO AN ELEMENT TO RESET ITS MARGINS
 .center { text-align: center; } // ATTACH THIS CLASS TO AN ELEMENT TO CENTER THE TEXT
@@ -73,13 +71,6 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 	font-family: 'AvenirLTStd55Roman', Verdana, sans-serif !important;
 	-webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
-}
-
-@media only screen {
-    .small-3 {
-    	width: 18%;
-    }
-
 }
 
 // OVERRIDING LINE HEIGHT FOR MOBILE 
@@ -166,7 +157,6 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 
 		// REMOVAL OF PADDING 
 		.container { padding: 0px 0px; }
-		.columns { padding-left: 0px; }
 
 		p { font-size: 14px; }
 	}
@@ -201,6 +191,33 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 		}
 }
 
+.headline-cta {
+	.button { 
+		background-color: #FFF !important; 
+		@include css-transition(all, 0.3s, ease-in-out); 
+		span { 
+			font-size: 19px; 
+			font-weight: bold;
+		}
+	}
+	[class*="block-grid-"] {
+		margin: 0;
+	}
+	.button:hover { background-color: #EBEBEB !important;  }
+
+	/* LARGE SCREENS AND UP*/
+		@media only screen and (min-width: 64.063em) {
+			.button { 
+				width: 50%;
+			}
+		}	
+	/* MOBILE */
+		@media only screen and (max-width: 40em){
+			.button { 
+				width: 100%;
+			}
+		}	
+}
 
 
 /* ADD-THIS STYLING */
@@ -308,13 +325,23 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-resources {
 	background-image: url('../img/businessmen-desktop.jpg');
+	.button { 
+		background-color: #FFF !important; 
+		@include css-transition(all, 0.3s, ease-in-out); 
+		span { 
+			font-size: 17px; 
+			font-weight: bold;
+		}
+	}
+	.button:hover { background-color: #EBEBEB !important;  }
+	.button span { color: #000; }
 	background-repeat: none;
 	padding: 0px !important;
 	//background-size: 100% 100%;
 	h1, h2, p { color: #FFF !important; }
 
 	/* EXTRA LARGE SCREENS */	
-		@media only screen and (min-width: 1200px)  { 
+		@media only screen and (min-width: 1285px)  { 
 			background-image: url('../img/businessmen-xldesktop.jpg');
 		}
 }
@@ -331,26 +358,14 @@ nav.subHeader {
 }
 
 
-.headline-cta {
-	.button { 
-		background-color: #FFF !important; 
-		@include css-transition(all, 0.3s, ease-in-out); 
-		width: 50%;
-		margin: 0 auto; 
-		span { 
-			font-size: 19px; 
-			font-weight: bold;
-		}
-	}
-	.button:hover { background-color: #EBEBEB !important;  }
-}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       g. PRICING BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing {
 	.button span { color: #9AD3B3; }
-	h1 { color: #FFF; }
+	h1 { color: #FFF !important; }
 }
 
 
@@ -359,14 +374,13 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-email {
 	.button span { color: #F37022; }
-	.button {  width: 40%; }
 	input {
 	    background: #F37022;
 	    border: 2px solid #FFF;
 	    font-size: 15px;
 	    color: #FFF;
 	    outline: none;
-	    width: 50% !important;
+	    width: 90% !important;
 	    -moz-box-shadow: 0 3px 0 0 #FFF;
 	    -webkit-box-shadow: 0 3px 0 0 #FFF;
 	    box-shadow: 0 3px 0 0 #FFF;
@@ -378,18 +392,16 @@ nav.subHeader {
 	    font-size: 15px;
 	    color: #FFF;
 	}
-	[class*="block-grid-"] {
-		margin: 0;
-	}
 	::-webkit-input-placeholder { color: #FFF;} 
 	:-moz-placeholder { color: #FFF; }
 	::-moz-placeholder { color:    #FFF; }
 	:-ms-input-placeholder { color: #FFF; }
 
 
-	/* LARGE SCREENS AND UP*/
-		@media only screen and (min-width: 64.063em) {
-			
+	/* MED SCREENS AND UP*/
+		@media only screen and (min-width: 40.063em) {
+			.button {  width: 40%; }
+			input { width: 50% !important; }
 		}	
 }
 

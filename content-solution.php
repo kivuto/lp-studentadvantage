@@ -4,8 +4,9 @@
           <div class="row">
               <div class="large-12 columns info center">
                     <h1>We Have You Covered with ELMS for Student Advantage</h1>
-                    <p>Using our proven Electronic License Management System (ELMS), we eliminate the barriers to launching Microsoft Student Advantage. We provide a simple set-up process, automated user and license management, reliable customer care and dedicated account support - saving you time and money.</p>
-                    <p>In less than a week, you will have a school-branded web store where your students can quickly download their Office 365 license. We are here to help.</p>
+                    <p class="hide-for-small">Using our proven Electronic License Management System (ELMS), we eliminate the barriers to launching Microsoft Student Advantage. We provide a simple set-up process, automated user and license management, reliable customer care and dedicated account support - saving you time and money.</p>
+                    <p class="hide-for-small">In less than a week, you will have a school-branded web store where your students can quickly download their Office 365 license. We are here to help.</p>
+                    <p class="show-for-small">We make launching Microsoft Student Advantage painless. Save time & money with simple set-up, automated user and license management, reliable customer care and dedicated account support. Get started in less than a week!</p>
                     <h2>How to Get Started in Just 3 Simple Steps</h2>
               </div> 
           </div> 
@@ -31,21 +32,21 @@
                   <li data-orbit-slide="headline-1">
                     <div>
                       <img class="inline-block" src="img/solution-distribution.png">
-                      <h3>Roadmaps</h3>
+                      <h3>Step 1</h3>
                       <p>Organize your project into phases and create a launch pad for the tools needed for every task. Customize a built-in roadmap or create your own to reflect how you improve quality.</p>
                     </div>
                   </li>
                   <li data-orbit-slide="headline-2">
                     <div>
                       <img class="inline-block" src="img/solution-admin.png">
-                      <h3>Process Mapping</h3>
+                      <h3>Step 2</h3>
                       <p>Map your processes to identify ways to streamline it, eliminate waste, and add value.</p>
                     </div>
                   </li>
                   <li data-orbit-slide="headline-3">
                     <div>
                       <img class="inline-block" src="img/solution-time.png">
-                      <h3>Data Sharing</h3>
+                      <h3>Step 3</h3>
                       <p>Save time and reduce errors with an integrated collection of tools that allow you to share data throughout your entire project.</p>
                     </div>
                   </li>

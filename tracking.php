@@ -3,10 +3,10 @@
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
 
       // Testing
-      //ga('create', 'UA-2768482-24', 'onthehub.com');
+      ga('create', 'UA-2768482-24', 'onthehub.com');
 
       // Production
-      ga('create', '<?php echo $universal_Analytics; ?>', 'onthehub.com');
+      //ga('create', '<?php echo $universal_Analytics; ?>', 'onthehub.com');
 
       ga('send', 'pageview'); 
     </script>
@@ -19,16 +19,16 @@
         '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
          _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
         // Testing 
-        // _gaq.push(['_setAccount', 'UA-2768482-24']); 
+         _gaq.push(['_setAccount', 'UA-2768482-24']); 
         // Production
-        _gaq.push(['_setAccount', '<?php echo $umbrella_Analytics; ?>']); 
+        //_gaq.push(['_setAccount', '<?php echo $umbrella_Analytics; ?>']); 
         _gaq.push(['_trackPageview']); 
         
         /* TRACK OTH UMBRELLA START */ 
         // Testing 
-        //_gaq.push(['b._setAccount', 'UA-0000000-02']);
+        _gaq.push(['b._setAccount', 'UA-0000000-02']);
         // Production
-        _gaq.push(['b._setAccount', '<?php echo $umbrella_OTH_Analytics; ?>']); 
+        //_gaq.push(['b._setAccount', '<?php echo $umbrella_OTH_Analytics; ?>']); 
         _gaq.push(['b._setDomainName', 'onthehub.com']); 
         _gaq.push(['b._trackPageview']); 
         /* TRACK OTH UMBRELLA END */ 

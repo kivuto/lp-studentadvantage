@@ -280,7 +280,7 @@ nav.subHeader {
   background: #545454 !important; }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. INTRODUCTION BLOCk
+      c. INTRODUCTION BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-introduction {
   padding: 0px !important; }
@@ -317,8 +317,9 @@ nav.subHeader {
   background-image: url("../img/businessmen-desktop.jpg");
   background-repeat: none;
   padding: 0px !important;
-  /* EXTRA LARGE SCREENS */
-  /* MOBILE */ }
+  /* MOBILE */
+  /* MEDIUM  */
+  /* EXTRA LARGE SCREENS */ }
   .content-resources .button {
     background-color: #FFF !important;
     webkit-transition: all 0.3s ease-in-out;
@@ -332,14 +333,18 @@ nav.subHeader {
     background-color: #EBEBEB !important; }
   .content-resources .button span {
     color: #000; }
+  .content-resources .ovrlay {
+    padding: 75px 20px; }
   .content-resources h1, .content-resources h2, .content-resources p {
     color: #FFF !important; }
+  @media screen and (max-width: 40em) {
+    .content-resources {
+      background-image: url("../img/businessmen-mobile.jpg"); }
+      .content-resources .ovrlay {
+        padding: 25px 20px !important; } }
   @media only screen and (min-width: 1285px) {
     .content-resources {
       background-image: url("../img/businessmen-xldesktop.jpg"); } }
-  @media screen and (max-width: 40em) {
-    .content-resources {
-      background-image: url("../img/businessmen-mobile.jpg"); } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       g. CHALLENGES BLOCk
@@ -361,13 +366,15 @@ nav.subHeader {
       g. EMAIL BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-email {
+  /* MOBILE */
   /* MED SCREENS AND UP*/ }
   .content-email .button span {
     color: #F37022; }
+  .content-email h1, .content-email h2, .content-email h3, .content-email p {
+    color: #FFF !important; }
   .content-email input {
     background: #F37022;
     border: 2px solid #FFF;
-    font-size: 15px;
     color: #FFF;
     outline: none;
     width: 90% !important;
@@ -377,9 +384,7 @@ nav.subHeader {
     margin: 0 auto; }
   .content-email input:focus {
     background: #F37022;
-    border: 2px solid #FFF;
-    font-size: 15px;
-    color: #FFF; }
+    border: 2px solid #FFF; }
   .content-email ::-webkit-input-placeholder {
     color: #FFF; }
   .content-email :-moz-placeholder {
@@ -388,6 +393,11 @@ nav.subHeader {
     color: #FFF; }
   .content-email :-ms-input-placeholder {
     color: #FFF; }
+  @media screen and (max-width: 40em) {
+    .content-email .button {
+      width: 80%; }
+    .content-email input {
+      width: 80% !important; } }
   @media only screen and (min-width: 40.063em) {
     .content-email .button {
       width: 40%; }

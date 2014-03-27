@@ -336,7 +336,7 @@ nav.subHeader {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. INTRODUCTION BLOCk
+      c. INTRODUCTION BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-introduction {
 	padding: 0px !important;
@@ -399,18 +399,32 @@ nav.subHeader {
 	.button span { color: #000; }
 	background-repeat: none;
 	padding: 0px !important;
+	.ovrlay { padding: 75px 20px; }
 	//background-size: 100% 100%;
 	h1, h2, p { color: #FFF !important; }
 
-		/* EXTRA LARGE SCREENS */	
-		@media only screen and (min-width: 1285px)  { 
-			background-image: url('../img/businessmen-xldesktop.jpg');
-		}
+		// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
 		/* MOBILE */
 	    @media screen and (max-width: 40em) {
 	      	background-image: url('../img/businessmen-mobile.jpg');
+	      	.ovrlay { padding: 25px 20px !important; }
 	    }
+
+	    /* MEDIUM  */
+		@media only screen and (min-width: 40.063em) {
+			
+		}
+
+		//* LARGE */  
+		@media only screen and (min-width: 64em) {
+			
+		}
     	
+    	/* EXTRA LARGE SCREENS */	
+		@media only screen and (min-width: 1285px)  { 
+			background-image: url('../img/businessmen-xldesktop.jpg');
+		}
 }
 
 
@@ -441,10 +455,10 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-email {
 	.button span { color: #F37022; }
+	h1, h2, h3, p { color: #FFF !important; }
 	input {
 	    background: #F37022;
 	    border: 2px solid #FFF;
-	    font-size: 15px;
 	    color: #FFF;
 	    outline: none;
 	    width: 90% !important;
@@ -456,16 +470,21 @@ nav.subHeader {
 	input:focus {
 	    background: #F37022;
 	    border: 2px solid #FFF;
-	    font-size: 15px;
-	    color: #FFF;
 	}
 	::-webkit-input-placeholder { color: #FFF;} 
 	:-moz-placeholder { color: #FFF; }
 	::-moz-placeholder { color:    #FFF; }
 	:-ms-input-placeholder { color: #FFF; }
 
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
-	/* MED SCREENS AND UP*/
+		/* MOBILE */
+	    @media screen and (max-width: 40em) {
+	      	.button {  width: 80%; }
+			input { width: 80% !important; }
+	    }
+
+		/* MED SCREENS AND UP*/
 		@media only screen and (min-width: 40.063em) {
 			.button {  width: 40%; }
 			input { width: 50% !important; }

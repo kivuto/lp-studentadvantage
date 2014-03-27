@@ -16,7 +16,7 @@
                   <h3>Kivuto is the global leader in complex digital distribution solutions</h3>
               </div>
           </div>      
-           <div class="line hide-for-mobile links">
+           <div class="line links">
                 <div class="list">
                     <ul>
                         <li><a href="http://kivuto.com/about-kivuto" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Onthehub footer clicks', 'Minitab LP v2 - Onthehub footer clicks - OB About'); return false;" target="_blank">About</a></li>

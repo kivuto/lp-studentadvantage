@@ -1,6 +1,6 @@
 
   <div class="row mainContent content-resources headline-circles-orbitslider" data-block="<?php echo $block4; ?>">
-      <div style="background: rgba(0,0,0,0.6); padding:75px 20px;">
+      <div class="ovrlay" style="background: rgba(0,0,0,0.6);">
             <div class="container">
                 <div class="row">
                     <div class="large-12 columns info center">

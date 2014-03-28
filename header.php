@@ -1,21 +1,4 @@
-<!-- Header -->
- 
-  <div class="row header hide-for-small">
-      <div class="container">
-          <div class="large-2 columns">
-              <a href="http://www.onthehub.com" target="_blank" tabindex="1">
-                <img src="img/oth_logo.png" alt="OnTheHub">
-              </a>
-          </div>
-          <div class="large-2 large-offset-3 columns">
-              <a href="http://www.minitab.com" target="_blank" tabindex="2">
-                <img src="img/minitab_logo.png" alt="Minitab">
-              </a>  
-          </div>  
-      </div>  
-  </div>
- 
-  <!-- End Header -->
+
 
   <!-- Sub Header/Nav DESKTOPS -->
   <nav class="top-bar subHeader hide-for-small" data-topbar>

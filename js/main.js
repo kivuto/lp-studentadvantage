@@ -126,10 +126,10 @@ $(document).ready(function(){
 	// End
 	function scrollAnalytics (type, content, direction) {
 		/* NEW Analytics command */
-		ga('send', 'event', 'Minitab LP v2', 'Minitab LP v2 - Content seen (' + type + ')', 'Minitab LP v2 - Content seen - ' + content);
+		ga('send', 'event', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content);
 
 		/* OLD Analytics command for OTH Umbrella */
-		_gaq.push(['_trackEvent', 'Minitab LP v2', 'Minitab LP v2 - Content seen (' + type + ')', 'Minitab LP v2 - Content seen - ' + content]);
+		_gaq.push(['_trackEvent', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content]);
 	}
 
 });

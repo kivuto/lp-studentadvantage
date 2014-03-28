@@ -132,7 +132,6 @@
     
 
     <script src="js/waypoints.min.js"></script>
-    <script src="js/simple-expand.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.offcanvas.js"></script>

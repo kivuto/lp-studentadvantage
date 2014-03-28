@@ -268,9 +268,12 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 
 
 /* ADD-THIS STYLING */
-.at4-follow { position: absolute; }
-.at4-follow-inner { top: 69px;  }
-.at-follow-open-control { top: 69px; }
+.at4-follow { position: fixed; }
+.at4-follow-inner { top: 0px;  }
+.at-follow-open-control { 
+	top: 0px; 
+	position: fixed;
+}
 
 /*--------------------------------------*\
 
@@ -319,6 +322,8 @@ nav.subHeader {
 	padding: 0px !important;
 	h1, h2, p { color: #FFF !important; }
 	video { width: 100%; }
+
+	// GREY OVERLAY ON VIDEO BG
 	.ovrlay {
 		position: absolute;
 		top: 0;
@@ -338,23 +343,31 @@ nav.subHeader {
 		height: 6px;
 		-webkit-transform: rotate(-45deg)
 	}
+
+	// BUTTON STYLING
+	.button { 
+		background-color: #FFF !important; 
+		span { color: #000; }
+		@include css-transition(all, 0.3s, ease-in-out); 
+		span { 
+			font-size: 19px; 
+			font-weight: bold;
+		}
+	}
+	.button:hover { background-color: #EBEBEB !important;  }
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
-	// MOBILE 
-	@media only screen and (max-width: 40em) {
-		
-	}
 
 	// MEDIUM SCREENS UP 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-		/* TEXT SIZING */
+		// TEXT SIZING //
 		h1 { font-size: 30px; }
 		p { font-size: 15px; }
 
-		/* SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS */
+		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS //
 		min-height: 0 !important;
 
-		/* TEXT PADDING */
+		// TEXT PADDING //
 		h1 { padding-bottom: 20px; }
 		p { padding-bottom: 25px; }
 		.button { width: 100%; }
@@ -364,9 +377,10 @@ nav.subHeader {
 	@media only screen and (min-width: 64em) {
 		.ovrlay { padding: 85px 20px; }
 		.container { padding: 50px 100px !important;} 
+		
+		// TEXT PADDING //
 		h1 { padding-bottom: 30px; }
 		p { padding-bottom: 40px; }
-		.button { width: 50%; }
 	}
 
 
@@ -412,7 +426,6 @@ nav.subHeader {
 	background-repeat: none;
 	padding: 0px !important;
 	.ovrlay { padding: 75px 20px; }
-	//background-size: 100% 100%;
 	h1, h2, p { color: #FFF !important; }
 
 		// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
@@ -455,7 +468,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. PRICING BLOCK
+      f. PRICING BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing {
 	.button span { color: #9AD3B3; }
@@ -540,7 +553,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      d. CUSTOMERS BLOCk
+      h. CUSTOMERS BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-customers {
 
@@ -561,7 +574,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~
-      h. FOOTER
+      i. FOOTER
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 footer {
 

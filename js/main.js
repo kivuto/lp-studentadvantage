@@ -3,68 +3,7 @@ $(document).ready(function(){
 	for (var i=0; i<2000; i++) {
 	    $("#diagonal").append("<div></div>")
 	 }
-	/*--------------------
-
-	Simple expand code
-
-	--------------------*/
-
-	$('.expander').simpleexpand();
-
-	/*--------------------
-
-	Add-this follow buttons snap to top
-
-	--------------------*/
-
-	/* Scroll event handler */
-    $(window).bind('scroll',function(e){
-    	var scrolled = $(document).scrollTop();
-		if (scrolled >= 69)
-		{
-			$('.at4-follow').css('position', 'fixed');
-			$('.at4-follow-inner').css('top', 0);
-			$('.at-follow-open-control').css('top', 0);
-			$('.at-follow-open-control').css('position', 'fixed');
-		} else {
-			$('.at4-follow').css('position', 'absolute');
-			$('.at4-follow-inner').css('top', 69);
-			$('.at-follow-open-control').css('top', 69);
-			$('.at-follow-open-control').css('position', 'absolute');
-		}
-		stickyNav();
-    });
-
-    /*--------------------
-
-	Sticky header bar
-
-	--------------------*/
-	// Adding the class 'firstRow' to the first main content block
-	$('.mainContent').eq(0).addClass('firstRow').end();
-
-	var stickyNavTop = $('.subHeader').offset().top;  
 	
-	var stickyNav = function(){  
-		var scrollTop = $(window).scrollTop();     
-		if (scrollTop > stickyNavTop) {   
-		    $('.subHeader').addClass('snapNav'); 
-		    $('.offHeader').addClass('snapNav'); 
-		    // Adds padding in for lost space once subHeader becomes snapNav
-		    $('.firstRow').css('padding', '90px 20px 45px 20px'); 
-		} else {  
-		    $('.subHeader').removeClass('snapNav');
-		    $('.offHeader').removeClass('snapNav');
-		    $('.firstRow').css('padding', '45px 20px 45px 20px');   
-		}  
-	};  
-	  
-	stickyNav();  
-	  
-	$(window).scroll(function() {  
-	    stickyNav();  
-	});  
-
 
 	/*--------------------
 

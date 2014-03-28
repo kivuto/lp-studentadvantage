@@ -1,7 +1,7 @@
 
 
   <!-- Sub Header/Nav DESKTOPS -->
-  <nav class="top-bar subHeader hide-for-small" data-topbar>
+  <nav class="top-bar subHeader snapNav hide-for-small" data-topbar>
     <div class="container">
       <ul class="title-area">
           <li class="name">

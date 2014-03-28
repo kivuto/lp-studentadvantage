@@ -221,13 +221,14 @@ body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
 
 /* ADD-THIS STYLING */
 .at4-follow {
-  position: absolute; }
+  position: fixed; }
 
 .at4-follow-inner {
-  top: 69px; }
+  top: 0px; }
 
 .at-follow-open-control {
-  top: 69px; }
+  top: 0px;
+  position: fixed; }
 
 /*--------------------------------------*\
 
@@ -288,12 +289,22 @@ nav.subHeader {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     height: 6px;
     -webkit-transform: rotate(-45deg); }
+  .content-introduction .button {
+    background-color: #FFF !important;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .content-introduction .button span {
+      color: #000; }
+    .content-introduction .button span {
+      font-size: 19px;
+      font-weight: bold; }
+  .content-introduction .button:hover {
+    background-color: #EBEBEB !important; }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-introduction {
-      /* TEXT SIZING */
-      /* SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS */
-      min-height: 0 !important;
-      /* TEXT PADDING */ }
+      min-height: 0 !important; }
       .content-introduction h1 {
         font-size: 30px; }
       .content-introduction p {
@@ -312,9 +323,7 @@ nav.subHeader {
     .content-introduction h1 {
       padding-bottom: 30px; }
     .content-introduction p {
-      padding-bottom: 40px; }
-    .content-introduction .button {
-      width: 50%; } }
+      padding-bottom: 40px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       c. CHALLENGES BLOCk
@@ -381,7 +390,7 @@ nav.subHeader {
       background-image: url("../img/businessmen-xldesktop.jpg"); } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. PRICING BLOCK
+      f. PRICING BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing .button span {
   color: #9AD3B3; }
@@ -449,7 +458,7 @@ nav.subHeader {
     padding-bottom: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      d. CUSTOMERS BLOCk
+      h. CUSTOMERS BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-customers {
   /* MED SCREENS AND UP*/
@@ -462,7 +471,7 @@ nav.subHeader {
       min-height: 300px !important; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~
-      h. FOOTER
+      i. FOOTER
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 footer {
   /* MOBILE */ }

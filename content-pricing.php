@@ -14,7 +14,7 @@
           <div class="row">
               <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
-                      <a href="#" target="_blank" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab1 - Minitab Rent Button'); return false;">
+                      <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough -  - '); return false;">
                           <div class="button">
                              <span>View Pricing</span>
                           </div>

@@ -17,11 +17,15 @@
                   </div> 
               </div>
               <div class="row">
-                  <a href="http://kivuto.com/docs/student_advantage_pricing.pdf" target="_blank" onclick="tob(this, '', '', ''); return false;">
-                      <div class="large-12 columns button">
-                         <span>Watch Video</span>
-                      </div>
-                  </a>
+                  <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
+                  <li>
+                      <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch Video'); return false;">
+                          <div class="button">
+                             <span>Watch video</span>
+                          </div>
+                      </a>
+                  </li>
+              </ul>
               </div>
           </div>  
       </div>     

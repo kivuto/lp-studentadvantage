@@ -11,24 +11,27 @@
                 <div class="row circles show-for-medium-up">
                     <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3 center">
                         <li>
+                            <h3>Solution overview</h3>
                             <p>Deploy/use an O365 tenant & order the necessary number of free O365 ProPlus licenses from your reseller. Tenant can be blank/unused.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab1 - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
                             </a>
                         </li>
                         <li>
+                            <h3>Solution comparison</h3>
                             <p>You provide Kivuto with delegated administrative access to your tenant. </p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab1 - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
                             </a>
                         </li>
                         <li>
+                            <h3>Solution workflow</h3>
                             <p>Within 2 business days of receiving admin access,you will have a fully functioning, school-branded web store to distribute O365.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Minitab LP v2', 'Minitab LP v2 - Clickthrough', 'Minitab LP v2 - Clickthrough - Minitab1 - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>

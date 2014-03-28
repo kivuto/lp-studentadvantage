@@ -36,12 +36,13 @@
     <ul class="off-canvas-list">
       <li></li>
 
-        <li><a onclick="tib('.content-introduction', '', '', '');" data-search="">Intro</a></li>
-        <li><a onclick="tib('.content-challenges', '', '', '');" data-search="Styles">Challenges</a></li>
-        <li><a onclick="tib('.content-solution', '', '', '');" data-search="SCSS">Solution</a></li>
-        <li><a onclick="tib('.content-resources', '', '', '');" data-search="Rails,Gem">Resources</a></li>
-        <li><a onclick="tib('.content-pricing', '', '', '');" data-search="">Pricing</a></li>
-        <li><a onclick="tib('.content-email', '', '', '');" data-search="Global Styles,Global Mixins,Global Variables,Useful HTML Classes">Lets Talk</a></li>
+        <li><a onclick="tib('.content-introduction', '', '', '');">Intro</a></li>
+        <li><a onclick="tib('.content-challenges', '', '', '');">Challenges</a></li>
+        <li><a onclick="tib('.content-solution', '', '', '');">Solution</a></li>
+        <li><a onclick="tib('.content-resources', '', '', '');">Resources</a></li>
+        <li><a onclick="tib('.content-pricing', '', '', '');">Pricing</a></li>
+        <li><a onclick="tib('.content-email', '', '', '');">Lets Talk</a></li>
+        <li><a onclick="tib('.content-customers', '', '', '');">Customers</a></li>
     </ul>
   </aside>
 <a class="exit-off-canvas"></a>

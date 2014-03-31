@@ -9,6 +9,7 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/viewport.js"></script>
+    <script src="js/jquery.queryloader2.min.js" type="text/javascript"></script>
     <?php 
         /* SETTING GLOBAL VARIABLES - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED */
         

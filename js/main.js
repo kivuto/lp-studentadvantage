@@ -1,9 +1,28 @@
 $(document).ready(function(){
+	$("body").queryLoader2();
 
 	for (var i=0; i<2000; i++) {
 	    $("#diagonal").append("<div></div>")
 	 }
-	
+	/*--------------------
+
+	Form thank you changes
+
+	--------------------*/
+
+	$('.email input.button').on('click', function() {
+	    // $(this).css("opacity", "0");
+	    $(this).css("opacity", "0");
+	    $('.row.email').css("opacity", "0");
+	    $('.row.thank-you').css("opacity", "1.0");
+	    $(this).promise().done(function() {
+	    	//$(this).css("visibility", "hidden");
+	    	$('.row.thank-you').css("transform","translateY("+ -155 +"px)");
+	    });
+	    
+	});
+
+
 
 	/*--------------------
 

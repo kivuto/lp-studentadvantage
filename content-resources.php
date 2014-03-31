@@ -5,7 +5,6 @@
                 <div class="row">
                     <div class="large-12 columns info center">
                           <h1>Find Out More About Our Solution</h1>
-                          <p>AWOO adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                     </div> 
                 </div> 
                 <div class="row circles show-for-medium-up">

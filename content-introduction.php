@@ -1,6 +1,6 @@
   <div class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $block1; ?>">
       <video autoplay muted loop>
-        <source src="http://www.redtapedesign.com/akvault/video/index-new.m4v" type="video/mp4">
+        <source src="http://www.kivuto.com/docs/introduction_video.mp4" type="video/mp4">
         <source src="" type="video/ogg">
       </video>   
       <div class="ovrlay">

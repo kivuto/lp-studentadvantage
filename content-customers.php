@@ -11,7 +11,7 @@
                       <img src="img/schools-kaplan.png">
                   </li>
                   <li>
-                      <img src="img/schools-rodgerwilliams.png">
+                      <img src="img/schools-rogerwilliams.png">
                   </li>
                   <li>
                       <img src="img/schools-rochester.png">

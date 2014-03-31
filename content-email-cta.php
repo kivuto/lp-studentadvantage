@@ -13,7 +13,7 @@
           </div>
           <div class="row email">
               <div class="large-12 columns info center">
-                  <form action="http://app.simplycast.com/?q=forms/submissionHandler" method="post" enctype="multipart/form-data" target="_blank">
+                  <form action="http://app-v8.simplycast.com/?q=forms/submissionHandler&channel=signup" method="post">
                       <input type="hidden" name="form" value="103738" style="color: rgb(68, 68, 68);">
                       <input type="text" id="EmailElement_0_input" name="EmailElement_0[value]" placeholder="user@example.com">
                       <input type="hidden" name="EmailElement_0[label]" value="Email" style="color: rgb(68, 68, 68);">

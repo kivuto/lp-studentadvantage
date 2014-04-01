@@ -30,7 +30,7 @@
                   </li>
                   <li data-orbit-slide="headline-2">
                     <div>
-                      <img class="inline-block" src="img/schools-rodgerwilliams.png">
+                      <img class="inline-block" src="img/schools-rogerwilliams.png">
                     </div>
                   </li>
                   <li data-orbit-slide="headline-3">
@@ -39,6 +39,11 @@
                     </div>
                   </li>
                   <li data-orbit-slide="headline-4">
+                    <div>
+                      <img class="inline-block" src="img/schools-oxford.png">
+                    </div>
+                  </li>
+                  <li data-orbit-slide="headline-5">
                     <div>
                       <img class="inline-block" src="img/schools-ivytech.png">
                     </div>

@@ -12,7 +12,7 @@
                         <li>
                             <h3>Solution overview</h3>
                             <p>Deploy/use an O365 tenant & order the necessary number of free O365 ProPlus licenses from your reseller. Tenant can be blank/unused.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Overview'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -21,7 +21,7 @@
                         <li>
                             <h3>Solution comparison</h3>
                             <p>You provide Kivuto with delegated administrative access to your tenant. </p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Comparison'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -30,7 +30,7 @@
                         <li>
                             <h3>Solution workflow</h3>
                             <p>Within 2 business days of receiving admin access,you will have a fully functioning, school-branded web store to distribute O365.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Minitab Rent Button'); return false;">
+                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Workflow'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>

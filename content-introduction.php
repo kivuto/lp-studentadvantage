@@ -22,9 +22,9 @@
               <div class="row">
                   <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
-                      <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch Video'); return false;">
+                      <a href="#" target="_blank" onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Learn More'); return false;">
                           <div class="button">
-                             <span>Watch video</span>
+                             <span>Learn More</span>
                           </div>
                       </a>
                   </li>

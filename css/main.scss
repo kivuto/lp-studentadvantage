@@ -504,8 +504,16 @@ nav.subHeader {
 	.button:hover { background-color: #EBEBEB !important;  }
 	background-repeat: none;
 	padding: 0px !important;
+
+	// PADDING GREY OVERLAY
 	.ovrlay { padding: 75px 20px; }
 
+	// STYLING THE P TAG IN BLOCK GRID
+	[class*="block-grid-"] {
+		p {  
+			margin: 0 auto;
+		}
+	}
 	// BLOCK FONT COLOR
 	@include block-font-color(#FFF);
 	h3 { font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
@@ -532,9 +540,9 @@ nav.subHeader {
 			[class*="block-grid-"] {
 				p { 
 					max-width: 300px; 
-					margin: 0 auto;
+					min-height: 150px;
 				}
-				.button { min-width: 200px; }
+				.button { min-width: 100%; }
 			}
 		}
 
@@ -550,7 +558,7 @@ nav.subHeader {
 			[class*="block-grid-"] {
 				p { 
 					max-width: 300px; 
-					margin: 0 auto;
+					min-height: 110px;
 				}
 				.button { min-width: 265px; }
 			}
@@ -669,7 +677,10 @@ nav.subHeader {
       h. CUSTOMERS BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-customers {
-	h1 { color: #F37022 !important; }
+	h1 { 
+		color: #F37022 !important;
+		font-size: 30px !important; 
+	}
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 		/* MED SCREENS AND UP*/

@@ -56,7 +56,7 @@
                   <li data-orbit-slide="headline-4">
                     <div>
                       <img class="inline-block" src="img/challenges-support.png">
-                      <h3>Demanding Program & Tech Support</h3>
+                      <h3>Demanding Program <br/>& Tech Support</h3>
                       <p>Students will come to you with questions and requests when they encounter issues. Managing support takes time, resources and documentation.</p>
                     </div>
                   </li>

@@ -45,7 +45,7 @@ $block3-color: #EBEBEB;
 $block4-color: #FFF;
 $block5-color: #9AD3B3;
 $block6-color: #F37022;
-$block7-color: #EBEBEB;
+$block7-color: #FFF;
 
 // Mix in for transitions
 @mixin css-transition($attribute, $duration, $type) {
@@ -412,7 +412,7 @@ nav.subHeader {
 		span { color: #000; }
 		@include css-transition(all, 0.3s, ease-in-out); 
 	}
-	.button:hover { background-color: #F37022 !important;  }
+	.button:hover { background-color: #EBEBEB !important;  }
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 	// MOBILE //

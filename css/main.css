@@ -115,7 +115,7 @@ h1, h3, .button span {
   background-color: #f37022; }
 
 .mainContent:nth-of-type(7) {
-  background-color: #ebebeb; }
+  background-color: white; }
 
 /* STICKY SUB HEADER STYLING */
 .snapNav {
@@ -345,7 +345,7 @@ nav.subHeader {
     .content-introduction .button span {
       color: #000; }
   .content-introduction .button:hover {
-    background-color: #F37022 !important; }
+    background-color: #EBEBEB !important; }
   @media screen and (max-width: 40em) {
     .content-introduction img {
       min-height: 250px; }

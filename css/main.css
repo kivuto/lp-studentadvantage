@@ -162,6 +162,13 @@ h1, h3, .button span {
   @media only screen and (max-width: 40em) {
     .row.mainContent {
       padding: 25px 0px; }
+      .row.mainContent .button {
+        height: 40px;
+        padding-top: 0.50rem !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important; }
+        .row.mainContent .button span {
+          font-size: 20px !important; }
       .row.mainContent .container {
         padding: 0px 0px; }
       .row.mainContent p {
@@ -286,6 +293,9 @@ nav.subHeader {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
     background: white; }
+  @media only screen and (min-width: 641px) and (max-width: 747px) {
+    nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
+      padding: 0 7px; } }
 
 .top-bar.expanded .title-area {
   background: #545454 !important; }
@@ -327,6 +337,7 @@ nav.subHeader {
     -webkit-transform: rotate(-45deg); }
   .content-introduction .button {
     background-color: #FFF !important;
+    padding: 20px 20px !important;
     webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -342,7 +353,9 @@ nav.subHeader {
       padding: 50px 50px; }
       .content-introduction .container h1 {
         font-size: 20px !important;
-        padding: 10px 0px; } }
+        padding: 10px 0px; }
+    .content-introduction .button {
+      width: 50%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-introduction {
       min-height: 0 !important; }
@@ -516,6 +529,7 @@ nav.subHeader {
   color: #FFF; }
 @media screen and (max-width: 40em) {
   .content-email .button {
+    height: 50px !important;
     width: 95%; }
   .content-email input {
     width: 97% !important; } }

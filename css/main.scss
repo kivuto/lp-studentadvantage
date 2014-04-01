@@ -189,7 +189,15 @@ h1, h3, .button span {
 	// DEFAULT STYLING IN MOBILE 
 	@media only screen and (max-width: 40em) {
 		 padding: 25px 0px;
-
+		.button {
+			height: 40px;
+			padding-top: 0.50rem !important;
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+			span { 
+				font-size: 20px !important; 
+			}
+		}
 		// REMOVAL OF PADDING 
 		.container { padding: 0px 0px; }
 
@@ -347,8 +355,16 @@ nav.subHeader {
 
 	// FIXING BACKGROUND COLOR
 	.top-bar-section ul { background: $sub-header-color; }
-}
 
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+	// SUPER CUSTOM MEDIA QUERY THAT PREVENTS MENU ITEM FROM FLOWING ONTO SECOND LINE //
+    @media only screen and (min-width: 641px) and (max-width: 747px) {
+    	.top-bar-section li:not(.has-form) a:not(.button) {
+    		padding: 0 7px;
+    	}
+	}
+}
 .top-bar.expanded .title-area {
 	background: #545454 !important;
 }
@@ -392,6 +408,7 @@ nav.subHeader {
 	// BUTTON STYLING
 	.button { 
 		background-color: #FFF !important; 
+		padding: 20px 20px !important;
 		span { color: #000; }
 		@include css-transition(all, 0.3s, ease-in-out); 
 	}
@@ -408,6 +425,7 @@ nav.subHeader {
       			padding: 10px 0px; 
       		}
       	}
+      	.button { width: 50%; }
     }
 
 	// MEDIUM SCREENS 
@@ -625,7 +643,7 @@ nav.subHeader {
 
 		// MOBILE //
 	    @media screen and (max-width: 40em) {
-	      	.button {  width: 95%; }
+	      	.button {  height: 50px !important; width: 95%; }
 			input { width: 97% !important; }
 	    }
 

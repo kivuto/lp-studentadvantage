@@ -17,7 +17,7 @@
                       <img src="img/schools-rochester.png">
                   </li>
                   <li>
-                      <img src="img/schools-ivytech.png">
+                      <img src="img/schools-oxford.png">
                   </li>
               </ul> 
           </div>

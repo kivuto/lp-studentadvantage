@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</title>
+    <title>Easily Deploy Microsoft Student Advantage | Kivuto Solutions Inc.</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>

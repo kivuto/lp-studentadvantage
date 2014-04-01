@@ -299,6 +299,8 @@ nav.subHeader {
     color: white !important; }
   .content-introduction video {
     width: 100%; }
+  .content-introduction img {
+    width: 100%; }
   .content-introduction .ovrlay {
     position: absolute;
     top: 0;
@@ -333,6 +335,14 @@ nav.subHeader {
       color: #000; }
   .content-introduction .button:hover {
     background-color: #F37022 !important; }
+  @media screen and (max-width: 40em) {
+    .content-introduction img {
+      min-height: 250px; }
+    .content-introduction .container {
+      padding: 50px 50px; }
+      .content-introduction .container h1 {
+        font-size: 20px !important;
+        padding: 10px 0px; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-introduction {
       min-height: 0 !important; }

@@ -360,7 +360,7 @@ nav.subHeader {
 	padding: 0px !important;
 	@include block-font-color(#FFF);
 	video { width: 100%; }
-
+	img { width: 100%; }
 	// GREY OVERLAY ON VIDEO BG
 	.ovrlay {
 		position: absolute;
@@ -398,6 +398,17 @@ nav.subHeader {
 	.button:hover { background-color: #F37022 !important;  }
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
+	// MOBILE //
+    @media screen and (max-width: 40em) {
+      	img { min-height: 250px; }
+      	.container { 
+      		padding: 50px 50px; 
+      		h1 { 
+      			font-size: 20px !important; 
+      			padding: 10px 0px; 
+      		}
+      	}
+    }
 
 	// MEDIUM SCREENS 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {

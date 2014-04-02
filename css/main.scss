@@ -393,8 +393,7 @@ nav.subHeader {
 	padding: 0px !important;
 	@include block-font-color(#FFF);
 	background-image: url('img/video-placeholder.png');
-	video { width: 100%; }
-	img { width: 100%; }
+	video, img  { width: 100%; }
 
 	// GREY OVERLAY ON VIDEO BG
 	.ovrlay {
@@ -716,7 +715,7 @@ nav.subHeader {
 footer {
 
   // ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
-  
+
     /* MOBILE */
     @media screen and (max-width: 40em) {
       .wrapper { padding-bottom: 45px !important; }

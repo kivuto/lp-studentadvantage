@@ -319,9 +319,7 @@ nav.subHeader {
   background-image: url("img/video-placeholder.png"); }
   .content-introduction h1, .content-introduction h2, .content-introduction h3, .content-introduction p {
     color: white !important; }
-  .content-introduction video {
-    width: 100%; }
-  .content-introduction img {
+  .content-introduction video, .content-introduction img {
     width: 100%; }
   .content-introduction .ovrlay {
     position: absolute;

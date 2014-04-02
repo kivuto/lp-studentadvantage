@@ -1,11 +1,11 @@
   <div class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $block1; ?>">
-      <video autoplay muted loop class="hide-for-mobile">
+      <video autoplay muted loop class="show-for-large-up">
         <source src="http://www.kivuto.com/docs/introduction_video.mp4" type="video/mp4">
         <source src="http://www.kivuto.com/docs/introduction_video.ogg" type="video/ogg">
         <source src="http://www.kivuto.com/docs/introduction_video.webm" type="video/webm">  
       </video>   
        
-      <img src="img/video-placeholder.png" class="hide-for-medium-up">
+      <img src="img/video-placeholder.png" class="hide-for-large-up">
       <div class="ovrlay">
           <div class="container">
               <div class="row">

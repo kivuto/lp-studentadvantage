@@ -64,8 +64,13 @@
 
 
 <style>
-body, p, h2, h3, h4, h5, ul, li, a, nav, span {
+body, p, h1, h2, h3, h4, h5, ul, li, a, nav, span {
   font-family: 'AvenirLTStd55Roman', Verdana, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
+
+h3 {
+  font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px; }
 

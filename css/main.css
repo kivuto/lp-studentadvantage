@@ -134,10 +134,10 @@ h1, h3, .button span {
   width: 50%; }
   @media only screen and (max-width: 40em) {
     .translated {
-      left: 15%; } }
+      left: 3%; } }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .translated {
-      left: 5%; } }
+      left: 15%; } }
 
 /* DEFAULT STYLING FOR ALL mainContent BLOCKS */
 .row.mainContent {
@@ -302,9 +302,9 @@ nav.subHeader {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
     background: white; }
-  @media only screen and (min-width: 641px) and (max-width: 796px) {
+  @media only screen and (min-width: 641px) and (max-width: 747px) {
     nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 6px; } }
+      padding: 0 7px; } }
 
 .top-bar.expanded .title-area {
   background: #545454 !important; }
@@ -313,7 +313,8 @@ nav.subHeader {
       b. INTRODUCTION BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-introduction {
-  padding: 0px !important; }
+  padding: 0px !important;
+  background-image: url("img/video-placeholder.png"); }
   .content-introduction h1, .content-introduction h2, .content-introduction h3, .content-introduction p {
     color: white !important; }
   .content-introduction video {
@@ -377,7 +378,8 @@ nav.subHeader {
       .content-introduction h1 {
         padding-bottom: 20px; }
       .content-introduction p {
-        padding-bottom: 25px; }
+        padding-bottom: 25px;
+        font-size: 20px !important; }
       .content-introduction .button {
         width: 30%; } }
   @media only screen and (min-width: 64em) {
@@ -393,7 +395,7 @@ nav.subHeader {
         padding-bottom: 30px; }
       .content-introduction p {
         padding-bottom: 40px;
-        font-size: 20px !important; } }
+        font-size: 25px !important; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       c. CHALLENGES BLOCk

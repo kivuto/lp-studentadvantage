@@ -7,7 +7,6 @@
        
       <img src="img/video-placeholder.png" class="hide-for-medium-up">
       <div class="ovrlay">
-          <div class="diagonal"></div>
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">

@@ -24,13 +24,13 @@
         
 
         /* BLOCK NAMES: NAME THEM WHAT WILL SHOW UP IN GOOGLE ANALYTICS */ 
-        $block1 = 'Fast Set-Up';
-        $block2 = 'Challenges';
-        $block3 = 'Solution';
-        $block4 = 'Resources';
-        $block5 = 'Pricing';
-        $block6 = 'Lets talk';
-        $block7 = 'Customers';
+        $block1 = "Introduction";
+        $block2 = "Challenges";
+        $block3 = "Solution";
+        $block4 = "Resources";
+        $block5 = "Pricing";
+        $block6 = "Let's talk";
+        $block7 = "Customers";
     ?>
 
   <!-- IE8 Styling fixes -->

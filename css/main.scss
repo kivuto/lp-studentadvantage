@@ -149,11 +149,11 @@ h1, h3, .button span {
 	width: 50%;
 	// DEFAULT STYLING IN MOBILE 
 	@media only screen and (max-width: 40em) {
-		left: 15%;
+		left: 3%;
 	}
-	// DEFAULT STYLING IN MOBILE 
+	// DEFAULT STYLING IN Medium 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-		left: 5%;
+		left: 15%;
 	}
 }
 
@@ -375,9 +375,9 @@ nav.subHeader {
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 	// SUPER CUSTOM MEDIA QUERY THAT PREVENTS MENU ITEM FROM FLOWING ONTO SECOND LINE //
-    @media only screen and (min-width: 641px) and (max-width: 796px) {
+    @media only screen and (min-width: 641px) and (max-width: 747px) {
     	.top-bar-section li:not(.has-form) a:not(.button) {
-    		padding: 0 6px;
+    		padding: 0 7px;
     	}
 	}
 }
@@ -391,6 +391,7 @@ nav.subHeader {
 .content-introduction {
 	padding: 0px !important;
 	@include block-font-color(#FFF);
+	background-image: url('img/video-placeholder.png');
 	video { width: 100%; }
 	img { width: 100%; }
 
@@ -457,7 +458,7 @@ nav.subHeader {
 
 		// TEXT PADDING //
 		h1 { padding-bottom: 20px; }
-		p { padding-bottom: 25px; }
+		p { padding-bottom: 25px; font-size: 20px !important;}
 		.button { width: 30%; }
 	}
 
@@ -469,7 +470,7 @@ nav.subHeader {
 		min-height: 0 !important;
 		// TEXT PADDING //
 		h1 { padding-bottom: 30px; }
-		p { padding-bottom: 40px; font-size: 20px !important;}
+		p { padding-bottom: 40px; font-size: 25px !important;}
 	}
 
 

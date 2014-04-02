@@ -321,6 +321,11 @@ nav.subHeader {
     color: white !important; }
   .content-introduction video, .content-introduction img {
     width: 100%; }
+  .content-introduction img {
+    position: relative;
+    z-index: -1; }
+  .content-introduction video {
+    position: absolute; }
   .content-introduction .ovrlay {
     position: absolute;
     top: 0;

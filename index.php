@@ -23,7 +23,7 @@
         
 
         /* BLOCK NAMES: NAME THEM WHAT WILL SHOW UP IN GOOGLE ANALYTICS */ 
-        $block1 = 'Introduction';
+        $block1 = 'Fast Set-Up';
         $block2 = 'Challenges';
         $block3 = 'Solution';
         $block4 = 'Resources';

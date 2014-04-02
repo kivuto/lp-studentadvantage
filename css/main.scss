@@ -250,6 +250,17 @@ h1, h3, .button span {
 	img { padding-bottom: 15px;  }
 	.orbit-bullets { margin: none !important; }
 
+	// STYLING THE P TAG IN BLOCK GRID
+	[class*="block-grid-"] {
+		p {  
+			max-width: 300px; 
+			margin: 0 auto;
+		}
+	}
+
+	// REMOVING THE TIMER AND PLAY/PAUSE BUTTONS
+	.orbit-timer { display: none; }
+
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 		// MOBILE //
 		@media only screen and (max-width: 40em){
@@ -320,6 +331,11 @@ h1, h3, .button span {
 	top: 0px; 
 	position: fixed;
 }
+// Fixing transparency issue 
+div#at4m-dock.ats-transparent {
+    background: #FFF;
+    border-color: #FFF;
+}
 
 /*--------------------------------------*\
 
@@ -359,9 +375,9 @@ nav.subHeader {
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 	// SUPER CUSTOM MEDIA QUERY THAT PREVENTS MENU ITEM FROM FLOWING ONTO SECOND LINE //
-    @media only screen and (min-width: 641px) and (max-width: 747px) {
+    @media only screen and (min-width: 641px) and (max-width: 796px) {
     	.top-bar-section li:not(.has-form) a:not(.button) {
-    		padding: 0 7px;
+    		padding: 0 6px;
     	}
 	}
 }
@@ -377,6 +393,7 @@ nav.subHeader {
 	@include block-font-color(#FFF);
 	video { width: 100%; }
 	img { width: 100%; }
+
 	// GREY OVERLAY ON VIDEO BG
 	.ovrlay {
 		position: absolute;
@@ -387,6 +404,7 @@ nav.subHeader {
 		overflow: hidden;
 	 	background: rgba(0,0,0,0.4)
 	}
+	// VERTICALLY ALIGN CONTENT
 	.container {
 		position: relative;
 		color: #fff;
@@ -479,6 +497,7 @@ nav.subHeader {
       d. SOLUTION BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-solution {
+
 	// MEDIUM 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 			// OVERRIDE MINIMUM HEIGHT FOR BLOCK //
@@ -508,12 +527,6 @@ nav.subHeader {
 	// PADDING GREY OVERLAY
 	.ovrlay { padding: 75px 20px; }
 
-	// STYLING THE P TAG IN BLOCK GRID
-	[class*="block-grid-"] {
-		p {  
-			margin: 0 auto;
-		}
-	}
 	// BLOCK FONT COLOR
 	@include block-font-color(#FFF);
 	h3 { font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
@@ -538,10 +551,7 @@ nav.subHeader {
 			}
 			// ALIGNING TEXT AND BUTTON EDGES
 			[class*="block-grid-"] {
-				p { 
-					max-width: 300px; 
-					min-height: 150px;
-				}
+				p { min-height: 150px; }
 				.button { min-width: 100%; }
 			}
 		}
@@ -555,11 +565,9 @@ nav.subHeader {
 				padding-bottom: 10px; 
 				min-height: 80px; 
 			}
+			// ALIGNING TEXT AND BUTTON EDGES
 			[class*="block-grid-"] {
-				p { 
-					max-width: 300px; 
-					min-height: 110px;
-				}
+				p { min-height: 110px; }
 				.button { min-width: 265px; }
 			}
 		}

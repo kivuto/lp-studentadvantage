@@ -4,15 +4,15 @@
             <div class="container">
                 <div class="row">
                     <div class="large-12 columns info center">
-                          <h1>Find Out More About Our Solution</h1>
+                          <h1>Find out more about our solution</h1>
                     </div> 
                 </div> 
                 <div class="row circles show-for-medium-up">
                     <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3 center">
                         <li>
                             <h3>Solution overview</h3>
-                            <p>Deploy/use an O365 tenant & order the necessary number of free O365 ProPlus licenses from your reseller. Tenant can be blank/unused.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Overview'); return false;">
+                            <p>Learn more about the benefits of using ELMS to provide Office 365 to your students, hassle free. </p>
+                            <a href="http://kivuto.com/docs/ELMS-for-Microsoft-Student-Advantage-Overview.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources - Solution Overview'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -20,8 +20,8 @@
                         </li>
                         <li>
                             <h3>Solution comparison</h3>
-                            <p>You provide Kivuto with delegated administrative access to your tenant. </p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Comparison'); return false;">
+                            <p>See how our ELMS solution stacks up against the standard deployment process.</p>
+                            <a href="http://kivuto.com/docs/ELMS-for-Microsoft-Student-Advantage-Solution-Comparison.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Comparison'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -29,8 +29,8 @@
                         </li>
                         <li>
                             <h3>Solution workflow</h3>
-                            <p>Within 2 business days of receiving admin access,you will have a fully functioning, school-branded web store to distribute O365.</p>
-                            <a href="#" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Resources - Solution Workflow'); return false;">
+                            <p>Take a step-by-step look at how we help deliver Office to your students with speed and convenience.</p>
+                            <a href="http://kivuto.com/docs/Microsoft-Student-Advantage-Workflows-with-ELMS.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Workflow'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -41,15 +41,21 @@
                 </div>
                 <div class="row show-for-small">
                     <div class="row">
-                        <div class="large-4 columns button">
-                            <span>View Solution Overview</span>
-                        </div>  
-                        <div class="large-4 columns button">
-                            <span>View Solution Comparison</span>
-                        </div>  
-                        <div class="large-4 columns button">
-                            <span>View Solution Workflow</span>
-                        </div>  
+                        <a href="http://kivuto.com/docs/ELMS-for-Microsoft-Student-Advantage-Overview.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources - Solution Overview'); return false;">
+                            <div class="large-4 columns button">
+                                <span>View Solution Overview</span>
+                            </div>  
+                        </a>
+                        <a href="http://kivuto.com/docs/ELMS-for-Microsoft-Student-Advantage-Solution-Comparison.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Comparison'); return false;">    
+                            <div class="large-4 columns button">
+                                <span>View Solution Comparison</span>
+                            </div>  
+                        </a>
+                        <a href="http://kivuto.com/docs/Microsoft-Student-Advantage-Workflows-with-ELMS.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Workflow'); return false;">    
+                            <div class="large-4 columns button">
+                                <span>View Solution Workflow</span>
+                            </div>  
+                        </a>    
                     </div>
                 </div>
             </div>  

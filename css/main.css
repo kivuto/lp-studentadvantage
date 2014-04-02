@@ -207,6 +207,11 @@ h1, h3, .button span {
   padding-bottom: 15px; }
 .headline-circles-orbitslider .orbit-bullets {
   margin: none !important; }
+.headline-circles-orbitslider [class*="block-grid-"] p {
+  max-width: 300px;
+  margin: 0 auto; }
+.headline-circles-orbitslider .orbit-timer {
+  display: none; }
 @media only screen and (max-width: 40em) {
   .headline-circles-orbitslider .info {
     padding: 0px 8px; }
@@ -263,6 +268,10 @@ h1, h3, .button span {
   top: 0px;
   position: fixed; }
 
+div#at4m-dock.ats-transparent {
+  background: #FFF;
+  border-color: #FFF; }
+
 /*--------------------------------------*\
 
     2. SECTION BLOCKS STYLING
@@ -293,9 +302,9 @@ nav.subHeader {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
     background: white; }
-  @media only screen and (min-width: 641px) and (max-width: 747px) {
+  @media only screen and (min-width: 641px) and (max-width: 796px) {
     nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 7px; } }
+      padding: 0 6px; } }
 
 .top-bar.expanded .title-area {
   background: #545454 !important; }
@@ -426,8 +435,6 @@ nav.subHeader {
     background-color: #EBEBEB !important; }
   .content-resources .ovrlay {
     padding: 75px 20px; }
-  .content-resources [class*="block-grid-"] p {
-    margin: 0 auto; }
   .content-resources h1, .content-resources h2, .content-resources h3, .content-resources p {
     color: white !important; }
   .content-resources h3 {
@@ -448,7 +455,6 @@ nav.subHeader {
         padding-bottom: 10px;
         min-height: 125px; }
       .content-resources [class*="block-grid-"] p {
-        max-width: 300px;
         min-height: 150px; }
       .content-resources [class*="block-grid-"] .button {
         min-width: 100%; } }
@@ -459,7 +465,6 @@ nav.subHeader {
       padding-bottom: 10px;
       min-height: 80px; }
     .content-resources [class*="block-grid-"] p {
-      max-width: 300px;
       min-height: 110px; }
     .content-resources [class*="block-grid-"] .button {
       min-width: 265px; } }

@@ -65,7 +65,7 @@
     </script>
 
     <script type="text/javascript">
-      adroll_segments = "minitab-landing-page"
+      adroll_segments = "student-advantage-landing-page"
     </script>
     <!-- ADROLL (ENDS) -->
     
@@ -88,7 +88,6 @@
     </script>
     <!-- AddThis Smart Layers END -->
     
-    <!-- AddThis Smart Layers END -->
     <!-- BUTTON TRACKING -->
     <script type="text/javascript">
     //tib = Track In Bound

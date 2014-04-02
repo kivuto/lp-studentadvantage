@@ -150,6 +150,7 @@ $(document).ready(function(){
 
 		/* OLD Analytics command for OTH Umbrella */
 		_gaq.push(['_trackEvent', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content]);
+		_gaq.push(['b._trackEvent', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content]);
 	}
 
 });

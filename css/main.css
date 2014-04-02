@@ -70,7 +70,7 @@ h1, h3, .button span {
   p {
     line-height: 2.0; } }
 /* TAB INDEX STYLES */
-.ctaBtns a:focus {
+.ctaBtn:focus {
   opacity: 0.5; }
 
 [tabindex='5']:focus {
@@ -145,6 +145,11 @@ h1, h3, .button span {
   padding: 45px 20px;
   position: relative; }
   .row.mainContent .button {
+    background-color: #FFF !important;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     height: 50px;
     padding-top: 0.60rem !important; }
     .row.mainContent .button span {
@@ -233,15 +238,9 @@ h1, h3, .button span {
     min-height: 750px !important; } }
 
 /* DEFAULT STYLING FOR Centered CTA blocks BLOCKS */
-.headline-cta .button {
-  background-color: #FFF !important;
-  webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; }
-  .headline-cta .button span {
-    font-size: 19px;
-    font-weight: bold; }
+.headline-cta .button span {
+  font-size: 19px;
+  font-weight: bold; }
 .headline-cta [class*="block-grid-"] {
   margin: 0; }
 .headline-cta .button:hover {
@@ -346,17 +345,8 @@ nav.subHeader {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-  .content-introduction .diagonal div {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    height: 6px;
-    -webkit-transform: rotate(-45deg); }
   .content-introduction .button {
-    background-color: #FFF !important;
-    padding: 20px 20px !important;
-    webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
+    padding: 20px 20px !important; }
     .content-introduction .button span {
       color: #000; }
   .content-introduction .button:hover {
@@ -430,14 +420,8 @@ nav.subHeader {
   background-image: url("../img/businessmen-desktop.jpg");
   background-repeat: none;
   padding: 0px !important; }
-  .content-resources .button {
-    background-color: #FFF !important;
-    webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
-    .content-resources .button span {
-      color: #000; }
+  .content-resources .button span {
+    color: #000; }
   .content-resources .button:hover {
     background-color: #EBEBEB !important; }
   .content-resources .ovrlay {

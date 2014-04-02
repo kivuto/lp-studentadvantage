@@ -92,7 +92,7 @@ h1, h3, .button span {
 }
 
 /* TAB INDEX STYLES */
-.ctaBtns a:focus { opacity: 0.5; }
+.ctaBtn:focus { opacity: 0.5; }
 
 [tabindex='5']:focus {
 	border-bottom: 2px solid #64BAE7;
@@ -162,7 +162,11 @@ h1, h3, .button span {
 	margin: 0px 0px;
 	padding: $mainContent_padding;
 	position: relative;
+
+	// BUTTON STYLING
 	.button {
+		background-color: #FFF !important; 
+		@include css-transition(all, 0.3s, ease-in-out); 
 		height: 50px;
 		padding-top: 0.60rem !important;
 		span { 
@@ -170,6 +174,7 @@ h1, h3, .button span {
 			font-weight: bold;
 		}
 	}
+
 
 	// CONTAINER PADDING TO ALIGN WITH HEADER PADDING
 	.container {
@@ -292,8 +297,6 @@ h1, h3, .button span {
 /* DEFAULT STYLING FOR Centered CTA blocks BLOCKS */
 .headline-cta {
 	.button { 
-		background-color: #FFF !important; 
-		@include css-transition(all, 0.3s, ease-in-out); 
 		span { 
 			font-size: 19px; 
 			font-weight: bold;
@@ -394,6 +397,8 @@ nav.subHeader {
 	@include block-font-color(#FFF);
 	background-image: url('img/video-placeholder.png');
 	video, img  { width: 100%; }
+
+	// POSITIONING VIDEO OVER IMAGE
 	img {
 		position: relative;
 		z-index: -1;
@@ -425,25 +430,22 @@ nav.subHeader {
 	        -ms-transform: translate(-50%,-50%);
 	            transform: translate(-50%,-50%);
 	}
-	.diagonal div {
-		border-bottom: 1px solid rgba(0,0,0,0.3);
-		height: 6px;
-		-webkit-transform: rotate(-45deg)
-	}
 
 	// BUTTON STYLING
 	.button { 
-		background-color: #FFF !important; 
 		padding: 20px 20px !important;
 		span { color: #000; }
-		@include css-transition(all, 0.3s, ease-in-out); 
 	}
 	.button:hover { background-color: #EBEBEB !important;  }
+
+
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
 	// MOBILE //
     @media screen and (max-width: 40em) {
       	img { min-height: 250px; }
+
+      	// TEXT SIZING //
       	.container { 
       		padding: 50px 50px; 
       		h1 { 
@@ -524,9 +526,7 @@ nav.subHeader {
 .content-resources {
 	background-image: url('../img/businessmen-desktop.jpg');
 	.button { 
-		background-color: #FFF !important; 
 		span { color: #000; }
-		@include css-transition(all, 0.3s, ease-in-out); 
 	}
 	.button:hover { background-color: #EBEBEB !important;  }
 	background-repeat: none;
@@ -593,6 +593,7 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing {
 	.button span { color: #9AD3B3; }
+
 	// BLOCK FONT COLOR
 	@include block-font-color(#FFF);
 
@@ -634,6 +635,7 @@ nav.subHeader {
 	// BLOCK FONT COLOR
 	@include block-font-color(#FFF);  
 
+	// INPUT STYLING
 	input {
 	    background: #F37022;
 	    border: 2px solid #FFF;
@@ -645,6 +647,8 @@ nav.subHeader {
 	    box-shadow: 0 3px 0 0 #FFF;
 	    margin: 0 auto 50px auto;
 	}
+
+	// SUBMIT FORM BUTTON STYLING
 	#SubmitElement_0_input.button  {
 		 color: #F37022;
 		 padding-top: 0.40rem !important;
@@ -658,6 +662,7 @@ nav.subHeader {
 		background: #F37022;
 	    border: 2px solid #FFF;
 	}
+
 	::-webkit-input-placeholder { color: #FFF;} 
 	:-moz-placeholder { color: #FFF; }
 	::-moz-placeholder { color:    #FFF; }

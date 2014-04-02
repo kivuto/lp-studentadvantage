@@ -10,7 +10,8 @@
               <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4 center">
                   <li>
                       <img src="img/challenges-setup.png">
-                      <h3>Costly </br>set-up</h3>
+                      <h3 class="show-for-large-up">Costly </br>set-up</h3>
+                      <h3 class="hide-for-large-up">Costly set-up</h3>
                       <p>Institutions must invest time and resources to set up complex infrastructure for user authentication, licence provisioning, and distribution.</p>
                   </li>
                   <li>

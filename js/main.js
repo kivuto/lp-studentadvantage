@@ -4,6 +4,61 @@ $(document).ready(function(){
 	for (var i=0; i<2000; i++) {
 	    $("#diagonal").append("<div></div>")
 	 }
+
+	/*--------------------
+
+	Validate the form submission
+
+	--------------------*/
+
+	$('form').on('submit',function(){
+		event.preventDefault();
+		var email = $('#EmailElement_0_input').val();
+	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    var valid = re.test(email);
+	    if(valid==true){
+	    
+	    var formOptions = { 
+			    error: 		function() {
+			    	console.log('success');
+			    	tib(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Let\'s Talk - Email signup');
+				    
+					$('.email input.button').css("opacity", "0");
+	    			$('.row.email').css("opacity", "0");
+	    			$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -155 +"px)");
+
+				    //$('.row.email').css("visibility", "0");
+				    //$('.row.thank-you').css("opacity", "1.0")
+			    }
+			};
+			$('form').ajaxForm(formOptions);
+	    }else{
+	    	$('#EmailElement_0_input').animate({
+	    		opacity : '.5',
+	    	},200).animate({
+	    		opacity : '1',
+	    	},200);
+	    	return false;
+	    }
+	});
+
+	$("SubmitElement_0_input").click(function(e){
+		
+		// If cross-domain AJAX may be performed without an error, do so
+		if (jQuery.support.cors){
+			e.preventDefault();
+			asyncSubmit("#cta-form");
+		}
+	});
+
+	// Asynchronously posts form data
+	function asyncSubmit(selector){
+		var formTarget = jQuery(selector).attr("action");
+
+		jQuery.post(formTarget, jQuery(selector).serialize());
+	}
+
+
 	/*--------------------
 
 	Form thank you changes
@@ -11,14 +66,6 @@ $(document).ready(function(){
 	--------------------*/
 
 	$('.email input.button').on('click', function() {
-	    // $(this).css("opacity", "0");
-	    $(this).css("opacity", "0");
-	    $('.row.email').css("opacity", "0");
-	    $('.row.thank-you').css("opacity", "1.0");
-	    $(this).promise().done(function() {
-	    	//$(this).css("visibility", "hidden");
-	    	$('.row.thank-you').css("transform","translateY("+ -155 +"px)");
-	    });
 	    
 	});
 
@@ -91,3 +138,4 @@ $(document).ready(function(){
 	}
 
 });
+

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.form.js"></script>    
     <script src="js/viewport.js"></script>
     <script src="js/jquery.queryloader2.min.js" type="text/javascript"></script>
     <?php 

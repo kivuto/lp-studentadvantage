@@ -33,13 +33,13 @@
           <div class="line hide-for-mobile">
                <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4 center">
                   <li>
-                      <img src="img/ms-partner.png">
+                      <a href="http://kivuto.com/microsoft-gold-competency?utm_source=SA-landingpage-gold&utm_medium=logo-link&utm_campaign=SA"><img src="img/ms-partner.png"></a>
                   </li>
                   <li>
-                      <img src="img/carbon-free.png">
-                     </li>
+                      <a href="http://kivuto.com/social-responsibility?utm_source=SA-landingpage-carbonfund&utm_medium=logo-link&utm_campaign=SA"><img src="img/carbon-free.png"></a>
+                  </li>
                   <li>
-                      <img src="img/iso-27001.png">
+                      <a href="http://kivuto.com/iso-270012005-certification?utm_source=SA-landingpage-iso&utm_medium=logo-link&utm_campaign=SA"><img src="img/iso-27001.png"></a>
                   </li>
                   <li>
                       <img src="img/verisign.png">

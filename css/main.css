@@ -115,7 +115,7 @@ h1, h3, .button span {
   background-color: #f37022; }
 
 .mainContent:nth-of-type(7) {
-  background-color: #ebebeb; }
+  background-color: white; }
 
 /* STICKY SUB HEADER STYLING */
 .snapNav {
@@ -345,7 +345,7 @@ nav.subHeader {
     .content-introduction .button span {
       color: #000; }
   .content-introduction .button:hover {
-    background-color: #F37022 !important; }
+    background-color: #EBEBEB !important; }
   @media screen and (max-width: 40em) {
     .content-introduction img {
       min-height: 250px; }
@@ -426,6 +426,8 @@ nav.subHeader {
     background-color: #EBEBEB !important; }
   .content-resources .ovrlay {
     padding: 75px 20px; }
+  .content-resources [class*="block-grid-"] p {
+    margin: 0 auto; }
   .content-resources h1, .content-resources h2, .content-resources h3, .content-resources p {
     color: white !important; }
   .content-resources h3 {
@@ -447,9 +449,9 @@ nav.subHeader {
         min-height: 125px; }
       .content-resources [class*="block-grid-"] p {
         max-width: 300px;
-        margin: 0 auto; }
+        min-height: 150px; }
       .content-resources [class*="block-grid-"] .button {
-        min-width: 200px; } }
+        min-width: 100%; } }
   @media only screen and (min-width: 64em) {
     .content-resources h1 {
       padding-bottom: 40px; }
@@ -458,7 +460,7 @@ nav.subHeader {
       min-height: 80px; }
     .content-resources [class*="block-grid-"] p {
       max-width: 300px;
-      margin: 0 auto; }
+      min-height: 110px; }
     .content-resources [class*="block-grid-"] .button {
       min-width: 265px; } }
   @media only screen and (min-width: 1285px) {
@@ -555,7 +557,8 @@ nav.subHeader {
   /* MED SCREENS AND UP*/
   /* LARGE */ }
   .content-customers h1 {
-    color: #F37022 !important; }
+    color: #F37022 !important;
+    font-size: 30px !important; }
   @media only screen and (min-width: 40.063em) {
     .content-customers {
       min-height: 400px !important; } }

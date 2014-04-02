@@ -13,13 +13,13 @@
           </div>
           <div class="row email">
               <div class="large-12 columns info center">
-                  <form action="http://app-v8.simplycast.com/?q=forms/submissionHandler&channel=signup" method="post">
+                  <form id="cta-form"action="http://app-v8.simplycast.com/?q=forms/submissionHandler&channel=signup" method="post">
                       <input type="hidden" name="form" value="103738" style="color: rgb(68, 68, 68);">
                       <input type="text" id="EmailElement_0_input" name="EmailElement_0[value]" placeholder="user@example.com">
                       <input type="hidden" name="EmailElement_0[label]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[type]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[column]" value="email" style="color: rgb(68, 68, 68);">
-                      <input class="button" type="submit" id="SubmitElement_0_input" name="SubmitElement_0" value="Submit" onclick="tib(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Let's Talk - Email signup'); return false;">
+                      <input class="button" type="submit" id="SubmitElement_0_input" name="SubmitElement_0" value="Submit">
                   </form>
               </div> 
           </div>

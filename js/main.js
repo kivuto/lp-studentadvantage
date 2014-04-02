@@ -11,17 +11,21 @@ $(document).ready(function(){
 
 	--------------------*/
 
-	$("form input[type='submit']").submit(function(e){
+	$("form").submit(function(e){
 		
 		// If cross-domain AJAX may be performed without an error, do so
 		var email = $('#EmailElement_0_input').val();
 	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 	    var valid = re.test(email);
 	    if(valid==true){
-
+			
 			if($.support.cors){
 				e.preventDefault();
 				asyncSubmit("form");
+				$('.email input.button').css("opacity", "0");
+	    		$('.row.email').css("opacity", "0");
+	    		$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -155 +"px)");
+				$('form').css('visibility','hidden');
 			}else{
 				return true;
 			}
@@ -80,17 +84,6 @@ $(document).ready(function(){
 	    	return false;
 	    }
 	}); */
-
-
-	/*--------------------
-
-	Form thank you changes
-
-	--------------------*/
-
-	$('.email input.button').on('click', function() {
-	    
-	});
 
 
 

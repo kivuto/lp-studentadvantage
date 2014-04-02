@@ -1,5 +1,5 @@
   <div class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $block1; ?>">
-      <video autoplay muted loop class="hide-for-mobile" poster="img/video-placeholder.png">
+      <video autoplay muted loop class="show-for-large-up" poster="img/video-placeholder.png">
         <source src="http://www.kivuto.com/docs/introduction_video.mp4" type="video/mp4">
         <source src="http://www.kivuto.com/docs/introduction_video.ogg" type="video/ogg">
         <source src="http://www.kivuto.com/docs/introduction_video.webm" type="video/webm">  

@@ -11,7 +11,46 @@ $(document).ready(function(){
 
 	--------------------*/
 
-	$('form').on('submit',function(){
+	$("form input[type='submit']").submit(function(e){
+		
+		// If cross-domain AJAX may be performed without an error, do so
+		var email = $('#EmailElement_0_input').val();
+	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    var valid = re.test(email);
+	    if(valid==true){
+
+			if($.support.cors){
+				e.preventDefault();
+				asyncSubmit("form");
+			}else{
+				return true;
+			}
+			// End if Cors
+		
+			function asyncSubmit(selector){
+				var formTarget = $(selector).attr("action");
+
+				$.post(formTarget, $(selector).serialize());
+			}
+			// end async
+
+		}else{
+			$('#EmailElement_0_input').animate({
+	    		opacity : '.5',
+	    	},200).animate({
+	    		opacity : '1',
+	    	},200);
+	    	return false;
+		}
+
+
+	});
+	// end on click
+
+
+	/* not working so hot */
+
+	/*$('form').on('submit',function(){
 		event.preventDefault();
 		var email = $('#EmailElement_0_input').val();
 	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -19,7 +58,7 @@ $(document).ready(function(){
 	    if(valid==true){
 	    
 	    var formOptions = { 
-			    error: 		function() {
+			    success: 		function() {
 			    	console.log('success');
 			    	tib(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Let\'s Talk - Email signup');
 				    
@@ -40,23 +79,7 @@ $(document).ready(function(){
 	    	},200);
 	    	return false;
 	    }
-	});
-
-	$("SubmitElement_0_input").click(function(e){
-		
-		// If cross-domain AJAX may be performed without an error, do so
-		if (jQuery.support.cors){
-			e.preventDefault();
-			asyncSubmit("#cta-form");
-		}
-	});
-
-	// Asynchronously posts form data
-	function asyncSubmit(selector){
-		var formTarget = jQuery(selector).attr("action");
-
-		jQuery.post(formTarget, jQuery(selector).serialize());
-	}
+	}); */
 
 
 	/*--------------------

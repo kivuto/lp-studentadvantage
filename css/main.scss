@@ -249,6 +249,7 @@ h1, h3, .button span {
 	}
 	img { padding-bottom: 15px;  }
 	.orbit-bullets { margin: none !important; }
+	.orbit-bullets { display: block !important; }
 
 	// STYLING THE P TAG IN BLOCK GRID
 	[class*="block-grid-"] {
@@ -258,8 +259,8 @@ h1, h3, .button span {
 		}
 	}
 
-	// REMOVING THE TIMER AND PLAY/PAUSE BUTTONS
-	.orbit-timer { display: none; }
+	// REMOVING THE TIMER AND PLAY/PAUSE BUTTONS, AND THE SLIDE NUMBERS
+	.orbit-timer, .orbit-slide-number { display: none; }
 
 	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 		// MOBILE //
@@ -660,7 +661,11 @@ nav.subHeader {
 
 		// MOBILE //
 	    @media screen and (max-width: 40em) {
-	      	.button {  height: 50px !important; width: 95%; }
+	      	.button {  
+	      		height: 50px !important; 
+	      		width: 95%; 
+				padding-top: 0.70rem !important;
+	      	}
 			input { width: 97% !important; }
 	    }
 
@@ -705,20 +710,19 @@ nav.subHeader {
 }
 
 
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~
       i. FOOTER
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 footer {
 
   // ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+  
     /* MOBILE */
     @media screen and (max-width: 40em) {
       .wrapper { padding-bottom: 45px !important; }
     }
     
 }
-
 
 
 
@@ -744,13 +748,4 @@ footer {
          url('fonts/avenirltstd-heavy.woff') format('woff'),
          url('fonts/avenirltstd-heavy.ttf') format('truetype'),
          url('fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy') format('svg');
-}
-
-@font-face {
-    font-family: 'AvenirLTStd35Light';
-    src: url('fonts/avenirltstd-light.eot');
-    src: url('fonts/avenirltstd-light.eot') format('embedded-opentype'),
-         url('fonts/avenirltstd-light.woff') format('woff'),
-         url('fonts/avenirltstd-light.ttf') format('truetype'),
-         url('fonts/avenirltstd-light.svg#AvenirLTStd35Light') format('svg');
 }

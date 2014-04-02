@@ -7,7 +7,7 @@
                     <p class="hide-for-small">Using our proven Electronic License Management System (ELMS), we eliminate the barriers to launching Microsoft Student Advantage. We provide a simple set-up process, automated user and license management, reliable customer care and dedicated account support - saving you time and money.</p>
                     <p class="hide-for-small">In less than a week, you will have a school-branded web store where your students can quickly download their Office 365 license. We are here to help.</p>
                     <p class="show-for-small">We make launching Microsoft Student Advantage painless. Save time & money with simple set-up, automated user and license management, reliable customer care and dedicated account support. Get started in less than a week!</p>
-                    <h2>Get started 3 steps</h2>
+                    <h2>Get started in 3 steps</h2>
               </div> 
           </div> 
           <div class="row circles show-for-medium-up">

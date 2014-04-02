@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <h1>Let's Talk</h1>
+                    <h1>Let's talk</h1>
               </div> 
           </div> 
           <div class="row">
@@ -15,7 +15,7 @@
               <div class="large-12 columns info center">
                   <form id="cta-form"action="http://app-v8.simplycast.com/?q=forms/submissionHandler&channel=signup" method="post">
                       <input type="hidden" name="form" value="103738" style="color: rgb(68, 68, 68);">
-                      <input type="text" id="EmailElement_0_input" name="EmailElement_0[value]" placeholder="user@example.com">
+                      <input type="text" id="EmailElement_0_input" name="EmailElement_0[value]" placeholder="Enter your email address">
                       <input type="hidden" name="EmailElement_0[label]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[type]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[column]" value="email" style="color: rgb(68, 68, 68);">

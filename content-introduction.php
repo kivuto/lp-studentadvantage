@@ -15,7 +15,7 @@
               </div> 
               <div class="row hide-for-mobile">
                   <div class="large-12 columns info center">
-                      <p>Fast setup. Automated Management. Reliable Customer Care.</p>
+                      <p>Fast set-up. Automated management. Reliable customer care.</p>
                   </div> 
               </div>
               <div class="row">

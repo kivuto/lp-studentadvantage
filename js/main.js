@@ -1,6 +1,5 @@
 $(document).ready(function(){
-	$("body").queryLoader2();
-
+	
 	for (var i=0; i<2000; i++) {
 	    $("#diagonal").append("<div></div>")
 	 }

@@ -8,7 +8,7 @@
           <div class="row circles show-for-medium-up">
               <ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-4 center">
                   <li>
-                      <img src="img/schools-oxford.png">
+                      <img src="img/schools-rochester.png">
                   </li>
                   <li>
                       <img src="img/schools-rogerwilliams.png">
@@ -25,7 +25,7 @@
               <ul class="example-orbit-content" data-orbit data-options="animation:slide;pause_on_hover:true;timer_speed:100000;navigation_arrows:false;">
                   <li data-orbit-slide="headline-1">
                     <div>
-                      <img class="inline-block" src="img/schools-oxford.png">
+                      <img class="inline-block" src="img/schools-ivytech.png">
                     </div>
                   </li>
                   <li data-orbit-slide="headline-2">
@@ -41,11 +41,6 @@
                   <li data-orbit-slide="headline-4">
                     <div>
                       <img class="inline-block" src="img/schools-kaplan.png">
-                    </div>
-                  </li>
-                  <li data-orbit-slide="headline-5">
-                    <div>
-                      <img class="inline-block" src="img/schools-ivytech.png">
                     </div>
                   </li>
               </ul>

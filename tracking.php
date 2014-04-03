@@ -1,49 +1,15 @@
 <!-- START GOOGLE ANALYTICS.JS -->
-    <script> 
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+    <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      // Testing
-      //ga('create', 'UA-2768482-24', 'onthehub.com');
+       ga('create', 'UA-2768482-17', 'kivuto.com');
+       ga('send', 'pageview');
 
-      // Production
-      ga('create', '<?php echo $universal_Analytics; ?>', 'onthehub.com');
-
-      ga('send', 'pageview'); 
     </script>
     <!-- END GOOGLE ANALYTICS.JS -->
-
-    <!-- START GOOGLE UMBRELLA ANALYTICS -->
-    <script type="text/javascript">
-        var _gaq = _gaq || []; 
-        var pluginUrl = 
-        '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-         _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-        // Testing 
-        // _gaq.push(['_setAccount', 'UA-2768482-24']); 
-        // Production
-        _gaq.push(['_setAccount', '<?php echo $umbrella_Analytics; ?>']); 
-        _gaq.push(['_trackPageview']); 
-        
-        /* TRACK OTH UMBRELLA START */ 
-        // Testing 
-        //_gaq.push(['b._setAccount', 'UA-0000000-02']);
-        // Production
-        _gaq.push(['b._setAccount', '<?php echo $umbrella_OTH_Analytics; ?>']); 
-        _gaq.push(['b._setDomainName', 'onthehub.com']); 
-        _gaq.push(['b._trackPageview']); 
-        /* TRACK OTH UMBRELLA END */ 
-        
-        (function() { var ga = document.createElement('script'); 
-        ga.type = 'text/javascript'; 
-        ga.async = true; 
-        
-        // Use this until we have changed our privacy Policy
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        // Replace the line above with this once the provacy policy is in place for
-        // ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; 
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
-    </script>
-    <!-- END GOOGLE UMBRELLA ANALYTICS -->
 
     <!-- ADROLL (STARTS) -->
     <script type="text/javascript">
@@ -95,8 +61,6 @@
         try { 
         // NEW Analytics command
         ga('send', 'event', category, action, label);
-        // OLD Analytics command for OTH Umbrella
-        _gaq.push(['_trackEvent', category, action, label]);
         $('html, body').animate({scrollTop:$(link).position().top - 50 }, 'slow');
         } catch(err){}
       }
@@ -107,8 +71,6 @@
         try { 
         // NEW Analytics command
         ga('send', 'event', category, action, label);
-        // OLD Analytics command for OTH Umbrella
-        _gaq.push(['_trackEvent', category, action, label]);
         } catch(err){}
          
         setTimeout(function() {

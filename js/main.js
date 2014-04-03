@@ -1,8 +1,15 @@
 $(document).ready(function(){
-	
-	for (var i=0; i<2000; i++) {
-	    $("#diagonal").append("<div></div>")
-	 }
+
+	/*--------------------
+
+	Close off-canvas on link click
+
+	--------------------*/
+
+
+	$(".off-canvas-list a").on("click.toggleCanvas", function(){
+		$(".exit-off-canvas").click();
+	});
 
 	/*--------------------
 
@@ -147,10 +154,6 @@ $(document).ready(function(){
 	function scrollAnalytics (type, content, direction) {
 		/* NEW Analytics command */
 		ga('send', 'event', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content);
-
-		/* OLD Analytics command for OTH Umbrella */
-		_gaq.push(['_trackEvent', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content]);
-		_gaq.push(['b._trackEvent', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content]);
 	}
 
 });

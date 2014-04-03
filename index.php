@@ -10,7 +10,6 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/jquery.form.js"></script>    
     <script src="js/viewport.js"></script>
-    <script src="js/jquery.queryloader2.min.js" type="text/javascript"></script>
     <?php 
         /* SETTING GLOBAL VARIABLES - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED */
         

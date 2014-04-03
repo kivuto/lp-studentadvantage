@@ -155,7 +155,6 @@ $(document).ready(function(){
 	function scrollAnalytics (type, content, direction) {
 		/* NEW Analytics command */
 		ga('send', 'event', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content);
-		console.log('The ' + content +' block was seen ' + type + 'ly');
 	}
 
 });

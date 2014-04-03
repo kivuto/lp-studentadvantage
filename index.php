@@ -12,11 +12,7 @@
     <script src="js/viewport.js"></script>
     <?php 
         /* SETTING GLOBAL VARIABLES - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED */
-        
-        /* GOOGLE ANALYTICS */
-        $umbrella_Analytics = 'UA-2768482-2'; 
-        $umbrella_OTH_Analytics = 'UA-2768482-14'; 
-        $universal_Analytics = 'UA-2768482-18'; 
+      
         /* ADROLL */
         $adroll_adv_id = "5PZOOOB6OBGIJBTDEWGIMN"; 
         $adroll_pixel_id = "SJGXS4L7WFBZ5AYQ4WKSK7"; 

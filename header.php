@@ -13,13 +13,13 @@
           <!-- Left Nav Section -->
             <ul class="center">
               <li><img src="img/kvt-logo.png" alt="Kivuto Solutions"></li>
-              <li><a data-block="<?php echo $block1; ?>" onclick="tib('.content-introduction', '', '', '');">Intro</a></li>
-              <li><a data-block="<?php echo $block2; ?>" onclick="tib('.content-challenges', '', '', '');">Challenges</a></li>
-              <li><a data-block="<?php echo $block3; ?>" onclick="tib('.content-solution', '', '', '');">Solution</a></li>
-              <li><a data-block="<?php echo $block4; ?>" onclick="tib('.content-resources', '', '', '');">Resources</a></li>
-              <li><a data-block="<?php echo $block5; ?>" onclick="tib('.content-pricing', '', '', '');">Pricing</a></li>
-              <li><a data-block="<?php echo $block6; ?>" onclick="tib('.content-email', '', '', '');">Let's talk</a></li>
-              <li><a data-block="<?php echo $block7; ?>" onclick="tib('.content-customers', '', '', '');">Customers</a></li>
+              <li><a onclick="tib('.content-introduction', '', '', '');">Intro</a></li>
+              <li><a onclick="tib('.content-challenges', '', '', '');">Challenges</a></li>
+              <li><a onclick="tib('.content-solution', '', '', '');">Solution</a></li>
+              <li><a onclick="tib('.content-resources', '', '', '');">Resources</a></li>
+              <li><a onclick="tib('.content-pricing', '', '', '');">Pricing</a></li>
+              <li><a onclick="tib('.content-email', '', '', '');">Let's talk</a></li>
+              <li><a onclick="tib('.content-customers', '', '', '');">Customers</a></li>
             </ul>
       </section>
     </div>  

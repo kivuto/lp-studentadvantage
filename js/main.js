@@ -117,16 +117,17 @@ $(document).ready(function(){
 			scrollAnalytics('Total', $(this).attr('data-block'), direction); // TOTAL VIEWS
 		}
 	},{
-		offset: function() { return -$(this).height(); }  // Only fires the waypoint at the BOTTOM of the content section 
+		// Only fires the waypoint at the BOTTOM of the content section 
+		offset: function() { return -$(this).height(); }  
     })
     .waypoint(function(direction) 
     {
-		if(direction === 'up')
-		{
-			scrollAnalytics('Total', $(this).attr('data-block'), direction); // TOTAL VIEWS
+		if(direction === 'up') {
+			// TOTAL VIEWS
+			scrollAnalytics('Total', $(this).attr('data-block'), direction); 
 		}
-		// THIS IS A SPECIAL CASE TO TRACK THE MINITAB BLOCK, AS THE BOTTOM CANNOT HIT TOP OF VIEWPORT
-		if(direction === 'down' && $(this).attr('data-block') === 'Lets talk') 
+		// THIS IS A SPECIAL CASE TO TRACK THE LETS TALK BLOCK, AS THE BOTTOM CANNOT HIT TOP OF VIEWPORT
+		if(direction === 'down' && $(this).attr('data-block') === "Let's talk") 
 		{
 			un = $(this).attr('data-block');
 			if(i[un] === 0){  scrollAnalytics('Unique', $(this).attr('data-block'), direction);  } // UNIQUE VIEWS
@@ -135,11 +136,11 @@ $(document).ready(function(){
 			scrollAnalytics('Total', $(this).attr('data-block'), direction); // TOTAL VIEWS
 		}
 	})
-	///////// THIS IS A SPECIAL CASE TO TRACK THE FINAL BLOCK, AS THE TOP CANNOT HIT TOP OF VIEWPORT///////
 	.waypoint(function(direction) 
 	{
-		if(direction === 'down' && $(this).attr('data-block') === 'Customers') 
-		{
+		///////// THIS IS A SPECIAL CASE TO TRACK THE FINAL BLOCK, AS THE TOP CANNOT HIT TOP OF VIEWPORT///////
+		if(direction === 'down' && $(this).attr('data-block') === 'Customers') {
+
 			un = $(this).attr('data-block');
 			if(i[un] === 0){ scrollAnalytics('Unique', $(this).attr('data-block'), direction); }  // UNIQUE VIEWS
 			i[un]  += 1;
@@ -154,6 +155,7 @@ $(document).ready(function(){
 	function scrollAnalytics (type, content, direction) {
 		/* NEW Analytics command */
 		ga('send', 'event', 'Student Advantage LP', 'Student Advantage LP - Content seen (' + type + ')', 'Student Advantage LP - Content seen - ' + content);
+		console.log('The ' + content +' block was seen ' + type + 'ly');
 	}
 
 });

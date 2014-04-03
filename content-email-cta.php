@@ -19,6 +19,10 @@
                       <input type="hidden" name="EmailElement_0[label]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[type]" value="Email" style="color: rgb(68, 68, 68);">
                       <input type="hidden" name="EmailElement_0[column]" value="email" style="color: rgb(68, 68, 68);">
+                      <textarea data-chartype="all" type="text" class="input " id="TextBoxElement_0_input" name="TextBoxElement_0[value]" data-minlimit="0" maxlength="1000" placeholder="Institution Name"></textarea>
+                      <input type="hidden" name="TextBoxElement_0[label]" value="Institution Name" style="color: rgb(68, 68, 68);">
+                      <input type="hidden" name="TextBoxElement_0[type]" value="Paragraph" style="color: rgb(68, 68, 68);">
+                      <input type="hidden" name="TextBoxElement_0[column]" value="none" style="color: rgb(68, 68, 68);">
                       <input class="button" type="submit" id="SubmitElement_0_input" name="SubmitElement_0" value="Submit">
                   </form>
               </div> 

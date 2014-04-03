@@ -636,7 +636,7 @@ nav.subHeader {
 	@include block-font-color(#FFF);  
 
 	// INPUT STYLING
-	input {
+	input, textarea {
 	    background: #F37022;
 	    border: 2px solid #FFF;
 	    color: #FFF;
@@ -658,7 +658,7 @@ nav.subHeader {
 	     -webkit-box-shadow: 0 0px 0 0 #FFF !important;
 	     box-shadow: 0 0px 0 0 #FFF !important;
 	}
-	input:focus {
+	input:focus, textarea:focus {
 		background: #F37022;
 	    border: 2px solid #FFF;
 	}
@@ -677,13 +677,13 @@ nav.subHeader {
 	      		width: 95%; 
 				padding-top: 0.70rem !important;
 	      	}
-			input { width: 97% !important; }
+			input, textarea { width: 97% !important; }
 	    }
 
 		// MED SCREENS AND UP //
 		@media only screen and (min-width: 40.063em) {
 			.button {  width: 40%; }
-			input { width: 50% !important; }
+			input, textarea { width: 50% !important; }
 
 			// TEXT PADDING //
 			h1 { padding-bottom: 30px; }

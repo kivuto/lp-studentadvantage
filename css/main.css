@@ -496,7 +496,7 @@ nav.subHeader {
   transition: all 1s ease-in-out; }
 .content-email h1, .content-email h2, .content-email h3, .content-email p {
   color: white !important; }
-.content-email input {
+.content-email input, .content-email textarea {
   background: #F37022;
   border: 2px solid #FFF;
   color: #FFF;
@@ -514,7 +514,7 @@ nav.subHeader {
   moz-box-shadow: 0 0px 0 0 #FFF !important;
   -webkit-box-shadow: 0 0px 0 0 #FFF !important;
   box-shadow: 0 0px 0 0 #FFF !important; }
-.content-email input:focus {
+.content-email input:focus, .content-email textarea:focus {
   background: #F37022;
   border: 2px solid #FFF; }
 .content-email ::-webkit-input-placeholder {
@@ -530,12 +530,12 @@ nav.subHeader {
     height: 50px !important;
     width: 95%;
     padding-top: 0.70rem !important; }
-  .content-email input {
+  .content-email input, .content-email textarea {
     width: 97% !important; } }
 @media only screen and (min-width: 40.063em) {
   .content-email .button {
     width: 40%; }
-  .content-email input {
+  .content-email input, .content-email textarea {
     width: 50% !important; }
   .content-email h1 {
     padding-bottom: 30px; }

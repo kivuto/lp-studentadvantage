@@ -21,7 +21,7 @@
 
     AND
 
-    THIS PAGE IS BUILT USING FOUNDATION 4
+    THIS PAGE IS BUILT USING FOUNDATION 5
 
 \*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
 
@@ -204,7 +204,10 @@ h1, h3, .button span {
 			}
 		}
 		// REMOVAL OF PADDING 
-		.container { padding: 0px 0px; }
+		.container { 
+			padding: 0px 0px; 
+
+		}
 
 		p { font-size: 14px; }
 		h1 { font-size: 25px !important;  }
@@ -354,6 +357,16 @@ div#at4m-dock.ats-transparent {
 .top-bar-section ul {display: table; margin: 0 auto;}
 .top-bar-section ul li {display: table-cell;}
 
+.inner-wrap,
+.offHeader {
+  transition: transform 500ms ease;
+}
+
+.move-right > .inner-wrap,
+.move-right > .offHeader {
+  transform: translate3d(250px, 0, 0);
+}
+
 
 nav.subHeader {
 	background-color: $sub-header-color !important;
@@ -363,6 +376,7 @@ nav.subHeader {
 	// HOVER COLORS
 	.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) {
 		background: $sub-header-color;
+		@include css-transition(all, 200ms, ease-in-out); 
 		color: #000;
 	}
 	.top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button) .active {
@@ -395,7 +409,6 @@ nav.subHeader {
 .content-introduction {
 	padding: 0px !important;
 	@include block-font-color(#FFF);
-	background-image: url('img/video-placeholder.png');
 	video, img  { width: 100%; }
 
 	// POSITIONING VIDEO OVER IMAGE
@@ -544,8 +557,19 @@ nav.subHeader {
 		// MOBILE //
 	    @media screen and (max-width: 40em) {
 	      	background-image: url('../img/businessmen-mobile.jpg');
-	      	.ovrlay { padding: 25px 20px !important; }
-	    }
+	      	.ovrlay { padding: 25px 20px !important; min-height: 450px !important;}
+	      	// VERTICALLY CENTERING CONTENT BLOCK 
+			.container {
+				padding: 0px 20px !important; 
+				position: absolute;
+			    top: 50%; left: 50%;
+			    width: 100%;
+			    -webkit-transform: translate(-50%,-50%);
+			        -ms-transform: translate(-50%,-50%);
+			            transform: translate(-50%,-50%);
+			}
+			.button.ctaBtn { margin-top: 15px; }
+	    }	
 
 	    // MEDIUM  AND UP //
 		@media only screen and (min-width: 40.063em) {
@@ -601,7 +625,20 @@ nav.subHeader {
 
 		// MOBILE //
 	    @media screen and (max-width: 40em) {
-	      	.button {  width: 95%; }
+	      	.button {  
+	      		width: 95%; 
+	      		margin-top: 15px;
+	      	}
+	      	min-height: 450px !important;
+	      	.container {
+				padding: 0px 20px !important; 
+				position: absolute;
+			    top: 50%; left: 50%;
+			    width: 100%;
+			    -webkit-transform: translate(-50%,-50%);
+			        -ms-transform: translate(-50%,-50%);
+			            transform: translate(-50%,-50%);
+			}
 	    }
 
 	    // MEDIUM  AND UP //

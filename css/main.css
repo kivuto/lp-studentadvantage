@@ -19,7 +19,7 @@
 
     AND
 
-    THIS PAGE IS BUILT USING FOUNDATION 4
+    THIS PAGE IS BUILT USING FOUNDATION 5
 
 \*--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--*/
 /*------------------------------------*\
@@ -288,6 +288,14 @@ div#at4m-dock.ats-transparent {
 .top-bar-section ul li {
   display: table-cell; }
 
+.inner-wrap,
+.offHeader {
+  transition: transform 500ms ease; }
+
+.move-right > .inner-wrap,
+.move-right > .offHeader {
+  transform: translate3d(250px, 0, 0); }
+
 nav.subHeader {
   background-color: white !important;
   box-shadow: 0px 1px 1px #888888; }
@@ -295,6 +303,10 @@ nav.subHeader {
     font-size: 15px !important; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button), nav.subHeader .top-bar-section li:not(.has-form) {
     background: white;
+    webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
     color: #000; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button):hover, nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) .active {
     background: #F27120;
@@ -314,8 +326,7 @@ nav.subHeader {
       b. INTRODUCTION BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-introduction {
-  padding: 0px !important;
-  background-image: url("img/video-placeholder.png"); }
+  padding: 0px !important; }
   .content-introduction h1, .content-introduction h2, .content-introduction h3, .content-introduction p {
     color: white !important; }
   .content-introduction video, .content-introduction img {
@@ -434,7 +445,19 @@ nav.subHeader {
     .content-resources {
       background-image: url("../img/businessmen-mobile.jpg"); }
       .content-resources .ovrlay {
-        padding: 25px 20px !important; } }
+        padding: 25px 20px !important;
+        min-height: 450px !important; }
+      .content-resources .container {
+        padding: 0px 20px !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+      .content-resources .button.ctaBtn {
+        margin-top: 15px; } }
   @media only screen and (min-width: 40.063em) {
     .content-resources {
       min-height: 650px !important; }
@@ -471,8 +494,20 @@ nav.subHeader {
 .content-pricing h1, .content-pricing h2, .content-pricing h3, .content-pricing p {
   color: white !important; }
 @media screen and (max-width: 40em) {
-  .content-pricing .button {
-    width: 95%; } }
+  .content-pricing {
+    min-height: 450px !important; }
+    .content-pricing .button {
+      width: 95%;
+      margin-top: 15px; }
+    .content-pricing .container {
+      padding: 0px 20px !important;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); } }
 @media only screen and (min-width: 40.063em) {
   .content-pricing img {
     padding-bottom: 30px; }

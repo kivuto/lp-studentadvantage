@@ -4,13 +4,16 @@ $(document).ready(function(){
 	FancyBox Init
 
 	--------------------*/
-	$('.fancybox-media').fancybox({
-		openEffect  : 'none',
-		closeEffect : 'none',
-		helpers : {
-			media : {}
-		}
+	
+	$(".vimeo").fancybox({
+	  type: 'iframe',
+	  fitToView : true,
+	  autoSize: true,
+	  helpers: {
+            media: {}
+        }
 	});
+	
 
 	/*--------------------
 

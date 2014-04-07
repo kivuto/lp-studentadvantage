@@ -89,6 +89,12 @@ h1, h3, .button span {
 /* OVERRIDING LINE HEIGHT FOR MOBILE */
 @media only screen and (max-width: 40em) {
 	p{ line-height: 2.0; }
+
+
+	/* RESIZING THE FANCYBOX IN MOBILE */
+	.fancybox-inner {
+		height: 180px !important;
+	}
 }
 
 /* TAB INDEX STYLES */

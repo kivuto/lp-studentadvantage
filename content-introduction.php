@@ -21,9 +21,9 @@
               <div class="row">
                   <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
-                      <a class="fancybox-media ctaBtn" href="http://vimeo.com/90206008" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
+                      <a class="vimeo ctaBtn" href="//player.vimeo.com/video/91340823" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
                           <div class="button ctaBtn">
-                             <span>Learn More</span>
+                             <span>Watch video</span>
                           </div>
                       </a>
                   </li>

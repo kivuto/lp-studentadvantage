@@ -6,10 +6,12 @@
     <title>Easily Deploy Microsoft Student Advantage | Kivuto Solutions Inc.</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/jquery.form.js"></script>    
     <script src="js/viewport.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
     <?php 
         /* SETTING GLOBAL VARIABLES - CUSOMIZE YOUR ACCOUNTS/VARIABLES AS NEEDED */
       

@@ -1,11 +1,22 @@
 $(document).ready(function(){
+	/*--------------------
+
+	FancyBox Init
+
+	--------------------*/
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
 
 	/*--------------------
 
 	Close off-canvas on link click
 
 	--------------------*/
-
 
 	$(".off-canvas-list a").on("click.toggleCanvas", function(){
 		$(".exit-off-canvas").click();

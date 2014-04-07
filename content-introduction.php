@@ -21,7 +21,7 @@
               <div class="row">
                   <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
-                      <a class="ctaBtn" href="#" target="_blank" onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Learn More'); return false;">
+                      <a class="fancybox-media ctaBtn" href="http://vimeo.com/90206008" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
                           <div class="button ctaBtn">
                              <span>Learn More</span>
                           </div>

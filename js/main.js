@@ -46,17 +46,14 @@ $(document).ready(function(){
 	    		$('.row.email').css("opacity", "0");
 	    		$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -155 +"px)");
 				$('form').css('visibility','hidden');
+				// Track the successful clickthrough
+				tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Email - Submit');
 			}else{
 				return true;
 			}
 			// End if Cors
 		
-			function asyncSubmit(selector){
-				var formTarget = $(selector).attr("action");
-
-				$.post(formTarget, $(selector).serialize());
-			}
-			// end async
+		
 
 		}else{
 			$('#EmailElement_0_input').animate({
@@ -71,6 +68,12 @@ $(document).ready(function(){
 	});
 	// end on click
 
+	function asyncSubmit(selector){
+		var formTarget = $(selector).attr("action");
+
+		$.post(formTarget, $(selector).serialize());
+	}
+	// end async
 
 	/* not working so hot */
 

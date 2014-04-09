@@ -1,6 +1,7 @@
   <div class="row mainContent content-introduction content-overlay-video" data-block="<?php echo $block1; ?>">
       <video autoplay muted loop class="show-for-medium-up" poster="img/video-placeholder.jpg">
-        <source src="http://www.kivuto.com/docs/introduction_video.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+        <source src="http://www.kivuto.com/docs/introduction_video.mp4" class="show-for-large-up"type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+        <source class="show-for-medium-only" src="http://www.kivuto.com/docs/introduction_video_tablet.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
         <source src="http://www.kivuto.com/docs/introduction_video.ogg" type="video/ogg">
         <source src="http://www.kivuto.com/docs/introduction_video.webm" type="video/webm">  
       </video>   

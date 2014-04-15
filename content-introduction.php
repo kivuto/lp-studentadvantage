@@ -4,7 +4,6 @@
         <source src="http://www.kivuto.com/docs/introduction_video.ogg" type="video/ogg">
         <source src="http://www.kivuto.com/docs/introduction_video.webm" type="video/webm">  
       </video>   
-       
       <img src="img/video-placeholder.jpg">
       <div class="ovrlay">
           <div class="container">

@@ -1,4 +1,4 @@
-  <div class="row mainContent content-challenges headline-circles-orbitslider" data-block="<?php echo $block2; ?>">
+  <div id="challenges" class="row mainContent content-challenges headline-circles-orbitslider" data-block="<?php echo $block2; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">

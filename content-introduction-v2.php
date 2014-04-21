@@ -9,7 +9,7 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                        <h1>Simplify Management of <br/>Microsoft Student Advantage</h1>
+                        <h1>Office 365 deployments,<br/>made easy</h1>
                   </div> 
               </div> 
               <div class="row hide-for-mobile">

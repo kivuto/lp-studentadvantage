@@ -402,7 +402,8 @@ nav.subHeader {
       .content-introduction .button {
         width: 30%; }
       .content-introduction h1 {
-        padding-bottom: 30px; }
+        padding-bottom: 30px;
+        font-size: 65px; }
       .content-introduction p {
         padding-bottom: 40px;
         font-size: 25px !important; } }

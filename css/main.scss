@@ -496,8 +496,11 @@ nav.subHeader {
 		.container { padding: 50px 100px !important;} 
 		.button { width: 30%; }
 		min-height: 0 !important;
-		// TEXT PADDING //
-		h1 { padding-bottom: 30px; }
+		// TEXT STYLING //
+		h1 { 
+			padding-bottom: 30px; 
+			font-size: 65px;
+		}
 		p { padding-bottom: 40px; font-size: 25px !important;}
 	}
 

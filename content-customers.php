@@ -1,4 +1,4 @@
-  <div id="customers" class="row mainContent content-customers headline-circles-orbitslider" data-block="<?php echo $block7; ?>">
+  <div id="<?php echo $block7; ?>" class="row mainContent content-customers headline-circles-orbitslider" data-block="<?php echo $block7; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">

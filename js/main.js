@@ -42,12 +42,15 @@ $(document).ready(function(){
 			if($.support.cors){
 				e.preventDefault();
 				asyncSubmit("form");
+				console.log('Should have been animated innerHTML');
 				$('.email input.button').css("opacity", "0");
 	    		$('.row.email').css("opacity", "0");
 	    		$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -155 +"px)");
 				$('form').css('visibility','hidden');
 				// Track the successful clickthrough
 				tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Email - Submit');
+				document.getElementById('twitter-pixel').innerHTML = '<script src="//platform.twitter.com/oct.js" type="text/javascript"></script><script type="text/javascript">twttr.conversion.trackPid("l4f2m");</script><noscript><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4f2m&p_id=Twitter" /><img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4f2m&p_id=Twitter" /></noscript>';
+				    console.log('Should have added innerHTML');
 			}else{
 				return true;
 			}

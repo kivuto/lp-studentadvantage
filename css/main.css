@@ -113,12 +113,15 @@ h1, h3, .button span {
   background-color: white; }
 
 .mainContent:nth-of-type(5) {
-  background-color: #9ad3b3; }
+  background-color: white; }
 
 .mainContent:nth-of-type(6) {
-  background-color: #f37022; }
+  background-color: #9ad3b3; }
 
 .mainContent:nth-of-type(7) {
+  background-color: #f37022; }
+
+.mainContent:nth-of-type(8) {
   background-color: white; }
 
 /* STICKY SUB HEADER STYLING */
@@ -149,7 +152,7 @@ h1, h3, .button span {
   padding: 45px 20px;
   position: relative; }
   .row.mainContent .button {
-    background-color: #FFF !important;
+    background-color: #FFF;
     webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -430,7 +433,92 @@ nav.subHeader {
     padding-bottom: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      e. RESOURCES BLOCk
+      e. WEBCAST BLOCk
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-webcast {
+  padding: 0px !important; }
+  .content-webcast h1, .content-webcast h2, .content-webcast h3, .content-webcast p {
+    color: #282828 !important; }
+  .content-webcast video, .content-webcast img {
+    width: 100%; }
+  .content-webcast img {
+    position: relative;
+    z-index: -1; }
+  .content-webcast video {
+    position: absolute; }
+  .content-webcast .ovrlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .content-webcast .container {
+    position: relative;
+    color: #fff;
+    padding: 50px 100px;
+    text-align: left !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .content-webcast .button {
+    background-color: #282828 !important;
+    padding: 20px 20px !important; }
+    .content-webcast .button span {
+      color: #FFF; }
+  .content-webcast .button:hover {
+    background-color: #3F3A39 !important; }
+  @media screen and (max-width: 40em) {
+    .content-webcast img {
+      min-height: 250px; }
+    .content-webcast .container {
+      padding: 50px 50px;
+      text-align: center !important; }
+      .content-webcast .container h1 {
+        font-size: 20px !important;
+        padding: 10px 0px; }
+    .content-webcast .button {
+      width: 50%; } }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .content-webcast {
+      min-height: 0 !important; }
+      .content-webcast h1 {
+        font-size: 30px; }
+      .content-webcast p {
+        font-size: 15px; }
+      .content-webcast span {
+        font-size: 21px !important; }
+      .content-webcast h1 {
+        padding-bottom: 20px; }
+      .content-webcast p {
+        padding-bottom: 25px;
+        font-size: 15px !important;
+        width: 50%; }
+      .content-webcast .button {
+        width: 30%; } }
+  @media only screen and (min-width: 64em) {
+    .content-webcast {
+      min-height: 0 !important; }
+      .content-webcast .ovrlay {
+        padding: 85px 20px; }
+      .content-webcast .container {
+        padding: 50px 100px !important; }
+      .content-webcast .button {
+        width: 30%; }
+      .content-webcast h1 {
+        padding-bottom: 30px;
+        font-size: 45px; }
+      .content-webcast p {
+        padding-bottom: 40px;
+        font-size: 15px !important;
+        width: 60%; } }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      f. RESOURCES BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-resources {
   background-image: url("../img/businessmen-desktop.jpg");
@@ -492,7 +580,7 @@ nav.subHeader {
       background-image: url("../img/businessmen-xldesktop.jpg"); } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      f. PRICING BLOCK
+      g. PRICING BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing .button span {
   color: #9AD3B3; }
@@ -525,7 +613,7 @@ nav.subHeader {
     padding-bottom: 40px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. EMAIL BLOCK
+      h. EMAIL BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-email .button span {
   color: #F37022; }
@@ -588,7 +676,7 @@ nav.subHeader {
     padding-bottom: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      h. CUSTOMERS BLOCk
+      i. CUSTOMERS BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-customers {
   /* MED SCREENS AND UP*/
@@ -607,8 +695,8 @@ nav.subHeader {
       i. FOOTER
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 footer {
-  /* MOBILE */ }
-  @media screen and (max-width: 40em) {
+  /* MOBILE and MEDIUM */ }
+  @media screen and (max-width: 64em) {
     footer .wrapper {
       padding-bottom: 45px !important; } }
 

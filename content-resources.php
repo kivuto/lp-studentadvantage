@@ -1,5 +1,5 @@
 
-  <div id="<?php echo $block4; ?>" class="row mainContent content-resources headline-circles-orbitslider" data-block="<?php echo $block4; ?>">
+  <div id="<?php echo $block5; ?>" class="row mainContent content-resources headline-circles-orbitslider" data-block="<?php echo $block5; ?>">
       <div class="ovrlay" style="background: rgba(0,0,0,0.6);">
             <div class="container">
                 <div class="row">

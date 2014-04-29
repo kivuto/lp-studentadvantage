@@ -43,9 +43,10 @@ $block1-color: #FFF;
 $block2-color: #F37022;
 $block3-color: #EBEBEB;
 $block4-color: #FFF;
-$block5-color: #9AD3B3;
-$block6-color: #F37022;
-$block7-color: #FFF;
+$block5-color: #FFF;
+$block6-color: #9AD3B3;
+$block7-color: #F37022;
+$block8-color: #FFF;
 
 // Mix in for transitions
 @mixin css-transition($attribute, $duration, $type) {
@@ -135,6 +136,7 @@ h1, h3, .button span {
 .mainContent:nth-of-type(5){ background-color: $block5-color; }
 .mainContent:nth-of-type(6){ background-color: $block6-color; }
 .mainContent:nth-of-type(7){ background-color: $block7-color; }
+.mainContent:nth-of-type(8){ background-color: $block8-color; }
 
 
 /* STICKY SUB HEADER STYLING */
@@ -171,7 +173,7 @@ h1, h3, .button span {
 
 	// BUTTON STYLING
 	.button {
-		background-color: #FFF !important; 
+		background-color: #FFF; 
 		@include css-transition(all, 0.3s, ease-in-out); 
 		height: 50px;
 		padding-top: 0.60rem !important;
@@ -542,8 +544,117 @@ nav.subHeader {
 
 }
 
+
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      e. RESOURCES BLOCk
+      e. WEBCAST BLOCk
+~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.content-webcast {
+	padding: 0px !important;
+	@include block-font-color(#282828);
+	video, img  { width: 100%; }
+	
+	// POSITIONING VIDEO OVER IMAGE
+	img {
+		position: relative;
+		z-index: -1;
+	}
+	video {
+		position: absolute;
+	}
+
+	// GREY OVERLAY ON VIDEO BG
+	.ovrlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	// VERTICALLY ALIGN CONTENT
+	.container {
+		position: relative;
+		color: #fff;
+		padding: 50px 100px;
+		text-align: left !important;
+		position: absolute;
+		top: 50%; left: 50%;
+		width: 100%;
+	    -webkit-transform: translate(-50%,-50%);
+	        -ms-transform: translate(-50%,-50%);
+	            transform: translate(-50%,-50%);
+	}
+
+	// BUTTON STYLING
+	.button { 
+		background-color: #282828 !important;
+		padding: 20px 20px !important;
+		span { color: #FFF; }
+	}
+	.button:hover { background-color: #3F3A39 !important;  }
+
+
+	// ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
+
+	// MOBILE //
+    @media screen and (max-width: 40em) {
+      	img { min-height: 250px; }
+
+      	// TEXT SIZING //
+      	.container { 
+      		padding: 50px 50px; 
+      		text-align: center !important;
+      		h1 { 
+      			font-size: 20px !important; 
+      			padding: 10px 0px; 
+      		}
+      	}
+      	.button { width: 50%; }
+    }
+
+	// MEDIUM SCREENS 
+	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+		// TEXT SIZING //
+		h1 { font-size: 30px; }
+		p { font-size: 15px; }
+		span { font-size: 21px !important; }
+		// SETTING A MINIMUM HEIGHT FOR CONTENT BLOCKS //
+		min-height: 0 !important;
+
+		// TEXT PADDING //
+		h1 { padding-bottom: 20px; }
+		p { 
+			padding-bottom: 25px; 
+			font-size: 15px !important;
+			width: 50%;
+		}
+		.button { width: 30%; }
+	}
+
+	// LARGE SCREENS  
+	@media only screen and (min-width: 64em) {
+		.ovrlay { padding: 85px 20px; }
+		.container { padding: 50px 100px !important;} 
+		.button { width: 30%; }
+		min-height: 0 !important;
+		// TEXT STYLING //
+		h1 { 
+			padding-bottom: 30px; 
+			font-size: 45px;
+		}
+		p { 
+			padding-bottom: 40px; 
+			font-size: 15px !important;
+			width: 60%;
+		}
+	}
+
+
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~
+      f. RESOURCES BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-resources {
 	background-image: url('../img/businessmen-desktop.jpg');
@@ -622,7 +733,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      f. PRICING BLOCK
+      g. PRICING BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing {
 	.button span { color: #9AD3B3; }
@@ -671,7 +782,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      g. EMAIL BLOCK
+      h. EMAIL BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-email {
 	.button span { color: #F37022; }
@@ -745,7 +856,7 @@ nav.subHeader {
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
-      h. CUSTOMERS BLOCk
+      i. CUSTOMERS BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-customers {
 	h1 { 
@@ -774,8 +885,8 @@ footer {
 
   // ~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
-    /* MOBILE */
-    @media screen and (max-width: 40em) {
+    /* MOBILE and MEDIUM */
+    @media screen and (max-width: 64em) {
       .wrapper { padding-bottom: 45px !important; }
     }
     

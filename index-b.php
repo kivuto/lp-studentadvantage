@@ -24,10 +24,11 @@
         $block1 = "Introduction";
         $block2 = "Challenges";
         $block3 = "Solution";
-        $block4 = "Resources";
-        $block5 = "Pricing";
-        $block6 = "Let's talk";
-        $block7 = "Customers";
+        $block4 = "Webcast";
+        $block5 = "Resources";
+        $block6 = "Pricing";
+        $block7 = "Let's talk";
+        $block8 = "Customers";
     ?>
 
   <!-- IE8 Styling fixes -->
@@ -77,28 +78,34 @@
                 include 'content-solution.php';
           ?>
 
-
           <!-- INCLUDE Fourth Band  --> 
+         
+          <?php  
+                include 'content-webcast.php';
+          ?>
+
+
+          <!-- INCLUDE Fifth Band  --> 
          
           <?php  
                 include 'content-resources.php';
           ?>
 
          
-          <!-- INCLUDE Fifth Band -->
+          <!-- INCLUDE Sixth Band -->
          
           <?php  
                 include 'content-pricing.php';
           ?>
 
-          <!-- INCLUDE Sixth Band  --> 
+          <!-- INCLUDE Seventh Band  --> 
          
           <?php  
                 include 'content-email-cta-v2.php';
           ?>
 
 
-          <!-- INCLUDE Sixth Band  --> 
+          <!-- INCLUDE Eigth Band  --> 
          
           <?php  
                 include 'content-customers.php';

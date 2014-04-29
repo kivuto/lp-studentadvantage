@@ -1,5 +1,5 @@
 
-  <div id="<?php echo $block5; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $block5; ?>">
+  <div id="<?php echo $block6; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $block6; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">

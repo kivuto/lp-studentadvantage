@@ -2677,7 +2677,7 @@ h1 {
   font-size: 2.125rem; }
 
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 2.125rem; }
 
 h3 {
   font-size: 1.375rem; }
@@ -2843,7 +2843,7 @@ blockquote p {
     font-size: 2.75rem; }
 
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 2.75rem; }
 
   h3 {
     font-size: 1.6875rem; }
@@ -3726,6 +3726,7 @@ ul.off-canvas-list {
   -ms-transform: translate3d(250px, 0, 0);
   -o-transform: translate3d(250px, 0, 0);
   transform: translate3d(250px, 0, 0); }
+  
 .move-right a.exit-off-canvas {
   -webkit-backface-visibility: hidden;
   transition: background 300ms ease;

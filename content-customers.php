@@ -2,7 +2,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">
-                    <h1>See who's already using our solution</h1>
+                    <h2>See who's already using our solution</h2>
               </div> 
           </div> 
           <div class="row circles show-for-medium-up">

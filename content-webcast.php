@@ -5,7 +5,7 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns">
-                        <h1>See how it all works</h1>
+                        <h2>See how it all works</h2>
                   </div> 
               </div> 
               <div class="row hide-for-mobile">

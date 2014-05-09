@@ -8,7 +8,7 @@
           </div> 
           <div class="row">
               <div class="large-12 columns info center">
-                  <h1>Low and no cost <br/>options available</h1>
+                  <h2>Low and no cost <br/>options available</h2>
               </div> 
           </div>
           <div class="row">

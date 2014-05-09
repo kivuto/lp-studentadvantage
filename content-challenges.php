@@ -2,7 +2,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">
-                    <h1>We eliminate the barriers of O365 deployments</h1>
+                    <h2>We eliminate the barriers of O365 deployments</h2>
                     <p>Under a standard deployment of Student Advantage, the integration requirements with the Microsoft O365 environment and ongoing program management often demands large investments of time and resources that many schools do not want to undertake.</p>
               </div> 
           </div> 

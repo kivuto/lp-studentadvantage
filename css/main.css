@@ -168,9 +168,6 @@ h1, h3, .button span {
     list-style: none; }
   .row.mainContent p, .row.mainContent h1, .row.mainContent h2, .row.mainContent h3 {
     color: #4A4A4A; }
-  .row.mainContent h2 {
-    font-size: 25px;
-    font-weight: bold; }
   @media only screen and (max-width: 40em) {
     .row.mainContent {
       padding: 25px 0px; }
@@ -185,7 +182,7 @@ h1, h3, .button span {
         padding: 0px 0px; }
       .row.mainContent p {
         font-size: 14px; }
-      .row.mainContent h1 {
+      .row.mainContent h1, .row.mainContent h2 {
         font-size: 25px !important; }
       .row.mainContent h2 {
         font-size: 18px; }
@@ -234,7 +231,7 @@ h1, h3, .button span {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .headline-circles-orbitslider {
     min-height: 950px !important; }
-    .headline-circles-orbitslider h1 {
+    .headline-circles-orbitslider h1, .headline-circles-orbitslider h2{
       font-size: 30px; }
     .headline-circles-orbitslider h3 {
       font-size: 20px; }
@@ -374,7 +371,7 @@ nav.subHeader {
       min-height: 250px; }
     .content-introduction .container {
       padding: 50px 50px; }
-      .content-introduction .container h1 {
+      .content-introduction .container h1, .content-introduction .container h2 {
         font-size: 20px !important;
         padding: 10px 0px; }
     .content-introduction .button {
@@ -382,13 +379,13 @@ nav.subHeader {
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-introduction {
       min-height: 0 !important; }
-      .content-introduction h1 {
+      .content-introduction h1, .content-introduction h2 {
         font-size: 30px; }
       .content-introduction p {
         font-size: 15px; }
       .content-introduction span {
         font-size: 21px !important; }
-      .content-introduction h1 {
+      .content-introduction h1, .content-introduction h2  {
         padding-bottom: 20px; }
       .content-introduction p {
         padding-bottom: 25px;
@@ -404,7 +401,7 @@ nav.subHeader {
         padding: 50px 100px !important; }
       .content-introduction .button {
         width: 30%; }
-      .content-introduction h1 {
+      .content-introduction h1, .content-introduction h2  {
         padding-bottom: 30px;
         font-size: 65px; }
       .content-introduction p {
@@ -419,7 +416,7 @@ nav.subHeader {
 .content-challenges .orbit-container .orbit-timer {
   display: none; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .content-challenges h1 {
+  .content-challenges h1, .content-introduction h2  {
     padding-top: 40px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
@@ -429,8 +426,12 @@ nav.subHeader {
   .content-solution {
     min-height: 700px !important; } }
 @media only screen and (min-width: 40.063em) {
-  .content-solution h2 {
-    padding-bottom: 20px; } }
+  .content-solution h3 {
+    font-size: 25px;
+    padding-bottom: 20px; } 
+  .content-solution .orbit-container h3{
+    font-size: 15px;
+    padding-bottom: 0px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       e. WEBCAST BLOCk
@@ -478,7 +479,7 @@ nav.subHeader {
     .content-webcast .container {
       padding: 50px 50px;
       text-align: center !important; }
-      .content-webcast .container h1 {
+      .content-webcast .container h1, .content-webcast .container h2 {
         font-size: 20px !important;
         padding: 10px 0px; }
     .content-webcast .button {
@@ -486,13 +487,13 @@ nav.subHeader {
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .content-webcast {
       min-height: 0 !important; }
-      .content-webcast h1 {
+      .content-webcast h1, .content-webcast .container h2 {
         font-size: 30px; }
       .content-webcast p {
         font-size: 15px; }
       .content-webcast span {
         font-size: 21px !important; }
-      .content-webcast h1 {
+      .content-webcast h1, .content-webcast h2 {
         padding-bottom: 20px; }
       .content-webcast p {
         padding-bottom: 25px;
@@ -509,7 +510,7 @@ nav.subHeader {
         padding: 50px 100px !important; }
       .content-webcast .button {
         width: 30%; }
-      .content-webcast h1 {
+      .content-webcast h1, .content-webcast h2 {
         padding-bottom: 30px;
         font-size: 45px; }
       .content-webcast p {
@@ -556,7 +557,7 @@ nav.subHeader {
       min-height: 650px !important; }
       .content-resources .ovrlay {
         min-height: 650px; }
-      .content-resources h1 {
+      .content-resources h1, .content-resources h2 {
         padding-bottom: 30px; }
       .content-resources p {
         padding-bottom: 10px;
@@ -566,7 +567,7 @@ nav.subHeader {
       .content-resources [class*="block-grid-"] .button {
         min-width: 100%; } }
   @media only screen and (min-width: 64em) {
-    .content-resources h1 {
+    .content-resources h1, .content-resources h2 {
       padding-bottom: 40px; }
     .content-resources p {
       padding-bottom: 10px;
@@ -604,12 +605,12 @@ nav.subHeader {
 @media only screen and (min-width: 40.063em) {
   .content-pricing img {
     padding-bottom: 30px; }
-  .content-pricing h1 {
+  .content-pricing h1, .content-pricing h2 {
     padding-bottom: 30px; } }
 @media only screen and (min-width: 64em) {
   .content-pricing img {
     padding-bottom: 30px; }
-  .content-pricing h1 {
+  .content-pricing h1, .content-pricing h2 {
     padding-bottom: 40px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
@@ -665,12 +666,12 @@ nav.subHeader {
     width: 40%; }
   .content-email input, .content-email textarea {
     width: 50% !important; }
-  .content-email h1 {
+  .content-email h1, .content-email h2 {
     padding-bottom: 30px; }
   .content-email p {
     padding-bottom: 15px; } }
 @media only screen and (min-width: 64em) {
-  .content-email h1 {
+  .content-email h1, .content-email h2 {
     padding-bottom: 40px; }
   .content-email p {
     padding-bottom: 20px; } }
@@ -681,7 +682,7 @@ nav.subHeader {
 .content-customers {
   /* MED SCREENS AND UP*/
   /* LARGE */ }
-  .content-customers h1 {
+  .content-customers h2 {
     color: #F37022 !important;
     font-size: 30px !important; }
   @media only screen and (min-width: 40.063em) {

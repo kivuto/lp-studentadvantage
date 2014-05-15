@@ -48,6 +48,9 @@ $block6-color: #9AD3B3;
 $block7-color: #F37022;
 $block8-color: #FFF;
 
+// Total number of blocks
+$numBlocks: 8;
+
 // Mix in for transitions
 @mixin css-transition($attribute, $duration, $type) {
   webkit-transition: $attribute $duration $type;
@@ -59,6 +62,7 @@ $block8-color: #FFF;
 @mixin block-font-color($color) {
 	h1, h2, h3, p { color: $color !important; }
 }
+
 
 /*----------------------------------------------------------*\
 
@@ -126,6 +130,11 @@ h1, h3, .button span {
 .row .container {
 	max-width: 1280px !important;
 	margin: 0 auto;
+}
+
+
+@for $i from 1 to 8 {
+	.mainContent:nth-of-type(#{$i}){ background-color: $block#{$i}-color; }
 }
 
 /* SETTING CONTENT BLOCKS BACKGROUND COLOR */

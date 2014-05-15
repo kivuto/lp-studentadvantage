@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="large-12 columns info center">
-                          <h1>Find out more about our solution</h1>
+                          <h2>Find out more about our solution</h2>
                     </div> 
                 </div> 
                 <div class="row circles show-for-medium-up">

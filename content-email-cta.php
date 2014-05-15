@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <h1>Let's talk</h1>
+                    <h2>Let's talk</h2>
               </div> 
           </div> 
           <div class="row">

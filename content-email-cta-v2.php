@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <h1>Contact us for a free demo</h1>
+                    <h2>Contact us for a free demo</h2>
               </div> 
           </div> 
           <div class="row email">

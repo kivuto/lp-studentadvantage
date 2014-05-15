@@ -133,10 +133,6 @@ h1, h3, .button span {
 }
 
 
-@for $i from 1 to 8 {
-	.mainContent:nth-of-type(#{$i}){ background-color: $block#{$i}-color; }
-}
-
 /* SETTING CONTENT BLOCKS BACKGROUND COLOR */
 .mainContent:nth-of-type(1){ background-color: $block1-color; }
 .mainContent:nth-of-type(2){ background-color: $block2-color; }

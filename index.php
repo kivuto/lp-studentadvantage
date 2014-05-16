@@ -65,7 +65,6 @@
 
   <body>
   <div class="off-canvas-wrap">
-      <div class="inner-wrap">
 
           <!-- INCLUDE Header -->
          
@@ -73,6 +72,7 @@
                 include 'header.php';
           ?>
          
+      <div class="inner-wrap">
 
           <!-- INCLUDE First Band  --> 
          

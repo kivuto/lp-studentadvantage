@@ -119,6 +119,9 @@ $(document).ready(function(){
 
 	--------------------*/
 
+	// Determining the second last and last blocks
+	var lastblock = $(".mainContent").eq(-1).attr('data-block');
+	var secondlblock = $(".mainContent").eq(-2).attr('data-block');
 	
 
 	// Create Array for unique 
@@ -147,7 +150,7 @@ $(document).ready(function(){
 			scrollAnalytics('Total', $(this).attr('data-block'), direction); 
 		}
 		// THIS IS A SPECIAL CASE TO TRACK THE LETS TALK BLOCK, AS THE BOTTOM CANNOT HIT TOP OF VIEWPORT
-		if(direction === 'down' && $(this).attr('data-block') === "Let's talk") 
+		if(direction === 'down' && $(this).attr('data-block') === secondlblock) 
 		{
 			un = $(this).attr('data-block');
 			if(i[un] === 0){  scrollAnalytics('Unique', $(this).attr('data-block'), direction);  } // UNIQUE VIEWS
@@ -159,7 +162,7 @@ $(document).ready(function(){
 	.waypoint(function(direction) 
 	{
 		///////// THIS IS A SPECIAL CASE TO TRACK THE FINAL BLOCK, AS THE TOP CANNOT HIT TOP OF VIEWPORT///////
-		if(direction === 'down' && $(this).attr('data-block') === 'Customers') {
+		if(direction === 'down' && $(this).attr('data-block') === lastblock) {
 
 			un = $(this).attr('data-block');
 			if(i[un] === 0){ scrollAnalytics('Unique', $(this).attr('data-block'), direction); }  // UNIQUE VIEWS

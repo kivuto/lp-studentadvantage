@@ -4,8 +4,7 @@ $(document).ready(function(){
 	FancyBox Init
 
 	--------------------*/
-	
-	$(".vimeo").fancybox({
+	$(".savideo").fancybox({
 	  type: 'iframe',
 	  fitToView : true,
 	  autoSize: true,

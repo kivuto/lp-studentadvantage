@@ -5,7 +5,6 @@ $(document).ready(function(){
 
 	--------------------*/
 	$(".savideo").fancybox({
-	  type: 'iframe',
 	  fitToView : true,
 	  autoSize: true,
 	  helpers: {

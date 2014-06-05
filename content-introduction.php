@@ -20,7 +20,7 @@
               <div class="row">
                   <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
                   <li>
-                      <a class="savideo ctaBtn" href="//player.vimeo.com/video/91340823" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
+                      <a class="ctaBtn savideo fancybox.iframe" href="http://www.youtube.com/embed/yW6PzAl8Hwg?autoplay=1" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
                           <div class="button ctaBtn">
                              <span>Watch video</span>
                           </div>

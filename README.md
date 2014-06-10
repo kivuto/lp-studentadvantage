@@ -7,7 +7,6 @@ Landing Page for Student Advantage done by Kivuto Solutions Inc.
 
 As of 28/05/2014 there is currently A/B tests undergoing on the LP. This is facilitated through an `index-b.php` which includes certain blocks that also have a `-b.php` suffix. These `b` pages have slightly altered content and/or structure.
 
-* A/B Testing active; changes must be made to both pages when editing, ie;
   * A `./microsoft-student-advantage-deployment/index.php`
   * B `./microsoft-student-advantage-deployment/index-b.php`
 

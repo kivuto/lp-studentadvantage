@@ -30,7 +30,7 @@
                         <li>
                             <h3>Solution workflow</h3>
                             <p>Take a step-by-step look at how we help deliver Office O365 to your students with speed and convenience.</p>
-                            <a class="ctaBtn" href="http://kivuto.com/docs/Microsoft-Student-Advantage-Workflows-with-ELMS.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Workflow'); return false;">
+                            <a class="ctaBtn savideo fancybox.iframe" href="http://www.youtube.com/embed/YL8ZqKZdXyw?autoplay=1" onclick="tib('', 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – ELMS SA in action video'); return false;">
                                 <div class="button ctaBtn">
                                    <span>View</span>
                                 </div>
@@ -51,9 +51,9 @@
                                 <span>View Solution Comparison</span>
                             </div>  
                         </a>
-                        <a href="http://kivuto.com/docs/Microsoft-Student-Advantage-Workflows-with-ELMS.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – Solution Workflow'); return false;">    
+                        <a class="ctaBtn savideo fancybox.iframe" href="http://www.youtube.com/embed/YL8ZqKZdXyw?autoplay=1" onclick="tib('', 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – ELMS SA in action video'); return false;">    
                             <div class="large-4 columns button ctaBtn">
-                                <span>View Solution Workflow</span>
+                                <span>View</span>
                             </div>  
                         </a>    
                     </div>

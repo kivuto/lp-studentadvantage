@@ -28,8 +28,8 @@
                             </a>
                         </li>
                         <li>
-                            <h3>Solution workflow</h3>
-                            <p>Take a step-by-step look at how we help deliver Office O365 to your students with speed and convenience.</p>
+                            <h3>The student experience</h3>
+                            <p>Watch how simple it is for your students to access and install the Office 365 ProPlus</p>
                             <a class="ctaBtn savideo fancybox.iframe" href="http://www.youtube.com/embed/YL8ZqKZdXyw?autoplay=1" onclick="tib('', 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - SA School Resources – ELMS SA in action video'); return false;">
                                 <div class="button ctaBtn">
                                    <span>View</span>

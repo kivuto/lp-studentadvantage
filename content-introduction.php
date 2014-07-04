@@ -18,13 +18,9 @@
                   </div> 
               </div>
               <div class="row">
-                  <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
-                  <li>
-                      <div class="show-for-large-up down-arrow">
-                        <a class="round-button" onclick="tib('#SPSS-Statistics', '<?php echo $gaEvent; ?>', '<?php echo $gaEvent; ?> - Navigation', '<?php echo $gaEvent; ?> - Navigation - Down Arrow');">&#x25BC;</a>
-                      </div> 
-                  </li>
-              </ul>
+                  <div class="show-for-large-up down-arrow">
+                    <a class="round-button" onclick="tib('#SPSS-Statistics', '', '', '');">&#x25BC;</a>
+                  </div> 
               </div>
           </div>  
       </div>     

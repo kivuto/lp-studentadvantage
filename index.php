@@ -45,6 +45,22 @@
         $block6 = "Pricing";
         $block7 = "Let's talk";
         $block8 = "Customers";
+
+
+        /* Block names: name them what you want them to show up in google analytics */ 
+        $blocks = array(
+        /*Block 1*/   "Introduction", 
+        /*Block 2*/   "Video",
+        /*Block 3*/   "Challenges",
+        /*Block 4*/   "Solution",
+        /*Block 5*/   "Webcast",
+        /*Block 6*/   "Resources",
+        /*Block 7*/   "Pricing",
+        /*Block 8*/   "Let's talk",
+        /*Block 9*/   "Customers",
+        );
+
+        $counter = 0;
     ?>
 
   <!-- IE8 Styling fixes -->
@@ -78,13 +94,22 @@
          
           <?php  
                 include 'content-introduction.php';
+                $counter++;
           ?>
 
 
           <!-- INCLUDE Second Band  --> 
          
           <?php  
+                include 'content-video.php';
+                $counter++;
+          ?>
+          
+          <!-- INCLUDE Second Band  --> 
+         
+          <?php  
                 include 'content-challenges.php';
+                $counter++;
           ?>
 
 
@@ -92,18 +117,21 @@
          
           <?php  
                 include 'content-solution.php';
+                $counter++;
           ?>
 
           <!-- INCLUDE Fourth Band  --> 
          
           <?php  
                 include 'content-webcast.php';
+                $counter++;
           ?>
 
           <!-- INCLUDE Fifth Band  --> 
          
           <?php  
                 include 'content-resources.php';
+                $counter++;
           ?>
 
          
@@ -111,12 +139,14 @@
          
           <?php  
                 include 'content-pricing.php';
+                $counter++;
           ?>
 
           <!-- INCLUDE Seventh Band  --> 
          
           <?php  
                 include 'content-email-cta.php';
+                $counter++;
           ?>
 
 
@@ -124,6 +154,7 @@
          
           <?php  
                 include 'content-customers.php';
+                $counter++;
           ?>
 
           <!-- INCLUDE THE FOOTER AND SUBFOOTER -->

@@ -40,13 +40,14 @@ $mainContent_padding: 45px 20px;
 
 // Block colors
 $block1-color: #FFF;
-$block2-color: #F37022;
-$block3-color: #FFF;
+$block2-color: #FFF;
+$block3-color: #F37022;
 $block4-color: #FFF;
 $block5-color: #FFF;
-$block6-color: #9AD3B3;
-$block7-color: #F37022;
-$block8-color: #FFF;
+$block6-color: #FFF;
+$block7-color: #9AD3B3;
+$block8-color: #F37022;
+$block9-color: #FFF;
 
 // Total number of blocks
 $numBlocks: 8;
@@ -170,6 +171,7 @@ h1, h3, .button span {
 .mainContent:nth-of-type(6){ background-color: $block6-color; }
 .mainContent:nth-of-type(7){ background-color: $block7-color; }
 .mainContent:nth-of-type(8){ background-color: $block8-color; }
+.mainContent:nth-of-type(9){ background-color: $block9-color; }
 
 
 /* STICKY SUB HEADER STYLING */
@@ -197,6 +199,41 @@ h1, h3, .button span {
 		left: 15%;
 	}
 }
+
+
+
+// Round button styling
+.down-arrow {
+	position: absolute; 
+	padding-bottom: 60px;
+	left: 50%;
+	-webkit-transform: translate(0%,-50%);
+        -ms-transform: translate(0%,-50%);
+            transform: translate(0%,-50%);
+	z-index: 99;
+}
+
+.round-button {
+	z-index: 1200;
+    display:block;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#000;
+    text-align:center;
+    text-decoration:none;
+    background: #FFF;
+    position: absolute;
+    box-shadow: 0 2px 3px gray;
+    font-size:20px;
+    font-weight:bold;
+}
+.round-button:hover {
+    background: #EFEFEF;
+}
+
 
 /* DEFAULT STYLING FOR ALL mainContent BLOCKS */
 .row.mainContent {

@@ -1,4 +1,4 @@
-  <div id="<?php echo $block4; ?>" class="row mainContent content-webcast content-overlay-video" data-block="<?php echo $block4; ?>">   
+  <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-webcast content-overlay-video" data-block="<?php echo $blocks[$counter]; ?>">   
       <img class="show-for-medium-up" src="img/webcast-bg.png">
       <img class="show-for-small" src="img/webcast-small.png">
       <div class="ovrlay">

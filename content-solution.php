@@ -1,5 +1,5 @@
 
-  <div id="<?php echo $block3; ?>" class="row mainContent content-solution headline-circles-orbitslider" data-block="<?php echo $block3; ?>">
+  <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-solution headline-circles-orbitslider" data-block="<?php echo $blocks[$counter]; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">

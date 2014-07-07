@@ -51,13 +51,12 @@
         $blocks = array(
         /*Block 1*/   "Introduction", 
         /*Block 2*/   "Video",
-        /*Block 3*/   "Challenges",
-        /*Block 4*/   "Solution",
-        /*Block 5*/   "Webcast",
-        /*Block 6*/   "Resources",
-        /*Block 7*/   "Pricing",
-        /*Block 8*/   "Let's talk",
-        /*Block 9*/   "Customers",
+        /*Block 3*/   "Solution",
+        /*Block 4*/   "Webcast",
+        /*Block 5*/   "Resources",
+        /*Block 6*/   "Pricing",
+        /*Block 7*/   "Let's talk",
+        /*Block 8*/   "Customers",
         );
 
         $counter = 0;
@@ -93,29 +92,30 @@
           <!-- INCLUDE First Band  --> 
          
           <?php  
-                include 'content-introduction.php';
-                $counter++;
-          ?>
-          
-          <!-- INCLUDE Second Band  --> 
-         
-          <?php  
-                include 'content-challenges.php';
+                include 'content-introduction-v3.php';
                 $counter++;
           ?>
 
+
+          <!-- INCLUDE Second Band  --> 
+         
+          <?php  
+                include 'content-video.php';
+                $counter++;
+          ?>
+          
 
           <!-- INCLUDE Third Band  --> 
          
           <?php  
-                include 'content-solution.php';
+                include 'content-solution-v2.php';
                 $counter++;
           ?>
 
           <!-- INCLUDE Fourth Band  --> 
          
           <?php  
-                include 'content-webcast.php';
+                include 'content-webcast-v2.php';
                 $counter++;
           ?>
 

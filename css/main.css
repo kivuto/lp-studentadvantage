@@ -138,13 +138,13 @@ h1, h3, .button span {
   background-color: white; }
 
 .mainContent:nth-of-type(6) {
-  background-color: white; }
-
-.mainContent:nth-of-type(7) {
   background-color: #9ad3b3; }
 
-.mainContent:nth-of-type(8) {
+.mainContent:nth-of-type(7) {
   background-color: #f37022; }
+
+.mainContent:nth-of-type(8) {
+  background-color: white; }
 
 .mainContent:nth-of-type(9) {
   background-color: white; }

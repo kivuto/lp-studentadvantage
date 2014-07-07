@@ -18,9 +18,15 @@
                   </div> 
               </div>
               <div class="row">
-                  <div class="show-for-large-up down-arrow">
-                    <a class="round-button" onclick="tib('#SPSS-Statistics', '', '', '');">&#x25BC;</a>
-                  </div> 
+                  <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
+                    <li>
+                        <a class="ctaBtn savideo fancybox.iframe" href="http://www.youtube.com/embed/yW6PzAl8Hwg?autoplay=1" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Introduction - Watch video'); return false;">
+                            <div class="button ctaBtn">
+                               <span>Watch video</span>
+                            </div>
+                        </a>
+                    </li>
+                  </ul>
               </div>
           </div>  
       </div>     

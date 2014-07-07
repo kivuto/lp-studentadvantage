@@ -8,7 +8,7 @@
                         <h2>See how it all works</h2>
                   </div> 
               </div> 
-              <div class="row hide-for-mobile">
+              <div class="row description hide-for-mobile">
                   <div class="large-12 columns info">
                       <p>Ryan Peatt, VP of Business Development, provides more insight into how we help schools easily deliver Office 365 to students via ELMS for Student Advantage.</p>
                   </div> 

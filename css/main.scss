@@ -118,6 +118,20 @@ h1, h3, .button span {
 	outline: none;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 /*HACKS FOR FIXED MOBILE MENU*/
 
@@ -704,8 +718,9 @@ nav.subHeader {
 	// LARGE SCREENS  
 	@media only screen and (min-width: 64em) {
 		.ovrlay { padding: 85px 20px; }
-		.container { padding: 50px 100px !important;} 
+		.container { padding: 50px 30px !important;} 
 		.button { width: 30%; }
+		.description {width: 70%; }
 		min-height: 0 !important;
 		// TEXT STYLING //
 		h1 { 
@@ -718,9 +733,6 @@ nav.subHeader {
 			width: 60%;
 		}
 	}
-
-
-
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~

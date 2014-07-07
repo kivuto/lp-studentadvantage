@@ -13,15 +13,15 @@
           <div class="row circles show-for-medium-up">
               <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3 center">
                   <li>
-                      <img src="img/solution-distribution.png">
+                      <img src="img/solution-distribution-v2.png">
                       <p>Deploy/use an O365 tenant & order the necessary number of free O365 ProPlus licenses from your reseller. Tenant can be blank/unused.</p>
                   </li>
                   <li>
-                      <img src="img/solution-admin.png">
+                      <img src="img/solution-admin-v2.png">
                       <p>You provide Kivuto with delegated administrative access to your tenant. </p>
                   </li>
                   <li>
-                      <img src="img/solution-time.png">
+                      <img src="img/solution-time-v2.png">
                       <p>Within 2 business days of receiving admin access, you will have a fully functioning, school-branded web store to distribute O365.</p>
                   </li>
                   
@@ -31,21 +31,21 @@
               <ul class="example-orbit-content" data-orbit data-options="animation:slide;pause_on_hover:true;timer_speed:100000;navigation_arrows:false;">
                   <li data-orbit-slide="headline-1">
                     <div>
-                      <img class="inline-block" src="img/solution-distribution.png">
+                      <img class="inline-block" src="img/solution-distribution-v2.png">
                       <h3>Step 1</h3>
                       <p>Deploy/use an O365 tenant & order the necessary number of free O365 ProPlus licenses from your reseller. Tenant can be blank/unused.</p>
                     </div>
                   </li>
                   <li data-orbit-slide="headline-2">
                     <div>
-                      <img class="inline-block" src="img/solution-admin.png">
+                      <img class="inline-block" src="img/solution-admin-v2.png">
                       <h3>Step 2</h3>
                       <p>You provide Kivuto with delegated administrative access to your tenant. </p>
                     </div>
                   </li>
                   <li data-orbit-slide="headline-3">
                     <div>
-                      <img class="inline-block" src="img/solution-time.png">
+                      <img class="inline-block" src="img/solution-time-v2.png">
                       <h3>Step 3</h3>
                       <p>Within 2 business days of receiving admin access, you will have a fully functioning, school-branded web store to distribute O365.</p>
                     </div>

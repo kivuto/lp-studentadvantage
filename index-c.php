@@ -62,20 +62,6 @@
         $counter = 0;
     ?>
 
-  <!-- IE8 Styling fixes -->
-    
-  <!--[if IE 8]>
-  <style>
-      .mainContent { text-align: center; }
-      .mainContent img { padding: 10px 0px; }
-      .button { width: 45%; margin-left: 30px; padding-top: 6px !important;}
-      p { padding: 10px; }
-      .title { padding-left: 30% !important; text-align: left !important; }
-      .small-3 { width: 100px !important; display: table-cell !important; }
-      .small-4 { width: 400px !important; display: table-cell !important; padding: 15px 0px 0px 40px; }
-      .large-offset-3 { padding: 0px 0px 0px 35%; }
-  </style>
-  <![endif]-->
   </head>
 
   <body>

@@ -12,7 +12,7 @@
       <li></li>
 
         <li><a onclick="tib('.content-introduction', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Intro');">Introduction</a></li>
-        <li><a onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Challenges');">Challenges</a></li>
+        <li><a onclick="tib('.content-video', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Video');">Video</a></li>
         <li><a onclick="tib('.content-solution', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Solution');">Solution</a></li>
         <li><a onclick="tib('.content-resources', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Resources');">Resources</a></li>
         <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Pricing');">Pricing</a></li>
@@ -38,7 +38,7 @@
             <ul class="center">
               <li><img src="img/kvt-logo.png" alt="Kivuto Solutions"></li>
               <li><a onclick="tib('.content-introduction', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Intro');">Intro</a></li>
-              <li><a onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Challenges');">Challenges</a></li>
+              <li><a onclick="tib('.content-video', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Video');">Video</a></li>
               <li><a onclick="tib('.content-solution', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Solution');">Solution</a></li>
               <li><a onclick="tib('.content-resources', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Resources');">Resources</a></li>
               <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Pricing');">Pricing</a></li>

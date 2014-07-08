@@ -50,7 +50,6 @@
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
         /*Block 1*/   "Introduction", 
-        /*Block 2*/   "Video",
         /*Block 3*/   "Challenges",
         /*Block 4*/   "Solution",
         /*Block 5*/   "Webcast",

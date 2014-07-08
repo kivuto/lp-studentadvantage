@@ -40,8 +40,8 @@ $mainContent_padding: 45px 20px;
 
 // Block colors
 $block1-color: #FFF;
-$block2-color: #F37022;
-$block3-color: #FFF;
+$block2-color: #FFF;
+$block3-color: #F37022;
 $block4-color: #FFF;
 $block5-color: #FFF;
 $block6-color: #9AD3B3;
@@ -496,7 +496,7 @@ nav.subHeader {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       b. INTRODUCTION BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-introduction {
+.content-introduction, .content-video {
 	padding: 0px !important;
 	@include block-font-color(#FFF);
 	video, img  { width: 100%; }
@@ -613,7 +613,7 @@ nav.subHeader {
       d. SOLUTION BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-solution {
-
+	@include block-font-color(#FFF);
 	// MEDIUM 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 			// OVERRIDE MINIMUM HEIGHT FOR BLOCK //

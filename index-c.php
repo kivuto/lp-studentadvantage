@@ -21,17 +21,6 @@
         $adroll_pixel_id = "SJGXS4L7WFBZ5AYQ4WKSK7"; 
         
 
-        /* BLOCK NAMES: NAME THEM WHAT WILL SHOW UP IN GOOGLE ANALYTICS */ 
-        $block1 = "Introduction";
-        $block2 = "Challenges";
-        $block3 = "Solution";
-        $block4 = "Webcast";
-        $block5 = "Resources";
-        $block6 = "Pricing";
-        $block7 = "Let's talk";
-        $block8 = "Customers";
-
-
         /* Block names: name them what you want them to show up in google analytics */ 
         $blocks = array(
         /*Block 1*/   "Introduction", 

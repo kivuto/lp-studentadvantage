@@ -582,11 +582,11 @@ nav.subHeader {
         width: 30%; }
       .content-webcast .description {
         width: 70%; }
-      .content-webcast h1 {
-        padding-bottom: 30px;
-        font-size: 45px; }
+      .content-webcast h2 {
+        padding-bottom: 15px;
+        font-size: 45px !important; }
       .content-webcast p {
-        padding-bottom: 40px;
+        padding-bottom: 30px;
         font-size: 15px !important;
         width: 60%; } }
 

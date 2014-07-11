@@ -19,7 +19,7 @@
               </div>
               <div class="row">
                   <div class="show-for-large-up down-arrow">
-                    <a class="round-button" onclick="tib('#Video', '', '', '');">&#x25BC;</a>
+                    <a class="round-button" onclick="tib('#Video', 'Student Advantage LP', 'Student Advantage LP - Click', 'Student Advantage LP - Click - Down Arrow');">&#x25BC;</a>
                   </div> 
               </div>
           </div>  

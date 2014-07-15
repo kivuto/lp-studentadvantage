@@ -44,7 +44,7 @@
           <!-- INCLUDE Header -->
          
           <?php  
-                include 'header-v2.php';
+                include 'header-c.php';
           ?>
          
       <div class="inner-wrap">
@@ -52,7 +52,7 @@
           <!-- INCLUDE First Band  --> 
          
           <?php  
-                include 'content-introduction-v3.php';
+                include 'content-introduction-c.php';
                 $counter++;
           ?>
 
@@ -68,7 +68,7 @@
           <!-- INCLUDE Third Band  --> 
          
           <?php  
-                include 'content-solution-v2.php';
+                include 'content-solution-c.php';
                 $counter++;
           ?>
 

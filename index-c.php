@@ -6,7 +6,7 @@
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>Easily Deploy Microsoft Student Advantage | Kivuto Solutions Inc.</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/main-v2.css" />
+    <link rel="stylesheet" href="css/main-c.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>

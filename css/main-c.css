@@ -254,7 +254,7 @@ h1, h3, .button span {
       .row.mainContent h1 {
         font-size: 25px !important; }
       .row.mainContent h2 {
-        font-size: 18px; }
+        font-size: 18px !important; }
       .row.mainContent h3 {
         font-size: 15px; } }
   @media only screen and (min-width: 40.063em) {
@@ -272,7 +272,7 @@ h1, h3, .button span {
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); } }
-  @media only screen and (max-width: 64em) {
+  @media only screen and (min-width: 64em) {
     .row.mainContent .container {
       text-align: center; }
     .row.mainContent h2 {
@@ -494,14 +494,16 @@ nav.subHeader {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       d. SOLUTION BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-solution h1, .content-solution h2, .content-solution h3, .content-solution p {
-  color: white !important; }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .content-solution {
-    min-height: 700px !important; } }
-@media only screen and (min-width: 40.063em) {
-  .content-solution h2 {
-    padding-bottom: 20px; } }
+.content-solution {
+  text-align: center; }
+  .content-solution h1, .content-solution h2, .content-solution h3, .content-solution p {
+    color: white !important; }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .content-solution {
+      min-height: 700px !important; } }
+  @media only screen and (min-width: 40.063em) {
+    .content-solution h2 {
+      padding-bottom: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       e. WEBCAST BLOCk

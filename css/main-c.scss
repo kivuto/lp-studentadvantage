@@ -298,7 +298,7 @@ h1, h3, .button span {
 
 		p { font-size: 14px; }
 		h1 { font-size: 25px !important;  }
-		h2 { font-size: 18px; }
+		h2 { font-size: 18px !important; }
 		h3 { font-size: 15px; }
 
 	}
@@ -324,7 +324,7 @@ h1, h3, .button span {
 	}
 
 	// DEFAULT STYLING IN LARGE SCREENS  
-	@media only screen and (max-width: 64em) {
+	@media only screen and (min-width: 64em) {
 		.container {
 			text-align: center;
 		}
@@ -615,6 +615,7 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-solution {
 	@include block-font-color(#FFF);
+	text-align: center;
 	// MEDIUM 
 	@media only screen and (min-width: 40.063em) and (max-width: 64em) {
 			// OVERRIDE MINIMUM HEIGHT FOR BLOCK //

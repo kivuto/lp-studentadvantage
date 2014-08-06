@@ -237,9 +237,6 @@ h1, h3, .button span {
     list-style: none; }
   .row.mainContent p, .row.mainContent h1, .row.mainContent h2, .row.mainContent h3 {
     color: #4A4A4A; }
-  .row.mainContent h2 {
-    font-size: 25px;
-    font-weight: bold; }
   @media only screen and (max-width: 40em) {
     .row.mainContent {
       padding: 25px 0px; }
@@ -277,7 +274,10 @@ h1, h3, .button span {
         transform: translate(-50%, -50%); } }
   @media only screen and (max-width: 64em) {
     .row.mainContent .container {
-      text-align: center; } }
+      text-align: center; }
+    .row.mainContent h2 {
+      font-size: 45px;
+      font-style: bold; } }
 
 /* DEFAULT STYLING FOR orbitslider BLOCKS */
 .headline-circles-orbitslider .orbit-container {

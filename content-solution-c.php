@@ -5,8 +5,9 @@
               <div class="large-12 columns info center">
                     <h2>Automate  Student Advantage for your institution.</h2>
                     <p class="hide-for-small">Easily provide your students with the Microsoft Office 365 ProPlus suite.</p>
-                    <p class="hide-for-small">With ELMS for Student Advantage, Kivuto will get you up and running in under a week.  We’ll save your institution time and money by automating the work processes associated with user management, license distribution and ongoing program management.  </p>
-                    <p class="show-for-small"> As an added benefit, Kivuto can also provision any other license available to your users within O365.</p>
+                    <p class="hide-for-small">With ELMS for Student Advantage, Kivuto will get you up and running in under a week.</p>
+                    <p class="hide-for-small">We’ll save your institution time and money by automating the work processes associated with user management, license distribution and ongoing program management.  </p>
+                    <p class="show-for-small">As an added benefit, Kivuto can also provision any other license available to your users within O365.</p>
                     <h3> Key Benefits</h3>
               </div> 
           </div> 
@@ -18,12 +19,12 @@
                       <p>No need for complicated directory integration. In just 2 days, your students can access their software from a web store branded to your institution. </p>
                   </li>
                   <li>
-                      <img src="img/solution-admin-v2.png">
-                      <h3>Hands-off program management</h3>
+                      <img src="img/challenges-setup.png">
+                      <h3>Easy management</h3>
                       <p>No need to manually manage and provision licenses. Our automated solution has you covered so you no need to diligently monitor and track usage. </p>
                   </li>
                   <li>
-                      <img src="img/solution-time-v2.png">
+                      <img src="img/challenges-user-mngmnt.png">
                       <h3>Customer Care</h3>
                       <p>We’re here to help . Our team of multilingual customer care agents is on hand to provide support to your students. </p>
                   </li>
@@ -41,14 +42,14 @@
                   </li>
                   <li data-orbit-slide="headline-2">
                     <div>
-                      <img class="inline-block" src="img/solution-admin-v2.png">
-                      <h3>Hands-off program management</h3>
+                      <img class="inline-block" src="img/challenges-setup.png">
+                      <h3>Easy management</h3>
                       <p>No need to manually manage and provision licenses. Our automated solution has you covered so you no need to diligently monitor and track usage. </p>
                     </div>
                   </li>
                   <li data-orbit-slide="headline-3">
                     <div>
-                      <img class="inline-block" src="img/solution-time-v2.png">
+                      <img class="inline-block" src="img/challenges-user-mngmnt.png">
                       <h3>Customer Care</h3>
                       <p>We’re here to help . Our team of multilingual customer care agents is on hand to provide support to your students. </p>
                     </div>

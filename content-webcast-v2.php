@@ -5,12 +5,12 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns">
-                        <h2>See how it all works</h2>
+                        <h2>See how Office 365 is delivered</h2>
                   </div> 
               </div> 
               <div class="row description hide-for-mobile">
                   <div class="large-12 columns info">
-                      <p>Ryan Peatt, VP of Business Development, provides more insight into how we help schools easily deliver Office 365 to students via ELMS for Student Advantage.</p>
+                      <p>This short video shows how simple it is for your students to access and install Office 365 ProPlus</p>
                   </div> 
               </div>
               <div class="row">
@@ -18,7 +18,7 @@
                   <li>
                       <a class="savideo ctaBtn fancybox.iframe" href="http://www.youtube.com/embed/nZ_OqyLfND4?autoplay=1" onclick="tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Webcast - Watch Webcast'); return false;">
                           <div class="button ctaBtn">
-                             <span>Watch Webcast</span>
+                             <span>Watch Now</span>
                           </div>
                       </a>
                   </li>

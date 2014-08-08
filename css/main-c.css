@@ -503,7 +503,8 @@ nav.subHeader {
       min-height: 700px !important; } }
   @media only screen and (min-width: 40.063em) {
     .content-solution h2 {
-      padding-bottom: 20px; } }
+      padding-bottom: 20px;
+      font-size: 55px !important; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       e. WEBCAST BLOCk

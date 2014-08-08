@@ -623,7 +623,12 @@ nav.subHeader {
 		}
 	 // MEDIUM  AND UP //
 	@media only screen and (min-width: 40.063em) {
-		h2 { padding-bottom: 20px; }
+		h2 { 
+			padding-bottom: 20px; 
+			font-size: 55px !important;
+		}
+
+
 	}	
 
 }

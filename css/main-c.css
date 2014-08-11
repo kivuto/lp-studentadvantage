@@ -591,7 +591,9 @@ nav.subHeader {
       .content-webcast p {
         padding-bottom: 30px;
         font-size: 15px !important;
-        width: 60%; } }
+        width: 60%; }
+      .content-webcast .large-12 {
+        padding-left: 0px !important; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       f. RESOURCES BLOCk

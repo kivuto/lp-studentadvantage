@@ -82,7 +82,7 @@
           <!-- INCLUDE Fifth Band  --> 
          
           <?php  
-                include 'content-resources.php';
+                include 'content-resources-v2.php';
                 $counter++;
           ?>
 

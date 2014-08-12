@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">
-                    <h2>Automate  Student Advantage for your institution.</h2>
+                    <h2>Automate  Student Advantage for your institution</h2>
                     <p class="hide-for-small">Easily provide your students with the Microsoft Office 365 ProPlus suite.</p>
                     <p class="hide-for-small">With ELMS for Student Advantage, Kivuto will get you up and running in under a week. <br/> We’ll save your institution time and money by automating the work processes associated with user management, license distribution and ongoing program management.  </p>
                     <p class="show-for-small">As an added benefit, Kivuto can also provision any other license available to your users within O365.</p>

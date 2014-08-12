@@ -10,7 +10,7 @@
               </div> 
               <div class="row description hide-for-mobile">
                   <div class="large-12 columns info">
-                      <p>This short video shows how simple it is for your students to access and install Office 365 ProPlus</p>
+                      <p>This short video shows how simple it is for your students to access and install Office 365 ProPlus.</p>
                   </div> 
               </div>
               <div class="row">

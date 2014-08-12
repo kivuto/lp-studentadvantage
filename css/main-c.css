@@ -504,7 +504,9 @@ nav.subHeader {
   @media only screen and (min-width: 40.063em) {
     .content-solution h2 {
       padding-bottom: 20px;
-      font-size: 55px !important; } }
+      font-size: 55px !important; }
+    .content-solution h3 {
+      padding-bottom: 20px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       e. WEBCAST BLOCk
@@ -683,12 +685,16 @@ nav.subHeader {
   .content-pricing img {
     padding-bottom: 30px; }
   .content-pricing h1 {
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+  .content-pricing li {
+    margin-top: 20px; } }
 @media only screen and (min-width: 64em) {
   .content-pricing img {
     padding-bottom: 30px; }
   .content-pricing h1 {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .content-pricing li {
+    margin-top: 30px; } }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       h. EMAIL BLOCK

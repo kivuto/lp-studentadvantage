@@ -7,7 +7,7 @@
                     <p class="hide-for-small">Easily provide your students with the Microsoft Office 365 ProPlus suite.</p>
                     <p class="hide-for-small">With ELMS for Student Advantage, Kivuto will get you up and running in under a week. <br/> We’ll save your institution time and money by automating the work processes associated with user management, license distribution and ongoing program management.  </p>
                     <p class="show-for-small">As an added benefit, Kivuto can also provision any other license available to your users within O365.</p>
-                    <h3> Key Benefits</h3>
+                    <h3>Key Benefits &nbsp;</h3>
               </div> 
           </div> 
           <div class="row circles show-for-medium-up">
@@ -24,7 +24,7 @@
                   </li>
                   <li>
                       <img src="img/challenges-user-mngmnt.png">
-                      <h3>Customer Care</h3>
+                      <h3>Customer care</h3>
                       <p>We’re here to help. Our team of multilingual customer care agents is on hand to provide support to your students. </p>
                   </li>
                   
@@ -49,7 +49,7 @@
                   <li data-orbit-slide="headline-3">
                     <div>
                       <img class="inline-block" src="img/challenges-user-mngmnt.png">
-                      <h3>Customer Care</h3>
+                      <h3>Customer care</h3>
                       <p>We’re here to help. Our team of multilingual customer care agents is on hand to provide support to your students. </p>
                     </div>
                   </li>

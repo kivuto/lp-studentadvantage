@@ -1,26 +1,16 @@
 
-  <div id="<?php echo $blocks[$counter]; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $blocks[$counter]; ?>">
+  <div id="<?php echo $block4; ?>" class="row mainContent content-pricing headline-cta" data-block="<?php echo $block4; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <img src="img/dollar.png">
+                    <img src="img/sa-icon-free.png">
               </div> 
           </div> 
           <div class="row">
               <div class="large-12 columns info center">
-                  <h2>Low and no cost <br/>options available</h2>
+                  <h1>No cost until April 20<sup>th</sup> 2015<br>USA Customers Only</h1>
+                  <p>To learn more about your options after this date, contact us below.</p>
               </div> 
-          </div>
-          <div class="row">
-              <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 center">
-                  <li>
-                      <a class="ctaBtn" href="http://kivuto.com/docs/student-advantage-pricing.pdf" target="_blank" onclick="tob(this, 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough -  Pricing - Student Advantage pricing '); return false;">
-                          <div class="button">
-                             <span>View Pricing</span>
-                          </div>
-                      </a>
-                  </li>
-              </ul>
           </div>
       </div>  
   </div>

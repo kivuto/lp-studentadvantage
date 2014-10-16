@@ -1,4 +1,4 @@
-  <div id="<?php echo $block2; ?>" class="row mainContent content-challenges headline-circles-orbitslider" data-block="<?php echo $block2; ?>" style="min-height: 900px !important;">
+  <div id="<?php echo $block2; ?>" class="row mainContent content-challenges headline-circles-orbitslider" data-block="<?php echo $block2; ?>" style="min-height: 1050px !important;">
       <div class="container">
           <div class="row">
               <div class="large-12 columns info center">
@@ -19,12 +19,12 @@
                       <img src="img/challenges-setup.png">
 <!--                       <h3 class="show-for-large-up">Costly </br>set-up</h3>
                       <h3 class="hide-for-large-up">Costly set-up</h3> -->
-                      <h3>Full management</h3>
+                      <h3>Full<br>management</h3>
                       <p>Web stores are set up with the authentication option that works best for you. We also automatically provision & deprovision users without any extra effort required by your team.</p>
                   </li>
                   <li>
                       <img src="img/challenges-support.png">
-                      <h3>Customer care</h3>
+                      <h3>Customer<br>care</h3>
                       <p>We're here to help. Our team of multilingual customer care agents are available by toll-free phone or email to provide support to your students, faculty and staff.</p>
                   </li>
               </ul> 

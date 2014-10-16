@@ -22,6 +22,7 @@
     <title>Easily Deploy Microsoft Student Advantage | Kivuto Solutions Inc.</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>

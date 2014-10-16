@@ -1,14 +1,14 @@
 
-  <div id="lets-talk" class="row mainContent content-email headline-cta" data-block="<?php echo $blocks[$counter]; ?>">
+  <div id="lets-talk" class="row mainContent content-email headline-cta" data-block="<?php echo $block5; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <h2>Let's talk</h2>
+                    <h1>Sign up for this limited time offer</h1>
               </div> 
           </div> 
           <div class="row">
               <div class="large-12 columns info center">
-                  <p>We’re ready for any questions you may have. Let’s talk about how we can help you easily manage the Microsoft Student Advantage program.</p>
+                <p>Choose from our fully-managed solution or our customer care only option; either way both services are provided to you for free until April 20<sup>th</sup> 2015. Sign up now.</p>
               </div> 
           </div>
           <div class="row email">

@@ -27,6 +27,7 @@
     x. SASS ELEMENTS
 
 \*------------------------------------*/
+
 /*----------------------------------------------------------*\
 
     0. HACKS AND OVERRIDES (to overwrite foundation defaults)
@@ -89,20 +90,6 @@ h1, h3, .button span {
   border-bottom: 2px solid #64BAE7;
   outline: none; }
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
-
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
 /*HACKS FOR FIXED MOBILE MENU*/
 /*Left Menu*/
 .off-canvas-fixed {
@@ -146,21 +133,12 @@ h1, h3, .button span {
   background-color: white; }
 
 .mainContent:nth-of-type(4) {
-  background-color: white; }
-
-.mainContent:nth-of-type(5) {
-  background-color: white; }
-
-.mainContent:nth-of-type(6) {
   background-color: #9ad3b3; }
 
-.mainContent:nth-of-type(7) {
+.mainContent:nth-of-type(5) {
   background-color: #f37022; }
 
-.mainContent:nth-of-type(8) {
-  background-color: white; }
-
-.mainContent:nth-of-type(9) {
+.mainContent:nth-of-type(6) {
   background-color: white; }
 
 /* STICKY SUB HEADER STYLING */
@@ -185,41 +163,11 @@ h1, h3, .button span {
     .translated {
       left: 15%; } }
 
-.down-arrow {
-  position: absolute;
-  padding-bottom: 60px;
-  left: 50%;
-  -webkit-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
-  z-index: 99; }
-
-.round-button {
-  z-index: 1200;
-  display: block;
-  width: 100px;
-  height: 100px;
-  line-height: 98px;
-  border: 4px solid #f5f5f5;
-  border-radius: 50%;
-  color: #FFF;
-  text-align: center;
-  text-decoration: none;
-  /* background: #FFF; */
-  position: absolute;
-  box-shadow: 0 2px 3px gray;
-  font-size: 51px;
-  font-weight: bold; }
-
-.round-button:hover {
-  background: #EFEFEF;
-  color: #F37022; }
-
 /* DEFAULT STYLING FOR ALL mainContent BLOCKS */
 .row.mainContent {
   margin: 0px 0px;
   padding: 45px 20px;
-  position: relative; }
+  position: relative;}
   .row.mainContent .button {
     background-color: #FFF;
     webkit-transition: all 0.3s ease-in-out;
@@ -575,11 +523,9 @@ nav.subHeader {
       .content-webcast .ovrlay {
         padding: 85px 20px; }
       .content-webcast .container {
-        padding: 50px 30px !important; }
+        padding: 50px 100px !important; }
       .content-webcast .button {
         width: 30%; }
-      .content-webcast .description {
-        width: 70%; }
       .content-webcast h1 {
         padding-bottom: 30px;
         font-size: 45px; }

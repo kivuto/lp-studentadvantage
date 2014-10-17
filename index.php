@@ -19,7 +19,7 @@
 
     <meta charset="utf-8" />
     <meta id="Viewport" name="viewport" width="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Easily Deploy Microsoft Student Advantage | Kivuto Solutions Inc.</title>
+    <title>Easily Deploy Office 365 ProPlus Benefit | Kivuto Solutions Inc.</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/app.css" />

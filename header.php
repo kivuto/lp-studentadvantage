@@ -26,12 +26,6 @@
   <!-- Sub Header/Nav DESKTOPS -->
   <nav class="top-bar subHeader snapNav hide-for-small" data-topbar>
     <div class="container">
-      <ul class="title-area">
-          <li class="name">
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-      </ul>
-
       <section class="top-bar-section">
           <!-- Left Nav Section -->
             <ul class="center">

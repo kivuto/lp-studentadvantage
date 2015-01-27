@@ -12,7 +12,7 @@
                         <li>
                             <h3 style="min-height:80px;">Summary of our solutions<br></h3>
                             <p>Learn more about the benefits of partnering with Kivuto.</p>
-                            <a class="ctaBtn" href="http://kivuto.com/microsoft-student-advantage-deployment/docs/Kivuto - ELMS for Office 365 Overview.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Solutions'); return false;">
+                            <a class="ctaBtn" href="/microsoft-student-advantage-deployment/docs/Kivuto - ELMS for Office 365 Overview.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Solutions'); return false;">
                                 <div class="button ctaBtn">
                                    <span>View</span>
                                 </div>
@@ -21,7 +21,7 @@
                         <li>
                             <h3 style="min-height:80px;">Compare our fully-managed solution</h3>
                             <p>See how our fully-managed option stacks up against alternatives.</p>
-                            <a class="ctaBtn" href="http://kivuto.com/microsoft-student-advantage-deployment/docs/ELMS for O365 - Fully Managed Solution - Service Comparison.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Comparison'); return false;">
+                            <a class="ctaBtn" href="/microsoft-student-advantage-deployment/docs/ELMS for O365 - Fully Managed Solution - Service Comparison.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Comparison'); return false;">
                                 <div class="button">
                                    <span>View</span>
                                 </div>
@@ -30,7 +30,7 @@
                         <li>
                             <h3 style="min-height:80px;">Customer care only option</h3>
                             <p>Learn more about how our customer care solution can work for you.</p>
-                            <a class="ctaBtn" href="http://kivuto.com/microsoft-student-advantage-deployment/docs/Kivuto - Office 365 Customer Care Solution.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Customer Care'); return false;">
+                            <a class="ctaBtn" href="/microsoft-student-advantage-deployment/docs/Kivuto - Office 365 Customer Care Solution.pdf" target="_blank" onclick="tob(this, 'SA Online Resources', 'SA Online Resources - SA School Resources', 'SA Online Resources - Customer Care'); return false;">
                                 <div class="button ctaBtn">
                                    <span>View</span>
                                 </div>

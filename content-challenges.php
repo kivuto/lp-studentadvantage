@@ -4,7 +4,7 @@
               <div class="large-12 columns info center">
                     <h1 class="show-for-large-up">Choose from a fully-managed solution<br> or just customer care</h1>
                     <h1 class="hide-for-large-up">Choose from a fully-managed solution or just customer care</h1>
-                    <p>With our fully-managed solution, the work processes associated with user namangement, license distribution and ongoing program management are entirely automated. ELMS automatically authenticates, creates and provisions users in either new or existing Office 365 tenants.</p>
+                    <p>With our fully-managed solution, the work processes associated with user management, license distribution and ongoing program management are entirely automated. ELMS automatically authenticates, creates and provisions users in either new or existing Office 365 tenants.</p>
               </div> 
           </div> 
           <div class="row circles show-for-large-up">

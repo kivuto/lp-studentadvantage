@@ -22,7 +22,7 @@
                   </form>
               </div> 
           </div>
-          <div class="row thank-you translated" style="opacity:0;">
+          <div class="row thank-you translated" style="opacity:0; transform: translateY(-240px); margin-left: 25px;">
               <div class="large-12 columns info center">
                   <h2>Thank you! You'll be hearing from us shortly!</h2>
               </div> 

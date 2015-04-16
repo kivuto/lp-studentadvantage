@@ -43,7 +43,7 @@ $(document).ready(function(){
 				console.log('Should have been animated innerHTML');
 				$('.email input.button').css("opacity", "0");
 	    		$('.row.email').css("opacity", "0");
-	    		$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -155 +"px)");
+	    		$('.row.thank-you').css("opacity", "1.0").css("transform","translateY("+ -240 +"px)");
 				$('form').css('visibility','hidden');
 				// Track the successful clickthrough
 				tib('', 'Student Advantage LP', 'Student Advantage LP - Clickthrough', 'Student Advantage LP - Clickthrough - Email - Submit');

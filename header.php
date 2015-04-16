@@ -14,7 +14,7 @@
         <li><a onclick="tib('.content-introduction', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Intro');">Introduction</a></li>
         <li><a onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Solution');">Solutions</a></li>
         <li><a onclick="tib('.content-resources', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Resources');">Resources</a></li>
-        <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Limited Offer');">Limited Offer</a></li>
+        <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Limited Offer');">Pricing</a></li>
         <li><a onclick="tib('.content-email', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Lets talk');">Let's talk</a></li>
         <li><a onclick="tib('.content-customers', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Customers');">Our Customers</a></li>
     </ul>
@@ -34,7 +34,7 @@
               <li><a onclick="tib('.content-introduction', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Intro');">Intro</a></li>
               <li><a onclick="tib('.content-challenges', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Solution');">Solutions</a></li>
               <li><a onclick="tib('.content-resources', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Resources');">Resources</a></li>
-              <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Limited Offer');">Limited Offer</a></li>
+              <li><a onclick="tib('.content-pricing', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Limited Offer');">Pricing</a></li>
               <li><a onclick="tib('.content-email', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Lets talk');">Let's talk</a></li>
               <li><a onclick="tib('.content-customers', 'Student Advantage LP', 'Student Advantage LP - Navigation', 'Student Advantage LP - Navigation - Header click - Customers');">Customers</a></li>
             </ul>

@@ -9,13 +9,13 @@
           <div class="container">
               <div class="row">
                   <div class="large-12 columns center">
-                        <h1 class="show-for-large-up">Easily manage <br/>Office 365 ProPlus at no cost</h1>
+                        <h1 class="show-for-large-up">Easily manage <br/>Office 365 ProPlus</h1>
                         <h1 class="hide-for-large-up">Easily manage Office 365 ProPlus at no cost</h1>
                   </div> 
               </div> 
               <div class="row hide-for-mobile">
                   <div class="large-12 columns info center">
-                      <p>Receive our Office 365 solutions for free until April 20<sup>th</sup> 2015.<br> USA customers only.</p>
+                      <p>Fast setup. Automated management. Reliable customer care</p>
                   </div> 
               </div>
 <!--               <div class="row">

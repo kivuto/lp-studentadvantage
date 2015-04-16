@@ -42,10 +42,10 @@ $mainContent_padding: 45px 20px;
 $block1-color: #FFF;
 $block2-color: #F37022;
 $block3-color: #FFF;
-$block4-color: #FFF;
-$block5-color: #FFF;
-$block6-color: #9AD3B3;
-$block7-color: #F37022;
+$block4-color: #9AD3B3;
+$block5-color: #F37022;
+$block6-color: #fff;
+$block7-color: #fff;
 $block8-color: #FFF;
 $block9-color: #FFF;
 
@@ -817,6 +817,9 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing {
 	.button span { color: #9AD3B3; }
+    .button {
+        margin-top: 30px;
+    }
 
 	// BLOCK FONT COLOR
 	@include block-font-color(#FFF);

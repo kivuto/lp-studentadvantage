@@ -3,12 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
-                    <h1>Sign up for this limited time offer</h1>
-              </div> 
-          </div> 
-          <div class="row">
-              <div class="large-12 columns info center">
-                <p>Choose from our fully-managed solution or our customer care only option; either way both services are provided to you for free until April 20<sup>th</sup> 2015. Sign up now.</p>
+                    <h1>Let's Talk</h1>
               </div> 
           </div>
           <div class="row email">

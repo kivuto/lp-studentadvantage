@@ -27,7 +27,6 @@
     x. SASS ELEMENTS
 
 \*------------------------------------*/
-
 /*----------------------------------------------------------*\
 
     0. HACKS AND OVERRIDES (to overwrite foundation defaults)
@@ -90,6 +89,20 @@ h1, h3, .button span {
   border-bottom: 2px solid #64BAE7;
   outline: none; }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 /*HACKS FOR FIXED MOBILE MENU*/
 /*Left Menu*/
 .off-canvas-fixed {
@@ -124,22 +137,31 @@ h1, h3, .button span {
 
 /* SETTING CONTENT BLOCKS BACKGROUND COLOR */
 .mainContent:nth-of-type(1) {
-  background-color: white; }
+  background-color: #FFF; }
 
 .mainContent:nth-of-type(2) {
-  background-color: #f37022; }
+  background-color: #F37022; }
 
 .mainContent:nth-of-type(3) {
-  background-color: white; }
+  background-color: #FFF; }
 
 .mainContent:nth-of-type(4) {
-  background-color: #9ad3b3; }
+  background-color: #9AD3B3; }
 
 .mainContent:nth-of-type(5) {
-  background-color: #f37022; }
+  background-color: #F37022; }
 
 .mainContent:nth-of-type(6) {
-  background-color: white; }
+  background-color: #fff; }
+
+.mainContent:nth-of-type(7) {
+  background-color: #fff; }
+
+.mainContent:nth-of-type(8) {
+  background-color: #FFF; }
+
+.mainContent:nth-of-type(9) {
+  background-color: #FFF; }
 
 /* STICKY SUB HEADER STYLING */
 .snapNav {
@@ -163,11 +185,41 @@ h1, h3, .button span {
     .translated {
       left: 15%; } }
 
+.down-arrow {
+  position: absolute;
+  padding-bottom: 60px;
+  left: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  z-index: 99; }
+
+.round-button {
+  z-index: 1200;
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 98px;
+  border: 4px solid #f5f5f5;
+  border-radius: 50%;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  /* background: #FFF; */
+  position: absolute;
+  box-shadow: 0 2px 3px gray;
+  font-size: 51px;
+  font-weight: bold; }
+
+.round-button:hover {
+  background: #EFEFEF;
+  color: #F37022; }
+
 /* DEFAULT STYLING FOR ALL mainContent BLOCKS */
 .row.mainContent {
   margin: 0px 0px;
   padding: 45px 20px;
-  position: relative;}
+  position: relative; }
   .row.mainContent .button {
     background-color: #FFF;
     webkit-transition: all 0.3s ease-in-out;
@@ -321,12 +373,12 @@ div#at4m-dock.ats-transparent {
   transform: translate3d(250px, 0, 0); }
 
 nav.subHeader {
-  background-color: white !important;
+  background-color: #FFF !important;
   box-shadow: 0px 1px 1px #888888; }
   nav.subHeader a {
     font-size: 15px !important; }
   nav.subHeader .top-bar-section li:not(.has-form) a:not(.button), nav.subHeader .top-bar-section li:not(.has-form) {
-    background: white;
+    background: #FFF;
     webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
@@ -338,7 +390,7 @@ nav.subHeader {
   nav.subHeader .top-bar-section li img {
     padding-top: 3px; }
   nav.subHeader .top-bar-section ul {
-    background: white; }
+    background: #FFF; }
   @media only screen and (min-width: 641px) and (max-width: 747px) {
     nav.subHeader .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 7px; } }
@@ -352,7 +404,7 @@ nav.subHeader {
 .content-introduction {
   padding: 0px !important; }
   .content-introduction h1, .content-introduction h2, .content-introduction h3, .content-introduction p {
-    color: white !important; }
+    color: #FFF !important; }
   .content-introduction video, .content-introduction img {
     width: 100%; }
   .content-introduction img {
@@ -432,7 +484,7 @@ nav.subHeader {
       c. CHALLENGES BLOCk
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-challenges h1, .content-challenges h2, .content-challenges h3, .content-challenges p {
-  color: white !important; }
+  color: #FFF !important; }
 .content-challenges .orbit-container .orbit-timer {
   display: none; }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -523,9 +575,11 @@ nav.subHeader {
       .content-webcast .ovrlay {
         padding: 85px 20px; }
       .content-webcast .container {
-        padding: 50px 100px !important; }
+        padding: 50px 30px !important; }
       .content-webcast .button {
         width: 30%; }
+      .content-webcast .description {
+        width: 70%; }
       .content-webcast h1 {
         padding-bottom: 30px;
         font-size: 45px; }
@@ -548,7 +602,7 @@ nav.subHeader {
   .content-resources .ovrlay {
     padding: 75px 20px; }
   .content-resources h1, .content-resources h2, .content-resources h3, .content-resources p {
-    color: white !important; }
+    color: #FFF !important; }
   .content-resources h3 {
     font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important; }
   @media screen and (max-width: 40em) {
@@ -601,8 +655,10 @@ nav.subHeader {
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .content-pricing .button span {
   color: #9AD3B3; }
+.content-pricing .button {
+  margin-top: 30px; }
 .content-pricing h1, .content-pricing h2, .content-pricing h3, .content-pricing p {
-  color: white !important; }
+  color: #FFF !important; }
 @media screen and (max-width: 40em) {
   .content-pricing {
     min-height: 450px !important; }
@@ -640,7 +696,7 @@ nav.subHeader {
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out; }
 .content-email h1, .content-email h2, .content-email h3, .content-email p {
-  color: white !important; }
+  color: #FFF !important; }
 .content-email input, .content-email textarea {
   background: #F37022;
   border: 2px solid #FFF;
@@ -726,8 +782,9 @@ footer {
   font-family: 'AvenirLTStd55Roman';
   src: url("fonts/avenirltstd-roman.eot");
   src: url("fonts/avenirltstd-roman.eot") format("embedded-opentype"), url("fonts/avenirltstd-roman.woff") format("woff"), url("fonts/avenirltstd-roman.ttf") format("truetype"), url("fonts/avenirltstd-roman.svg#AvenirLTStd55Roman") format("svg"); }
-
 @font-face {
   font-family: 'AvenirLTStd85Heavy';
   src: url("fonts/avenirltstd-heavy.eot");
   src: url("fonts/avenirltstd-heavy.eot") format("embedded-opentype"), url("fonts/avenirltstd-heavy.woff") format("woff"), url("fonts/avenirltstd-heavy.ttf") format("truetype"), url("fonts/avenirltstd-heavy.svg#AvenirLTStd85Heavy") format("svg"); }
+
+/*# sourceMappingURL=main.css.map */

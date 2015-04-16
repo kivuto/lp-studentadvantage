@@ -9,7 +9,7 @@
           <div class="row">
               <div class="large-12 columns info center">
                   <h1 style="padding:0;">Low and no cost <br> options available</h1>
-                  <a href="/microsoft-student-advantage-deployment/docs/ELMS for O365 - Pricing.pdf" class="button" target="_blank"><span>View Pricing</span></a>
+                  <a href="/microsoft-student-advantage-deployment/docs/ELMS for O365 - Pricing.pdf" class="button"><span>View Pricing</span></a>
               </div> 
           </div>
       </div>  

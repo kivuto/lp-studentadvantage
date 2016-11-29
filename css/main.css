@@ -687,65 +687,50 @@ nav.subHeader {
 /*~~~~~~~~~~~~~~~~~~~~~~~
       h. EMAIL BLOCK
 ~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.content-email .button span {
-  color: #F37022; }
-.content-email .row.email, .content-email .row.email-button, .content-email .row.thank-you {
-  webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out; }
-.content-email h1, .content-email h2, .content-email h3, .content-email p {
-  color: #FFF !important; }
-.content-email input, .content-email textarea {
-  background: #F37022;
-  border: 2px solid #FFF;
-  color: #FFF;
-  outline: none;
-  width: 90%;
-  -moz-box-shadow: 0 3px 0 0 #FFF;
-  -webkit-box-shadow: 0 3px 0 0 #FFF;
-  box-shadow: 0 3px 0 0 #FFF;
-  margin: 0 auto 50px auto; }
-.content-email #SubmitElement_0_input.button {
-  color: #F37022;
-  padding-top: 0.40rem !important;
-  font-family: 'AvenirLTStd85Heavy', Verdana, sans-serif !important;
-  font-size: 1.5em;
-  moz-box-shadow: 0 0px 0 0 #FFF !important;
-  -webkit-box-shadow: 0 0px 0 0 #FFF !important;
-  box-shadow: 0 0px 0 0 #FFF !important; }
-.content-email input:focus, .content-email textarea:focus {
-  background: #F37022;
-  border: 2px solid #FFF; }
-.content-email ::-webkit-input-placeholder {
-  color: #FFF; }
-.content-email :-moz-placeholder {
-  color: #FFF; }
-.content-email ::-moz-placeholder {
-  color: #FFF; }
-.content-email :-ms-input-placeholder {
-  color: #FFF; }
-@media screen and (max-width: 40em) {
-  .content-email .button {
-    height: 50px !important;
-    width: 95%;
-    padding-top: 0.70rem !important; }
-  .content-email input, .content-email textarea {
-    width: 97% !important; } }
-@media only screen and (min-width: 40.063em) {
-  .content-email .button {
-    width: 40%; }
-  .content-email input, .content-email textarea {
-    width: 50% !important; }
-  .content-email h1 {
-    padding-bottom: 30px; }
-  .content-email p {
-    padding-bottom: 15px; } }
-@media only screen and (min-width: 64em) {
-  .content-email h1 {
-    padding-bottom: 40px; }
-  .content-email p {
-    padding-bottom: 20px; } }
+
+#lets-talk .container { position: relative !important; top: auto; left: auto; transform: translate(0%,0%) !important; -webkit-transform: translate(0%,0%) !important;}
+#lets-talk p, #lets-talk h1, #lets-talk h2, #lets-talk span { color: white; } 
+    
+    #mc_embed_signup{ background:transparent; clear:left; font-size:14px; }
+    #mc_embed_signup label, #mc_embed_signup .indicates-required { color: white; }
+    #mc_embed_signup .asterisk {color:#FF2222 !important;}
+    #mc_embed_signup .asterisk-hidden { color: #F37022; font-size: 150%; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+    #mc_embed_signup .mc-field-group input { 
+        padding: 0 !important; 
+        margin: 0 !important; 
+        border-radius: 0px !important; 
+        -webkit-border-radius: 0px !important; 
+        -moz-border-radius: 0px !important; 
+        border: 0px !important;
+    }
+    #mc_embed_signup .institution { text-indent: 1% !important; }
+    #mc_embed_signup .mc-field-group { padding-bottom: 10px !important; }   
+    #mc_embed_signup .mc-field-group select { padding: 5px !important; width: 100% !important; }
+    #mc_embed_signup .mc-field-group input[type=checkbox] { 
+        display: inline-block !important;
+        background-color: #fff;
+        float: left;
+        width: 20px !important;
+        height: 20px; 
+    }
+    #mc_embed_signup .checkbox-label { font-size: 1.05rem !important; }
+    #Block5 input[type=checkbox]:checked ~ label { background: transparent !important; }
+    
+    #lets-talk .button.orange { background-color: #F26F21 !important; width: 200px !important; float: right; height: auto !important; border: 2px solid white; margin-right: 4%; padding: 5px 0 !important; font-weight: bold !important; }
+    #lets-talk .button.orange:hover { background-color: #fff !important; color: #F26F21 !important; }
+    #lets-talk .hidden-break { display: none; font-size: 8px !important; }
+    
+@media screen and (max-width: 880px) {
+   #lets-talk .container { padding: 15px 10px !important; }
+}
+@media screen and (max-width: 767px) {
+   #mc_embed_signup .size1of2 { width: 96% !important; }
+   #lets-talk .hidden-break { display: block; }
+   #lets-talk .container { padding: 15px 20px !important; }
+}
+
+#thankyou .button { background-color:#5CBDEB; }
+#thankyou .button:hover { background-color:#43A4D2; }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~
       i. CUSTOMERS BLOCk

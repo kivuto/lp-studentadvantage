@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 	Validate the form submission
 
-	--------------------*/
+	--------------------
 
 	$("form").submit(function(e){
 		
@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 		$.post(formTarget, $(selector).serialize());
 	}
-	// end async
+	// end async */
 
 
 	/*--------------------

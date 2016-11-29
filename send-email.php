@@ -2,7 +2,7 @@
  
 if(isset($_POST['EMAIL'])) {
     
-    $email_to = "emacdougall@kivuto.com";//"Windows10@kivuto.com,marketing@kivuto.com";
+    $email_to = "sales@kivuto.com,marketing@kivuto.com";
     $email_subject = "New submission from Office 365 ProPlus form";   
  
     function died($error) {

@@ -1,5 +1,5 @@
 
-  <div id="lets-talk" class="row mainContent headline-cta" data-block="<?php echo $block5; ?>">
+  <div id="lets-talk" class="row mainContent content-new-email headline-cta" data-block="<?php echo $block5; ?>">
       <div class="container">
           <div class="row">
               <div class="large-12 columns center">
